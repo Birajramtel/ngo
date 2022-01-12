@@ -128,5 +128,189 @@
             </button>
         </div>
     </section>
+
+
+    <!-- Who we are opened  -->
+    <section>
+        <div class="container">
+            <h1 class="d-flex justify-content-center mb-5"><strong>WHO WE ARE ?</strong></h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="vl"><h2 class="card-title p-2"><strong>OUR MISSION</strong></h2></div>
+                            <p class="card-text mt-5">Together with our partners, we will save lives, defeat poverty, and achieve social justice.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="vl"><h2 class="card-title p-2"><strong>OUR VISION</strong></h2></div>
+                            <p class="card-text mt-5">We seek communities of hope, inclusion and social justice, where poverty has been overcome 
+                                and all Nepali people live in dignity and safety.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="vl"><h2 class="card-title p-2"><strong>OUR GOAL</strong></h2></div>
+                            <p class="card-text mt-5">By 2025, 2.5 million women and girls of Nepal have economic, social and political 
+                                power and resilience to withstand shocks and overcome poverty and social injustice.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Who we are closed  -->
+
+
+    <!-- Our project opened  -->
+    <section>
+        <div class="container mt-5">
+            <h1 class="d-flex justify-content-center mb-5"><strong>OUR RECENT PROJECTS</strong></h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                    <img class="card-img-top" src="./img/banner/who_banner.jpg" alt="Card image cap"> 
+                        <div class="card-body">
+                            <h4 class="card-title p-2">Promoting quality education and empowering children, women and youth to secure their rights. </h4>
+                            <button class="btn btn-md btn-success card-text text-white">Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/banner/who_banner.jpg" alt="Card image cap"> 
+                        <div class="card-body">
+                            <h4 class="card-title p-2">We seek communities of hope, inclusion and social justice, where poverty has been overcome 
+                                and all Nepali people live in dignity and safety.</h4>
+                            <button class="btn btn-md btn-success card-text text-white">Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/banner/who_banner.jpg" alt="Card image cap"> 
+                        <div class="card-body">
+                            <h4 class="card-title p-2">By 2025, 2.5 million women and girls of Nepal have economic, social and political 
+                                power and resilience to withstand shocks and overcome poverty and social injustice.</h4>
+                            <button class="btn btn-md btn-success card-text text-white">Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our project closed  -->
+
+
+    <!-- Recent news opened  -->
+    <section>
+        <div class="container mt-5">
+            <div class="h2">RECENT NEWS</div>
+            <div class="row">
+                <div class="col-md-6 pl-2">
+                    <img src="./img/children.png" class="img-fluid" alt="Children with happy faces">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, laudantium veniam. 
+                        Necessitatibus eveniet quaerat excepturi debitis quod laudantium? Quod sequi ut quis dolorem, 
+                        officiis iusto facere quos molestiae facilis eum.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="d-flex">
+                            <div>
+                                <img src="./img/children_2.png" class="rounded p-2" alt="Children">
+                            </div>
+                            <div>
+                                <span class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem repellendus aliquid, 
+                                nihil fuga est. Quae, perspiciatis asperiores ea quasi nemo pariatur soluta officiis. 
+                                Doloribus expedita ut quasi saepe! Aperiam.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="d-flex">
+                            <div>
+                                <img src="./img/children_2.png" class="rounded p-2" alt="Children">
+                            </div>
+                            <div>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem repellendus aliquid, 
+                                nihil fuga est. Quae, perspiciatis asperiores ea quasi nemo pariatur soluta officiis. 
+                                Doloribus expedita ut quasi saepe! Aperiam.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="d-flex">
+                            <div>
+                                <img src="./img/children_2.png" class="rounded p-2" alt="Children">
+                            </div>
+                            <div>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem repellendus aliquid, 
+                                nihil fuga est. Quae, perspiciatis asperiores ea quasi nemo pariatur soluta officiis. 
+                                Doloribus expedita ut quasi saepe! Aperiam.</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>        
+    </section>
+    <!-- Recent news closed  -->
+    <footer class="bg_footer">
+        <div class="container">
+            <h2 class="text-white pt-5 mt-5">FAITH.ACTION.RESULT.</h2>
+            <p class="text-white">Catholic Relief Services carries out the commitment of the Bishops of the 
+                United States to assist the poor and vulnerable overseas.</p>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="list-group">
+                        <h5 class="text-white"><strong>About us</strong></h5>
+                        <a href="#" class="list-group text-white">Our Mission</a>
+                        <a href="#" class="list-group text-white">Careers</a>
+                        <a href="#" class="list-group text-white">Contact</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="list-group">
+                        <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
+                        <a href="#" class="list-group text-white">How We Work</a>
+                        <a href="#" class="list-group text-white">Where We Work</a>
+                        <a href="#" class="list-group text-white">Research & Publications</a>
+                        <a href="#" class="list-group text-white">Partners</a>
+                        <a href="#" class="list-group text-white">Stories</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active">
+                            About us
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                        <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active">
+                            About us
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                        <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
