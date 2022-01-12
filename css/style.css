@@ -1,0 +1,40 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "adobe-clean", sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+.page-banner {
+  position: relative;
+  background: url(../img/banner/who_banner.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;         /* hide overflowing bits of circle */
+  min-height: 480px;        /* just give enough height to fit text at smallest screen width size */
+}
+
+.circle {
+  background-color: rgba(29, 104, 184, 0.9);   /* use rgba for transparent effect */
+  color: white;
+  transform: translate(-50%, -50%);            /* move the circle left 50% of it's own width and up 50% of it's own height */
+  border-radius: 50%;
+  padding-top: 100%;                           /* this gives us a responsive square */
+  position: absolute;
+  top:50%;                                     /* this vertically centers the circle */
+  left:0;
+  width:100%;
+  min-width:600px;                              /* this is the miniimum dimensions to allow circle to fill smaller screens */
+  min-height:600px;
+}
+
+.page-banner-text {
+  position: absolute;                           /* just positions the text on the right of the cirecle */
+  left: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding:2em;
+  width:40%;
+}
