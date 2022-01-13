@@ -1,4 +1,3 @@
-
 /* * {
   margin: 0%;
   padding: 0%;
@@ -13,45 +12,64 @@ body {
   position: relative;
   background: url(../img/banner/who_banner.jpg) center center no-repeat;
   background-size: cover;
-  overflow: hidden;         /* hide overflowing bits of circle */
-  min-height: 480px;        /* just give enough height to fit text at smallest screen width size */
+  overflow: hidden; /* hide overflowing bits of circle */
+  min-height: 480px; /* just give enough height to fit text at smallest screen width size */
 }
 
 .circle {
-  background-color: rgba(29, 104, 184, 0.9);   /* use rgba for transparent effect */
+  background-color: rgba(
+    29,
+    104,
+    184,
+    0.9
+  ); /* use rgba for transparent effect */
   color: white;
-  transform: translate(-50%, -50%);            /* move the circle left 50% of it's own width and up 50% of it's own height */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* move the circle left 50% of it's own width and up 50% of it's own height */
   border-radius: 50%;
-  padding-top: 100%;                           /* this gives us a responsive square */
+  padding-top: 100%; /* this gives us a responsive square */
   position: absolute;
-  top:50%;                                     /* this vertically centers the circle */
-  left:0;
-  width:100%;
-  min-width:600px;                              /* this is the miniimum dimensions to allow circle to fill smaller screens */
-  min-height:600px;
+  top: 50%; /* this vertically centers the circle */
+  left: 0;
+  width: 100%;
+  min-width: 600px; /* this is the miniimum dimensions to allow circle to fill smaller screens */
+  min-height: 600px;
 }
 
 .page-banner-text {
-  position: absolute;                           /* just positions the text on the right of the cirecle */
+  position: absolute; /* just positions the text on the right of the cirecle */
   left: 60%;
   top: 50%;
   transform: translateY(-50%);
-  padding:2em;
-  width:40%;
+  padding: 2em;
+  width: 40%;
 }
 /* vertical line  */
 .vl {
   border-left: 6px solid rgba(29, 104, 184, 0.9);
   height: 40px;
 }
-.img_float{
+.img_float {
   float: left;
 }
-.bg_footer{
-  background: url(../img/footer@3x.png) center center no-repeat;
+.bg_footer {
+  background: url() center center no-repeat;
 }
+/* for parallex image  */
+.parallax {
+  background-image: url("../img/footer@3x.png");
+  /* Set a specific height */
+  min-height: 500px;
 
-.socio_site{
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.socio_site {
   color: white;
 }
 .test_1 {
