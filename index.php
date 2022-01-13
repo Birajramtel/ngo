@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="js/owl.carousel.js">
     <link rel="stylesheet" href="js/owl.carousel.min.js">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <header>
     <div class="container">
@@ -265,7 +267,7 @@
             <h2 class="text-white pt-5 mt-5">FAITH.ACTION.RESULT.</h2>
             <p class="text-white">Catholic Relief Services carries out the commitment of the Bishops of the 
                 United States to assist the poor and vulnerable overseas.</p>
-            <hr>
+            <hr class="bg-white">
             <div class="row">
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
@@ -275,7 +277,7 @@
                         <a href="#" class="list-group text-white pt-2">Contact</a>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-4">
+                <div class="col-md-2 col-sm-4 mb-2">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
                         <a href="#" class="list-group text-white pt-2">How We Work</a>
@@ -306,19 +308,19 @@
             </div>
         </div>
     </footer>
-    <footer class="footer_2">
+    <footer class="footer_2 bg-dark pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 d-flex align-self-center">
                     <p class="text-white">13-5563422FEDERAL TAX EXEMPTION ID NUMBER</p>
                 </div>
-                <div class="col-md-6 order-md-12">
-                    <div class="social-handles-footer mb-2 d-flex justify-content-center">
+                <div class="col-md-6">
+                    <div class="social-handles-footer mb-2 d-flex justify-content-center mt-3">
                         <div>
-                            <span><i class="fab fa-2x fa-facebook-square"><a href="#"></a></i></span>
-                            <span><i class="fab fa-2x fa-twitter-square"><a href="#"></a></i></span>
-                            <span><i class="fab fa-2x fa-linkedin"></i><a href="#"></a></span>
-                            <span><i class="fab fa-2x fa-instagram-square"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-facebook-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-twitter-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-linkedin socio_site"></i><a href="#"></a></span>
+                            <span><i class="fab fa-2x fa-instagram-square socio_site"><a href="#"></a></i></span>
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control" placeholder="Add your gmail" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                 <div class="input-group-append">
@@ -328,13 +330,85 @@
                         </div>
                     </div>
                 </div>
-                <hr>
-                <div class="col-md-12">
-                    <h2 class="text-white">Catholic Relief Services is a 501(c)(3) non-profit organization; Donations 
-                        to CRS are tax-deductible to the full extent allowable under the law.</h2>
+            </div>
+            <hr class="bg-white">
+            <div class="col-md-12">
+                <h2 class="text-white text-justify">Catholic Relief Services is a 501(c)(3) non-profit organization; Donations 
+                    to CRS are tax-deductible to the full extent allowable under the law.</h2>
+            </div>
+            <hr class="bg-white">
+            <div class="row">
+                <div class="col-md-4 d-flex align-self-center">
+                    <p class="text-white">Catholic Relief Services eases suffering and provides assistance to people in 
+                        need in more than 100 countries, without regard to race, religion or nationality.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <img src="./img/logo_2.jpg" class="w-50" alt="Logo fo orgainzation">
+                </div>
+                <div class="col-md-2">
+                    <img src="./img/logo_2.jpg" class="w-50" alt="Logo fo orgainzation">
+                </div>
+                <div class="col-md-4 d-flex align-self-center">
+                    <p class="text-white">Catholic Relief Services is a 501(c)(3) non-profit organization; Donations 
+                        to CRS are tax-deductible to the full extent allowable under the law.</p>
                 </div>
             </div>
         </div>
     </footer>
+    <section class="test">
+        <div class="test_1">
+            <h1>Scroll Down</h1>
+        </div>
+        <div class="section bg1">
+            <h1 class="revealUp">This is a test please run</h1>
+        </div>
+        <div class="spacer"></div>
+    </section>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        // REVEAL //
+        gsap.utils.toArray(".revealUp").forEach(function (elem) {
+        ScrollTrigger.create({
+            trigger: elem,
+            start: "top 80%",
+            end: "bottom 20%",
+            markers: true,
+            onEnter: function () {
+            gsap.fromTo(
+                elem,
+                { y: 100, autoAlpha: 0 },
+                {
+                duration: 1.25,
+                y: 0,
+                autoAlpha: 1,
+                ease: "back",
+                overwrite: "auto"
+                }
+            );
+            },
+            onLeave: function () {
+            gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
+            },
+            onEnterBack: function () {
+            gsap.fromTo(
+                elem,
+                { y: -100, autoAlpha: 0 },
+                {
+                duration: 1.25,
+                y: 0,
+                autoAlpha: 1,
+                ease: "back",
+                overwrite: "auto"
+                }
+            );
+            },
+            onLeaveBack: function () {
+            gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
+            }
+        });
+        });
+    </script>
 </body>
 </html>
