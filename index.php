@@ -19,7 +19,7 @@
     <div class="container">
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!-- Just an image -->
+                <!-- Just an image -->
                 <nav class="navbar navbar-light bg-light">
                     <a class="navbar-brand" href="#">
                         <img src="./img/logo.png" alt="Logo">
@@ -42,13 +42,13 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">My CRS (login)</a>
-                            </li>        
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">CRSEspañol.org</a>
-                            </li> 
+                            </li>
                             <li>
-                                <button class="btn btn-outline-success btn-lg my-2 my-sm-0" type="submit">Donate</button>  
-                            </li> 
+                                <button class="btn btn-outline-success btn-lg my-2 my-sm-0" type="submit">Donate</button>
+                            </li>
                         </ul>
                         <hr>
                         <ul class="navbar-nav">
@@ -70,18 +70,19 @@
                             <li class="ml-2">
                                 <button class="btn btn-success ml-2" type="submit"><i class="fas fa-search"></i></button>
                             </li>
-                            </div>    
-                        </ul>
                     </div>
+                    </ul>
                 </div>
-            </nav>
         </div>
+        </nav>
+    </div>
     </div>
 </header>
+
 <body>
     <section class="mb-5">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            
+
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -93,10 +94,11 @@
                         <div class="circle">
                             <div class="page-banner-text">
                                 <!-- <h1 class="block-title">Programs For Adults</h1>
-                                <p>Programs to help children with disabilities in Western MA at all ages and levels of need.</p> -->
+                                 -->
                                 <div class="section bg1">
-                                    <h1 class="revealUp">Program for Adults</h1>
-                                </div>    
+                                    <h1 class="revealUp">Program for Adults </h1>
+                                    <p class="revealUp">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -143,7 +145,9 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <div class="vl"><h2 class="card-title p-2"><strong>OUR MISSION</strong></h2></div>
+                            <div class="vl">
+                                <h2 class="card-title p-2"><strong>OUR MISSION</strong></h2>
+                            </div>
                             <p class="card-text mt-5">Together with our partners, we will save lives, defeat poverty, and achieve social justice.</p>
                         </div>
                     </div>
@@ -151,8 +155,10 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <div class="vl"><h2 class="card-title p-2"><strong>OUR VISION</strong></h2></div>
-                            <p class="card-text mt-5">We seek communities of hope, inclusion and social justice, where poverty has been overcome 
+                            <div class="vl">
+                                <h2 class="card-title p-2"><strong>OUR VISION</strong></h2>
+                            </div>
+                            <p class="card-text mt-5">We seek communities of hope, inclusion and social justice, where poverty has been overcome
                                 and all Nepali people live in dignity and safety.</p>
                         </div>
                     </div>
@@ -160,8 +166,10 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <div class="vl"><h2 class="card-title p-2"><strong>OUR GOAL</strong></h2></div>
-                            <p class="card-text mt-5">By 2025, 2.5 million women and girls of Nepal have economic, social and political 
+                            <div class="vl">
+                                <h2 class="card-title p-2"><strong>OUR GOAL</strong></h2>
+                            </div>
+                            <p class="card-text mt-5">By 2025, 2.5 million women and girls of Nepal have economic, social and political
                                 power and resilience to withstand shocks and overcome poverty and social injustice.</p>
                         </div>
                     </div>
@@ -179,7 +187,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
-                    <img class="card-img-top" src="./img/banner/who_banner.jpg" alt="Card image cap"> 
+                        <img class="card-img-top" src="./img/banner/who_banner.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title p-2">Promoting quality education and empowering children, women and youth to secure their rights. </h4>
                             <button class="btn btn-md btn-success card-text text-white">Read more</button>
@@ -188,9 +196,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img class="card-img-top" src="./img/banner/who_banner.jpg" alt="Card image cap"> 
+                        <img class="card-img-top" src="./img/banner/who_banner.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-2">We seek communities of hope, inclusion and social justice, where poverty has been overcome 
+                            <h4 class="card-title p-2">We seek communities of hope, inclusion and social justice, where poverty has been overcome
                                 and all Nepali people live in dignity and safety.</h4>
                             <button class="btn btn-md btn-success card-text text-white">Read more</button>
                         </div>
@@ -198,9 +206,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img class="card-img-top" src="./img/banner/who_banner.jpg" alt="Card image cap"> 
+                        <img class="card-img-top" src="./img/banner/who_banner.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-2">By 2025, 2.5 million women and girls of Nepal have economic, social and political 
+                            <h4 class="card-title p-2">By 2025, 2.5 million women and girls of Nepal have economic, social and political
                                 power and resilience to withstand shocks and overcome poverty and social injustice.</h4>
                             <button class="btn btn-md btn-success card-text text-white">Read more</button>
                         </div>
@@ -219,9 +227,9 @@
             <div class="row">
                 <div class="col-md-6 pl-2">
                     <img src="./img/children.png" class="img-fluid" alt="Children with happy faces">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, laudantium veniam. 
-                        Necessitatibus eveniet quaerat excepturi debitis quod laudantium? Quod sequi ut quis dolorem, 
-                        officiis iusto facere quos molestiae facilis eum.</p>
+                    <p><strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, laudantium veniam.
+                            Necessitatibus eveniet quaerat excepturi debitis quod laudantium? Quod sequi ut quis dolorem,
+                            officiis iusto facere quos molestiae facilis eum.</strong></p>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
@@ -229,10 +237,11 @@
                             <div>
                                 <img src="./img/children_2.png" class="rounded p-2" alt="Children">
                             </div>
-                            <div>
-                                <span class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem repellendus aliquid, 
-                                nihil fuga est. Quae, perspiciatis asperiores ea quasi nemo pariatur soluta officiis. 
-                                Doloribus expedita ut quasi saepe! Aperiam.</span>
+                            <div class="align-self-center">
+                                <h5><strong>NEW HOME IN NEPAL BRINGS PEACE OF MIND</strong></h5>
+                                <span class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem repellendus aliquid,
+                                    nihil fuga est. Quae, perspiciatis asperiores ea quasi nemo pariatur soluta officiis.
+                                    Doloribus expedita ut quasi saepe! Aperiam.</span>
                             </div>
                         </div>
                     </div>
@@ -241,10 +250,11 @@
                             <div>
                                 <img src="./img/children_2.png" class="rounded p-2" alt="Children">
                             </div>
-                            <div>
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem repellendus aliquid, 
-                                nihil fuga est. Quae, perspiciatis asperiores ea quasi nemo pariatur soluta officiis. 
-                                Doloribus expedita ut quasi saepe! Aperiam.</span>
+                            <div class="align-self-center">
+                                <h5><strong>NEW HOME IN NEPAL BRINGS PEACE OF MIND</strong></h5>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem repellendus aliquid,
+                                    nihil fuga est. Quae, perspiciatis asperiores ea quasi nemo pariatur soluta officiis.
+                                    Doloribus expedita ut quasi saepe! Aperiam.</span>
                             </div>
                         </div>
                     </div>
@@ -253,22 +263,23 @@
                             <div>
                                 <img src="./img/children_2.png" class="rounded p-2" alt="Children">
                             </div>
-                            <div>
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem repellendus aliquid, 
-                                nihil fuga est. Quae, perspiciatis asperiores ea quasi nemo pariatur soluta officiis. 
-                                Doloribus expedita ut quasi saepe! Aperiam.</span>
+                            <div class="align-self-center">
+                                <h5><strong>NEW HOME IN NEPAL BRINGS PEACE OF MIND</strong></h5>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem repellendus aliquid,
+                                    nihil fuga est. Quae, perspiciatis asperiores ea quasi nemo pariatur soluta officiis.
+                                    Doloribus expedita ut quasi saepe! Aperiam.</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>        
+        </div>
     </section>
     <!-- Recent news closed  -->
-    <footer class="bg_footer">
+    <footer class="parallax pb-3">
         <div class="container">
             <h2 class="text-white pt-5 mt-5">FAITH.ACTION.RESULT.</h2>
-            <p class="text-white">Catholic Relief Services carries out the commitment of the Bishops of the 
+            <p class="text-white">Catholic Relief Services carries out the commitment of the Bishops of the
                 United States to assist the poor and vulnerable overseas.</p>
             <hr class="bg-white">
             <div class="row">
@@ -313,7 +324,7 @@
     </footer>
     <footer class="footer_2 bg-dark pb-5">
         <div class="container">
-            <div class="row">
+            <div class="row pt-2">
                 <div class="col-md-6 d-flex align-self-center">
                     <p class="text-white">13-5563422FEDERAL TAX EXEMPTION ID NUMBER</p>
                 </div>
@@ -336,13 +347,13 @@
             </div>
             <hr class="bg-white">
             <div class="col-md-12">
-                <h2 class="text-white text-justify">Catholic Relief Services is a 501(c)(3) non-profit organization; Donations 
+                <h2 class="text-white text-justify">Catholic Relief Services is a 501(c)(3) non-profit organization; Donations
                     to CRS are tax-deductible to the full extent allowable under the law.</h2>
             </div>
             <hr class="bg-white">
             <div class="row">
                 <div class="col-md-4 d-flex align-self-center">
-                    <p class="text-white">Catholic Relief Services eases suffering and provides assistance to people in 
+                    <p class="text-white">Catholic Relief Services eases suffering and provides assistance to people in
                         need in more than 100 countries, without regard to race, religion or nationality.
                     </p>
                 </div>
@@ -353,56 +364,69 @@
                     <img src="./img/logo_2.jpg" class="w-50" alt="Logo fo orgainzation">
                 </div>
                 <div class="col-md-4 d-flex align-self-center">
-                    <p class="text-white">Catholic Relief Services is a 501(c)(3) non-profit organization; Donations 
+                    <p class="text-white">Catholic Relief Services is a 501(c)(3) non-profit organization; Donations
                         to CRS are tax-deductible to the full extent allowable under the law.</p>
                 </div>
             </div>
         </div>
     </footer>
-    
+
     <script>
         gsap.registerPlugin(ScrollTrigger);
         // REVEAL //
-        gsap.utils.toArray(".revealUp").forEach(function (elem) {
-        ScrollTrigger.create({
-            trigger: elem,
-            start: "top 80%",
-            end: "bottom 20%",
-            markers: false,
-            onEnter: function () {
-            gsap.fromTo(
-                elem,
-                { y: 100, autoAlpha: 0 },
-                {
-                duration: 1.25,
-                y: 0,
-                autoAlpha: 1,
-                ease: "back",
-                overwrite: "auto"
+        gsap.utils.toArray(".revealUp").forEach(function(elem) {
+            ScrollTrigger.create({
+                trigger: elem,
+                start: "top 80%",
+                end: "bottom 20%",
+                markers: false,
+                onEnter: function() {
+                    gsap.fromTo(
+                        elem, {
+                            y: 100,
+                            autoAlpha: 0
+                        }, {
+                            duration: 1.25,
+                            y: 0,
+                            autoAlpha: 1,
+                            ease: "back",
+                            overwrite: "auto"
+                        }
+                    );
+                },
+                onLeave: function() {
+                    gsap.fromTo(elem, {
+                        autoAlpha: 1
+                    }, {
+                        autoAlpha: 0,
+                        overwrite: "auto"
+                    });
+                },
+                onEnterBack: function() {
+                    gsap.fromTo(
+                        elem, {
+                            y: -100,
+                            autoAlpha: 0
+                        }, {
+                            duration: 1.25,
+                            y: 0,
+                            autoAlpha: 1,
+                            ease: "back",
+                            overwrite: "auto"
+                        }
+                    );
+                },
+                onLeaveBack: function() {
+                    gsap.fromTo(elem, {
+                        autoAlpha: 1
+                    }, {
+                        autoAlpha: 0,
+                        overwrite: "auto"
+                    });
                 }
-            );
-            },
-            onLeave: function () {
-            gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
-            },
-            onEnterBack: function () {
-            gsap.fromTo(
-                elem,
-                { y: -100, autoAlpha: 0 },
-                {
-                duration: 1.25,
-                y: 0,
-                autoAlpha: 1,
-                ease: "back",
-                overwrite: "auto"
-                }
-            );
-            },
-            onLeaveBack: function () {
-            gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
-            }
-        });
+            });
         });
     </script>
 </body>
+
 </html>
