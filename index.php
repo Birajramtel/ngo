@@ -92,8 +92,11 @@
                     <div class="page-banner">
                         <div class="circle">
                             <div class="page-banner-text">
-                                <h1 class="block-title">Programs For Adults</h1>
-                                <p>Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
+                                <!-- <h1 class="block-title">Programs For Adults</h1>
+                                <p>Programs to help children with disabilities in Western MA at all ages and levels of need.</p> -->
+                                <div class="section bg1">
+                                    <h1 class="revealUp">Program for Adults</h1>
+                                </div>    
                             </div>
                         </div>
                     </div>
@@ -356,16 +359,7 @@
             </div>
         </div>
     </footer>
-    <section class="test">
-        <div class="test_1">
-            <h1>Scroll Down</h1>
-        </div>
-        <div class="section bg1">
-            <h1 class="revealUp">This is a test please run</h1>
-        </div>
-        <div class="spacer"></div>
-    </section>
-
+    
     <script>
         gsap.registerPlugin(ScrollTrigger);
         // REVEAL //
@@ -374,7 +368,7 @@
             trigger: elem,
             start: "top 80%",
             end: "bottom 20%",
-            markers: true,
+            markers: false,
             onEnter: function () {
             gsap.fromTo(
                 elem,
