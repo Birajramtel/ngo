@@ -255,8 +255,6 @@
                             </div>
                         </div>
                     </div>
-                    
-                    
                 </div>
             </div>
         </div>        
@@ -269,45 +267,71 @@
                 United States to assist the poor and vulnerable overseas.</p>
             <hr>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>About us</strong></h5>
-                        <a href="#" class="list-group text-white">Our Mission</a>
-                        <a href="#" class="list-group text-white">Careers</a>
-                        <a href="#" class="list-group text-white">Contact</a>
+                        <a href="#" class="list-group text-white pt-2">Our Mission</a>
+                        <a href="#" class="list-group text-white pt-2">Careers</a>
+                        <a href="#" class="list-group text-white pt-2">Contact</a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
-                        <a href="#" class="list-group text-white">How We Work</a>
-                        <a href="#" class="list-group text-white">Where We Work</a>
-                        <a href="#" class="list-group text-white">Research & Publications</a>
-                        <a href="#" class="list-group text-white">Partners</a>
-                        <a href="#" class="list-group text-white">Stories</a>
+                        <a href="#" class="list-group text-white pt-2">How We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Where We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Research & Publications</a>
+                        <a href="#" class="list-group text-white pt-2">Partners</a>
+                        <a href="#" class="list-group text-white pt-2">Stories</a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2 col-sm-4">
                     <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action active">
-                            About us
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                        <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                        <h5 class="text-white"><strong>Ways to help</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2 col-sm-4">
                     <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action active">
-                            About us
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                        <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                        <h5 class="text-white"><strong>Get involved</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex align-self-center">
+                    <p class="text-white">13-5563422FEDERAL TAX EXEMPTION ID NUMBER</p>
+                </div>
+                <div class="col-md-6 order-md-12">
+                    <div class="social-handles-footer mb-2 d-flex justify-content-center">
+                        <div>
+                            <span><i class="fab fa-2x fa-facebook-square"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-twitter-square"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-linkedin"></i><a href="#"></a></span>
+                            <span><i class="fab fa-2x fa-instagram-square"><a href="#"></a></i></span>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Add your gmail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon2"><button><i class="fab fa-envelope"><a href="#"></a></i></button></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-md-12">
+                    <h2 class="text-white">Catholic Relief Services is a 501(c)(3) non-profit organization; Donations 
+                        to CRS are tax-deductible to the full extent allowable under the law.</h2>
                 </div>
             </div>
         </div>

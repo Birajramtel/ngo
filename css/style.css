@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "adobe-clean", sans-serif;
+  font-family: "Gotham-Black", sans-serif;
   font-size: 14px;
   color: #000;
 }
@@ -47,5 +47,9 @@ body {
   float: left;
 }
 .bg_footer{
-  background-color: rgba(29, 104, 184, 0.9);
+  background: url(../img/footer@3x.png) center center no-repeat;
+}
+
+.footer_2{
+  background:url(../img/footer.png) center center no-repeat;
 }
