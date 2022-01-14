@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="js/owl.carousel.js">
     <link rel="stylesheet" href="js/owl.carousel.min.js">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -312,13 +313,13 @@
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" placeholder="Add your gmail" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <span class="btn btn-success"><i class="fas fa-2x fa-envelope socio_site"><a href="#"></a></i></span>
+                                <span class="btn btn-success"><i class="fas fa-envelope socio_site"><a href="#"></a></i></span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="social-handles-footer mb-2 d-flex justify-content-center mt-3">
+                    <div class="social-handles-footer mb-2 d-flex justify-content-center align-items-center  mt-3">
                         <div>
                             <span><i class="fab fa-2x fa-facebook-square socio_site"><a href="#"></a></i></span>
                             <span><i class="fab fa-2x fa-twitter-square socio_site"><a href="#"></a></i></span>
