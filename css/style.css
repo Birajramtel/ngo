@@ -1,8 +1,13 @@
-/* * {
-  margin: 0%;
-  padding: 0%;
+@media only screen and (max-width: 991px) {
+  .nav_medium{
+    display: flex;
+    flex-basis: auto;
+    justify-content: end !important;
+  }
+}
+* {
   box-sizing: border-box;
-} */
+}
 body {
   font-family: "Gotham-Black", sans-serif;
   font-size: 14px;
@@ -17,25 +22,17 @@ body {
 }
 
 .circle {
-  background-color: rgba(
-    29,
-    104,
-    184,
-    0.9
-  ); /* use rgba for transparent effect */
+  background-color: rgba(29, 104, 184, 0.9); /* use rgba for transparent effect */
   color: white;
-  transform: translate(
-    -50%,
-    -50%
-  ); /* move the circle left 50% of it's own width and up 50% of it's own height */
+  transform: translate(-50%,-50%); /* move the circle left 50% of it's own width and up 50% of it's own height */
   border-radius: 50%;
   padding-top: 100%; /* this gives us a responsive square */
   position: absolute;
   top: 50%; /* this vertically centers the circle */
   left: 0;
   width: 100%;
-  min-width: 600px; /* this is the miniimum dimensions to allow circle to fill smaller screens */
-  min-height: 600px;
+  min-width: 300px; /* this is the miniimum dimensions to allow circle to fill smaller screens */
+  min-height: 400px;
 }
 
 .page-banner-text {
@@ -86,4 +83,7 @@ body {
 .revealUp {
   opacity: 0;
   visibility: hidden;
+}
+.color_nav{
+  color: #1b5fa7 !important;
 }
