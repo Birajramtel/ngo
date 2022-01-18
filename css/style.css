@@ -5,6 +5,11 @@
     justify-content: end !important;
   }
 }
+@media only screen and (max-width: 572px) {
+  .who_we_are{
+    margin-top: 7rem;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -17,32 +22,11 @@ body {
   position: relative;
   background: url(../img/banner/who_banner.jpg) center center no-repeat;
   background-size: cover;
-  overflow: hidden; /* hide overflowing bits of circle */
-  min-height: 480px; /* just give enough height to fit text at smallest screen width size */
+  overflow: hidden; 
+  min-height: 480px; 
 }
 
-.circle {
-  background-color: rgba(29, 104, 184, 0.9); /* use rgba for transparent effect */
-  color: white;
-  transform: translate(-50%,-50%); /* move the circle left 50% of it's own width and up 50% of it's own height */
-  border-radius: 50%;
-  padding-top: 100%; /* this gives us a responsive square */
-  position: absolute;
-  top: 50%; /* this vertically centers the circle */
-  left: 0;
-  width: 100%;
-  min-width: 300px; /* this is the miniimum dimensions to allow circle to fill smaller screens */
-  min-height: 400px;
-}
 
-.page-banner-text {
-  position: absolute; /* just positions the text on the right of the cirecle */
-  left: 60%;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 2em;
-  width: 40%;
-}
 /* vertical line  */
 .vl {
   border-left: 6px solid rgba(29, 104, 184, 0.9);
@@ -80,10 +64,90 @@ body {
   justify-content: center;
   align-items: center;
 }
-.revealUp {
-  opacity: 0;
-  visibility: hidden;
-}
 .color_nav{
   color: #1b5fa7 !important;
+}
+.hero{
+  position: relative;
+}
+.banner_image{
+  position: relative;
+  z-index: -1;
+}
+.banner_shape{
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+.banner_shape-sm{
+  position: absolute;
+  z-index: 0;
+  top: 60%;
+  left: 0;
+}
+
+.page-banner-text {
+  position: absolute; /* just positions the text on the right of the cirecle */
+  top: 40%;
+  transform: translateY(-50%);
+  /* padding: 2em; */
+  width: 30%;
+}
+
+.page-banner-text_sm {
+  position: absolute; /* just positions the text on the right of the cirecle */
+  top: 90%;
+  left: 5%;
+  transform: translateY(-50%);
+  /* padding: 2em; */
+  width: 80%;
+}
+.revealUp {
+  position: absolute;
+  opacity: 0; 
+  visibility: hidden;
+  display: block;
+  /* width: 100%; */
+}
+
+/* Accrodine code opened */
+.accordion {
+  background-color: #1b5fa7;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+/* 
+.active, .accordion:hover {
+  background-color: #004b9b;
+} */
+
+.accordion:after {
+  content: '\002B';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+/* 
+.active:after {
+  content: "\2212";
+} */
+
+.panel {
+  padding: 0 18px;
+  background-color: #bccfe4;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion_color{
+  background-color: #95bce5 !important;
 }
