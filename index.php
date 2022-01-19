@@ -14,7 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <header>
     <div class="container">
@@ -276,7 +277,35 @@
     <!-- Recent news closed  -->
     
     <!-- Photos Slider opened  -->
-    
+    <div class="container d-flex justify-content-center mt-5">
+        <h1><strong>OUR CLIENTS</strong></h1>
+    </div>
+    <div class="container owl-carousel owl-theme d-flex flex-wrap">
+        <div class="item">
+            <img src="img/logos/logo_1.jpg" class="p-5 owl_image1" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_2.jpg" class="p-5 owl_image1" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_3.png" class="p-5 owl_image1" alt="NGO logo">        
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_9.png" class="p-5 owl_image1" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_5.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_6.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_7.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_8.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+        </div>
+    </div>
     <!-- Photos Slider opened  -->
     
     <footer class="parallax pb-3">
@@ -378,6 +407,39 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items:4,
+            loop:true,
+            margin:10,
+            nav: false,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        });
+        $('.play').on('click',function(){
+            owl.trigger('play.owl.autoplay',[1000])
+        })
+        $('.stop').on('click',function(){
+            owl.trigger('stop.owl.autoplay')
+        })
+    </script>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
     <script>
         gsap.registerPlugin(ScrollTrigger);
         // REVEAL //

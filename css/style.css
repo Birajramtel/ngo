@@ -13,10 +13,20 @@
 * {
   box-sizing: border-box;
 }
-body {
-  font-family: "Gotham-Black", sans-serif;
+
+/* body {
+   
+}*/
+@font-face {
+  font-family: myFirstFont;
+  src: url(../font/Nunito/static/Nunito-Regular.ttf);
+  /* font-weight: bold; */
   font-size: 14px;
-  color: #000;
+  /* color: #000; */
+}
+
+div {
+  font-family: myFirstFont;
 }
 .page-banner {
   position: relative;
@@ -150,4 +160,9 @@ body {
 }
 .accordion_color{
   background-color: #95bce5 !important;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots  {
+  /* margin-top: 10px; */
+  margin: auto !important;
 }
