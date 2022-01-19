@@ -35,6 +35,9 @@ div {
   overflow: hidden; 
   min-height: 480px; 
 }
+.font_cg{
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
 
 
 /* vertical line  */
@@ -120,6 +123,13 @@ div {
   display: block;
   /* width: 100%; */
 }
+.revealUp_1 {
+  position: absolute;
+  opacity: 0; 
+  visibility: hidden;
+  display: block;
+  /* width: 100%; */
+}
 
 /* Accrodine code opened */
 .accordion {
@@ -163,6 +173,6 @@ div {
 }
 
 .owl-theme .owl-nav.disabled+.owl-dots  {
-  /* margin-top: 10px; */
+  /* margin-top: 0px; */
   margin: auto !important;
 }

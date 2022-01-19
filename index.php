@@ -31,19 +31,16 @@
                 <div id="myDIV">  
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Press Room</span></a>
+                            <a class="nav-link" href="#">SUPPORTING ORGANIZATIONS</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Research & Publications</a>
+                            <a class="nav-link" href="#">OUR IMPACT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Catholic Values</a>
+                            <a class="nav-link" href="#">OUR BOARD</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">My CRS (login)</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CRSEspañol.org</a>
+                            <a class="nav-link" href="#">STORY OF SUCCESS</a>
                         </li>
                         <li>
                             <button class="btn btn-outline-success btn-lg my-2 my-sm-0" type="submit">Donate</button>
@@ -52,16 +49,16 @@
                     <hr>
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link color_nav" href="#">WAYS TO GIVE</span></a>
+                            <a class="nav-link color_nav" href="#">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">GET INVOLVED</a>
+                            <a class="nav-link" href="#">OUR APPROACH</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">OUR WORK OVERSEAS</a>
+                            <a class="nav-link" href="#">OUR WORK</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
+                            <a class="nav-link " href="#">WAYS TO GIVE</span></a>
                         </li>
                         <li>
                             <input class="form-control" type="search" placeholder="Search" aria-label="Search">
@@ -88,7 +85,7 @@
                     <h1 class="revealUp text-white mb-5">Program for Adults </h1>
                     <br> <br>
                     <div></div>
-                    <p class="revealUp text-white mt-5">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
+                    <p class="revealUp_1 text-white mt-5">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
                 </div>
             </div>
         </div>
@@ -115,8 +112,9 @@
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR MISSION</strong></h2>
                             </div>
-                            <p class="card-text mt-3">Together with our partners, we will save lives, defeat poverty, and achieve social justice. 
-                                We will save lives, defeat poverty, and achieve social justice.</p>
+                            <p class="card-text mt-3 font_cg">BBP Pariwar supports farmers and marginalized communities especially women 
+                                through formation of groups with a motive that, "groups are the entry point for any development 
+                                activities" to improve the livelihoods of marginalized communities. </p>
                         </div>
                     </div>
                 </div>
@@ -126,8 +124,9 @@
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR VISION</strong></h2>
                             </div>
-                            <p class="card-text mt-3">We seek communities of hope, inclusion and social justice, where poverty has been overcome
-                                and all Nepali people live in dignity and safety.</p>
+                            <p class="card-text mt-3 font_cg">BBP Pariwar introduce the means of the agro ecological farming system, livestock 
+                                husbandry(goats and buffalo), for the small holder farmers and facilitate and provides necessary support for 
+                                them while they start the ecological farming principles on their farm.</p>
                         </div>
                     </div>
                 </div>
@@ -137,8 +136,9 @@
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR GOAL</strong></h2>
                             </div>
-                            <p class="card-text mt-3">By 2025, 2.5 million women and girls of Nepal have economic, social and political
-                                power and resilience to withstand shocks and overcome poverty and social injustice.</p>
+                            <p class="card-text mt-3 font_cg">BBP Pariwar, works as a roof organization for the local NGO'S facilitating them 
+                                and developing their capacity to improve and expand activities in sustainable manner with sustainable 
+                                preventive and curative health services, educational sector, community development.</p>
                         </div>
                     </div>
                 </div>
@@ -155,29 +155,28 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_1.png" alt="Card image cap">
+                        <img class="card-img-top" src="./img/recent_project/recent_project_4.png" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-2">Promoting quality education and empowering children, women and youth to secure their rights. </h4>
-                            <button class="btn btn-md btn-success card-text text-white">Read more</button>
+                            <h4 class="card-title p-2"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive economies..</h4>
+                            <button class="btn btn-md btn-success card-text text-white float-end">Read more</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_2.png" alt="Card image cap">
+                        <img class="card-img-top" src="./img/recent_project/recent_project_5.png" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-2">We seek communities of hope, inclusion and social justice, where poverty has been overcome...</h4>
-                            <button class="btn btn-md btn-success card-text text-white">Read more</button>
+                            <h4 class="card-title p-2"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting the health services for women through...</h4>
+                            <button class="btn btn-md btn-success card-text text-white float-end">Read more</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_3.png" alt="Card image cap">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="./img/recent_project/recent_project_6.png" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-2">By 2025, 2.5 million women and girls of Nepal have economic, social and political
-                                power.</h4>
-                            <button class="btn btn-md btn-success card-text text-white">Read more</button>
+                            <h4 class="card-title p-2"><strong><u>World Neighbors</u> </strong> is an international development organization that works to alleviate hunger, poverty, and disease...</h4>
+                            <button class="btn btn-md btn-success card-text text-white float-end">Read more</button>
                         </div>
                     </div>
                 </div>
@@ -191,27 +190,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mt-3 mb-3 p-3 align-self-center">
-                    <h1 class="d-flex justify-content-center"><strong>We inspire and help them live better</strong></h1>
+                    <h1 class="d-flex justify-content-center"><strong>Our Impact:</strong></h1>
                     <br>
-                    <button class="accordion text-white">We help to create better lives</button>
+                    <button class="accordion text-white">Works with the partner organizations to provide health services</button>
                     <div class="panel">
-                        <p class="pt-3">There are many variations of passages the majority have suffered alteration in 
-                            some of injected humour, or randomised words believable.</p>
+                        <h6 class="pt-3">Works with the partner organizations to provide health services for around 20000-24000 
+                            peoples in a year especially for women of rural area and is organizing the medical camps for women health 
+                            issues and also is providing scholarship for the formal agriculture, animal health, ANM (Auxiliary nurse midwife) 
+                            education with an objective of providing service to the community and to uplift their economic status.</h6>
                     </div>
                     <button class="accordion text-white">Donation is Hope for Poor Childrens</button>
                     <div class="panel">
-                        <p class="pt-3">The Spring is a passionate and determined group of monthly givers on a mission 
-                            to end the water crisis in our lifetime. </p>
+                        <h6 class="pt-3">The Spring is a passionate and determined group of monthly givers on a mission 
+                            to end the water crisis in our lifetime. </h6>
                     </div>
                     <button class="accordion text-white">Build School for Poor Childrens</button>
                     <div class="panel">
-                        <p class="pt-3">People like you, from more than 100 countries around the world, giving anything 
-                            they can to prove how unstoppable we are when we work together.</p>
+                        <h6 class="pt-3">People like you, from more than 100 countries around the world, giving anything 
+                            they can to prove how unstoppable we are when we work together.</h6>
                     </div>
                     <button class="accordion text-white">Highlights New York Fashion Week 2018</button>
                     <div class="panel">
-                        <p class="pt-3">As a midway answer to these two answers, there was a third opinion about 
-                            “Lead Qualification” that revealed a new aspect.</p>
+                        <h6 class="pt-3">As a midway answer to these two answers, there was a third opinion about 
+                            “Lead Qualification” that revealed a new aspect.</h6>
                     </div>
                 </div>
                 <div class="col-md-6 mb-5 p-3">
@@ -291,19 +292,19 @@
             <img src="img/logos/logo_3.png" class="p-5 owl_image1" alt="NGO logo">        
         </div>
         <div class="item">
+            <img src="img/logos/logo_7.jpg" class="p-5 owl_image1" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_8.jpg" class="p-5 owl_image1" alt="NGO logo">
+        </div>
+        <div class="item">
             <img src="img/logos/logo_9.png" class="p-5 owl_image1" alt="NGO logo">
         </div>
         <div class="item">
-            <img src="img/logos/logo_5.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+            <img src="img/logos/logo_5.jpg" class="p-5 owl_image1" alt="NGO logo">
         </div>
         <div class="item">
-            <img src="img/logos/logo_6.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
-        </div>
-        <div class="item">
-            <img src="img/logos/logo_7.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
-        </div>
-        <div class="item">
-            <img src="img/logos/logo_8.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+            <img src="img/logos/logo_6.jpg" class="p-5 owl_image1" alt="NGO logo">
         </div>
     </div>
     <!-- Photos Slider opened  -->
@@ -394,10 +395,10 @@
                 </div>
                 <div class="col-md-4 col-sm-6 col-xm-8 pb-2 d-flex justify-content-around">
                     <div class="">
-                        <img src="./img/logo_2.jpg" class="img-fluid" alt="Logo for orgainzation">
+                        <img src="./img/logos/logo_2.jpg" class="img-fluid" alt="Logo for orgainzation">
                     </div>
                     <div class="">
-                        <img src="./img/logo_2.jpg" class="img-fluid" alt="Logo for orgainzation">
+                        <img src="./img/logos/logo_2.jpg" class="img-fluid" alt="Logo for orgainzation">
                     </div>
                 </div>
                 <div class="col-md-4 d-flex align-self-center">
@@ -457,6 +458,62 @@
                         }, {
                             duration: 1.25,
                             y: 0,
+                            autoAlpha: 1,
+                            ease: "back",
+                            overwrite: "auto"
+                        }
+                    );
+                },
+                onLeave: function() {
+                    gsap.fromTo(elem, {
+                        autoAlpha: 1
+                    }, {
+                        autoAlpha: 0,
+                        overwrite: "auto"
+                    });
+                },
+                onEnterBack: function() {
+                    gsap.fromTo(
+                        elem, {
+                            y: -100,
+                            autoAlpha: 0
+                        }, {
+                            duration: 1.25,
+                            y: 0,
+                            autoAlpha: 1,
+                            ease: "back",
+                            overwrite: "auto"
+                        }
+                    );
+                },
+                onLeaveBack: function() {
+                    gsap.fromTo(elem, {
+                        autoAlpha: 1
+                    }, {
+                        autoAlpha: 0,
+                        overwrite: "auto"
+                    });
+                }
+            });
+        });
+    </script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        // REVEAL //
+        gsap.utils.toArray(".revealUp_1").forEach(function(elem) {
+            ScrollTrigger.create({
+                trigger: elem,
+                start: "top 80%",
+                end: "bottom 20%",
+                markers: false,
+                onEnter: function() {
+                    gsap.fromTo(
+                        elem, {
+                            y: 100,
+                            autoAlpha: 0
+                        }, {
+                            duration: 5,
+                            y: 1,
                             autoAlpha: 1,
                             ease: "back",
                             overwrite: "auto"

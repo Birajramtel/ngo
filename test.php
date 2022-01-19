@@ -6,11 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/owl.carousel.js">
-    <link rel="stylesheet" href="js/owl.carousel.min.js">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon.ico">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -18,6 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <header>
     <div class="container">
@@ -29,7 +27,7 @@
                 <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse nav_medium justify-content-end"   id="navbarTogglerDemo01">
+                <div class="collapse navbar-collapse nav_medium justify-content-end" id="navbarTogglerDemo01">
                 <div id="myDIV">  
                     <ul class="navbar-nav">
                         <li class="nav-item active">
@@ -79,10 +77,10 @@
 </header>
 
 <body>
-   <div class="hero">
+    <div class="hero mb-5">
         <img class="banner_image img-fluid w-100" src="./img/banner/who_banner.jpg" alt="">
-        <img src="./img/square.png " class="banner_shape h-100 img-fluid d-none d-sm-block" alt="Square">
-        <img src="./img/square_sm.png " class="banner_shape-sm w-100 img-fluid d-block d-sm-none" alt="Square">
+        <img src="./img/square_with_buddha.png" class="banner_shape h-100 img-fluid d-none d-sm-block mb-5" alt="Square">
+        <img src="./img/square_with_buddha_sm.png" class="banner_shape-sm w-100 img-fluid d-block d-sm-none" alt="Square">
         <!--  -->
         <div class="container d-none d-sm-block">
             <div class="page-banner-text">
@@ -90,25 +88,26 @@
                     <h1 class="revealUp text-white mb-5">Program for Adults </h1>
                     <br> <br>
                     <div></div>
-                    <p class="revealUp text-white">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
+                    <p class="revealUp text-white mt-5">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
                 </div>
             </div>
         </div>
-        <div class="container d-block d-sm-none">
+        <div class="container d-block d-sm-none pb-5">
             <div class="page-banner-text_sm">
                 <div class="section bg1">
                     <h1 class="revealUp text-white mb-5">Program for Adults </h1>
                     <br> <br>
-                    <p class="revealUp text-white">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
+                    <p class="revealUp text-white pb-5">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
                 </div>
             </div>
         </div>
     </div>
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
+    <!-- Who we are opened  -->
     <section>
-        <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>WHO WE ARE ?</strong></h1>
+        <div class="container">
+            <h1 class="d-flex justify-content-center who_we_are mb-5"><strong>WHO WE ARE ?</strong></h1>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
@@ -116,7 +115,7 @@
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR MISSION</strong></h2>
                             </div>
-                            <p class="card-text mt-5">Together with our partners, we will save lives, defeat poverty, and achieve social justice. 
+                            <p class="card-text mt-3">Together with our partners, we will save lives, defeat poverty, and achieve social justice. 
                                 We will save lives, defeat poverty, and achieve social justice.</p>
                         </div>
                     </div>
@@ -127,7 +126,7 @@
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR VISION</strong></h2>
                             </div>
-                            <p class="card-text mt-5">We seek communities of hope, inclusion and social justice, where poverty has been overcome
+                            <p class="card-text mt-3">We seek communities of hope, inclusion and social justice, where poverty has been overcome
                                 and all Nepali people live in dignity and safety.</p>
                         </div>
                     </div>
@@ -138,7 +137,7 @@
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR GOAL</strong></h2>
                             </div>
-                            <p class="card-text mt-5">By 2025, 2.5 million women and girls of Nepal have economic, social and political
+                            <p class="card-text mt-3">By 2025, 2.5 million women and girls of Nepal have economic, social and political
                                 power and resilience to withstand shocks and overcome poverty and social injustice.</p>
                         </div>
                     </div>
@@ -155,7 +154,7 @@
             <h1 class="d-flex justify-content-center mb-5"><strong>OUR RECENT PROJECTS</strong></h1>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card mb-4">
                         <img class="card-img-top" src="./img/recent_project/recent_project_1.png" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title p-2">Promoting quality education and empowering children, women and youth to secure their rights. </h4>
@@ -164,7 +163,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card mb-4">
                         <img class="card-img-top" src="./img/recent_project/recent_project_2.png" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title p-2">We seek communities of hope, inclusion and social justice, where poverty has been overcome...</h4>
@@ -186,32 +185,53 @@
         </div>
     </section>
     <!-- Our project closed  -->
-    <div class="owl-carousel owl-theme">
-        <div class="item"><h4>1</h4></div>
-        <div class="item"><h4>2</h4></div>
-        <div class="item"><h4>3</h4></div>
-        <div class="item"><h4>4</h4></div>
-        <div class="item"><h4>5</h4></div>
-        <div class="item"><h4>6</h4></div>
-        <div class="item"><h4>7</h4></div>
-        <div class="item"><h4>8</h4></div>
-        <div class="item"><h4>9</h4></div>
-        <div class="item"><h4>10</h4></div>
-        <div class="item"><h4>11</h4></div>
-        <div class="item"><h4>12</h4></div>
-    </div>
+    
+    <!-- Question and Answer opened  -->
+    <section class="accordion_color">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-3 mb-3 p-3 align-self-center">
+                    <h1 class="d-flex justify-content-center"><strong>We inspire and help them live better</strong></h1>
+                    <br>
+                    <button class="accordion text-white">We help to create better lives</button>
+                    <div class="panel">
+                        <p class="pt-3">There are many variations of passages the majority have suffered alteration in 
+                            some of injected humour, or randomised words believable.</p>
+                    </div>
+                    <button class="accordion text-white">Donation is Hope for Poor Childrens</button>
+                    <div class="panel">
+                        <p class="pt-3">The Spring is a passionate and determined group of monthly givers on a mission 
+                            to end the water crisis in our lifetime. </p>
+                    </div>
+                    <button class="accordion text-white">Build School for Poor Childrens</button>
+                    <div class="panel">
+                        <p class="pt-3">People like you, from more than 100 countries around the world, giving anything 
+                            they can to prove how unstoppable we are when we work together.</p>
+                    </div>
+                    <button class="accordion text-white">Highlights New York Fashion Week 2018</button>
+                    <div class="panel">
+                        <p class="pt-3">As a midway answer to these two answers, there was a third opinion about 
+                            “Lead Qualification” that revealed a new aspect.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5 p-3">
+                    <img src="./img/accordion_image.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!-- Question and Answer Closed -->
+    
     <!-- Recent news opened  -->
     <section>
         <div class="container mt-5">
-            <div class="h2">RECENT NEWS</div>
+            <h1 class="d-flex justify-content-center mb-5"><strong>RECENT NEWS</strong></h1>
             <div class="row">
                 <div class="col-md-6 pl-2">
                     <img src="./img/children.png" class="img-fluid" alt="Children with happy faces">
-                    <h5 class="pt-4 mb-0"><strong>The best apps to your next trip</strong></h5>
+                    <h3 class="pt-4 mb-0"><strong>The best apps to your next trip</strong></h3>
                     <p>It is a well-known fact that when any discussion on lead generation takes place, 
-                        quality conquers over the measure. Though it is clearly known fact that people 
-                        do not like when they are pressurized into buying something, a recent research 
-                        threw open some startling and revealing information.</p>
+                        quality conquers over the measure. </p>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
@@ -219,12 +239,10 @@
                             <div>
                                 <img src="./img/recent_news_2.jpg" class="rounded p-2" alt="Children">
                             </div>
-                            <div class="align-self-center">
-                                <h5><strong>Highlights New York Fashion Week 2018</strong></h5>
-                                <span class="">As a midway answer to these two answers, there was a third opinion about 
-                                    “Lead Qualification” that revealed a new aspect. Though many respondents might show 
-                                    interest in buying, there are very few who would really want to buy at that specific
-                                    point in time.</span>
+                            <div class="mt-2">
+                                <h3><strong>Highlights New York Fashion Week 2018</strong></h3>
+                                <span class="d-none d-md-block">As a midway answer to these two answers, there was a third opinion about 
+                                    “Lead Qualification” that revealed a new aspect. </span>
                             </div>
                         </div>
                     </div>
@@ -233,11 +251,10 @@
                             <div>
                                 <img src="./img/recent_news_3.jpg" class="rounded p-2" alt="Children">
                             </div>
-                            <div class="align-self-center">
-                                <h5><strong>Bond of communication</strong></h5>
-                                <span>Sending a clear message to the prospects that the organization has 
-                                    their welfare in mind and considers it as its priority by stating 
-                                    “How Can I help you” will go a long way in making them open up easily.</span>
+                            <div class="mt-2">
+                                <h3><strong>Bond of communication</strong></h3>
+                                <span class="d-none d-md-block">Sending a clear message to the prospects that the organization has 
+                                    their welfare in mind.</span>
                             </div>
                         </div>
                     </div>
@@ -246,10 +263,10 @@
                             <div>
                                 <img src="./img/recent_news_4.jpg" class="rounded p-2" alt="Children">
                             </div>
-                            <div class="align-self-center">
-                                <h5><strong>Email Marketing as Lead Generation Tactics of B2B</strong></h5>
-                                <span>Email marketing was the most popular among all other lead generation tactics 
-                                    primarily due to the ease of its implementation and for producing the desired effective results. </span>
+                            <div class="mt-2">
+                                <h3><strong>Email Marketing as Lead Generation Tactics of B2B</strong></h3>
+                                <span class="d-none d-md-block">Email marketing was the most popular among all other lead generation tactics 
+                                    primarily.</span>
                             </div>
                         </div>
                     </div>
@@ -258,6 +275,39 @@
         </div>
     </section>
     <!-- Recent news closed  -->
+    
+    <!-- Photos Slider opened  -->
+    <div class="container d-flex justify-content-center mt-5">
+        <h1><strong>OUR CLIENTS</strong></h1>
+    </div>
+    <div class="container owl-carousel owl-theme d-flex flex-wrap">
+        <div class="item">
+            <img src="img/logos/logo_1.jpg" class="p-5 owl_image1" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_2.jpg" class="p-5 owl_image1" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_3.png" class="p-5 owl_image1" alt="NGO logo">        
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_9.png" class="p-5 owl_image1" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_5.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_6.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_7.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+        </div>
+        <div class="item">
+            <img src="img/logos/logo_8.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+        </div>
+    </div>
+    <!-- Photos Slider opened  -->
+    
     <footer class="parallax pb-3">
         <div class="container">
             <h2 class="text-white pt-5 mt-5">FAITH.ACTION.RESULT.</h2>
@@ -319,7 +369,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="social-handles-footer mb-2 d-flex justify-content-center align-items-center  mt-3">
+                    <div class="social-handles-footer mb-2 d-flex justify-content-center mt-3">
                         <div>
                             <span><i class="fab fa-2x fa-facebook-square socio_site"><a href="#"></a></i></span>
                             <span><i class="fab fa-2x fa-twitter-square socio_site"><a href="#"></a></i></span>
@@ -357,32 +407,39 @@
             </div>
         </div>
     </footer>
-    <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        $(document).ready(function(){
-        $(".owl-carousel").owlCarousel();
-        });
-    </script>
-    <script>
-        $('.owl-carousel').owlCarousel({
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items:4,
             loop:true,
             margin:10,
-            nav:true,
-            responsive:{
-                0:{
-                    items:1
+            nav: false,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
+            responsive: {
+                0: {
+                    items: 2
                 },
-                600:{
-                    items:3
+                600: {
+                    items: 3
                 },
-                1000:{
-                    items:5
+                1000: {
+                    items: 5
                 }
             }
+        });
+        $('.play').on('click',function(){
+            owl.trigger('play.owl.autoplay',[1000])
+        })
+        $('.stop').on('click',function(){
+            owl.trigger('stop.owl.autoplay')
         })
     </script>
-    
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
     <script>
         gsap.registerPlugin(ScrollTrigger);
         // REVEAL //
@@ -449,6 +506,22 @@
         }
         }
     </script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+        });
+        }
+    </script>
+    
 </body>
 
 </html>
