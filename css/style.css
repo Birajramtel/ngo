@@ -78,7 +78,7 @@ div {
   align-items: center;
 }
 .color_nav{
-  color: #1b5fa7 !important;
+  color: #2f3985 !important;
 }
 .hero{
   position: relative;
@@ -102,7 +102,7 @@ div {
 
 .page-banner-text {
   position: absolute; /* just positions the text on the right of the cirecle */
-  top: 40%;
+  top: 50%;
   transform: translateY(-50%);
   /* padding: 2em; */
   width: 30%;
@@ -115,20 +115,6 @@ div {
   transform: translateY(-50%);
   /* padding: 2em; */
   width: 80%;
-}
-.revealUp {
-  position: absolute;
-  opacity: 0; 
-  visibility: hidden;
-  display: block;
-  /* width: 100%; */
-}
-.revealUp_1 {
-  position: absolute;
-  opacity: 0; 
-  visibility: hidden;
-  display: block;
-  /* width: 100%; */
 }
 
 /* Accrodine code opened */
@@ -175,4 +161,20 @@ div {
 .owl-theme .owl-nav.disabled+.owl-dots  {
   /* margin-top: 0px; */
   margin: auto !important;
+}
+.sm_nav
+{
+  font-size: 11px;
+  font-weight: bold;
+  padding: 20px;
+}
+.lg-nav{
+  font-size: 14px;
+  font-weight: bolder;
+}
+.btn-outline-color{
+  background-color: #2f3985 !important;
+}
+.btn-color{
+  background-color: #2f3985 !important;
 }

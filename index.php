@@ -16,12 +16,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <header>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand col-md-4" href="#">
                     <img src="./img/logo.png" class="img-fluid" alt="Logo">
                 </a>
                 <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,40 +32,37 @@
                 <div id="myDIV">  
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">SUPPORTING ORGANIZATIONS</span></a>
+                            <a class="nav-link sm_nav p-3" href="#">SUPPORTING ORGANIZATIONS</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">OUR IMPACT</a>
+                            <a class="nav-link sm_nav p-3" href="#">OUR IMPACT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">OUR BOARD</a>
+                            <a class="nav-link sm_nav p-3" href="#">OUR BOARD</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">STORY OF SUCCESS</a>
+                            <a class="nav-link sm_nav p-3" href="#">STORY OF SUCCESS</a>
                         </li>
-                        <li>
-                            <button class="btn btn-outline-success btn-lg my-2 my-sm-0" type="submit">Donate</button>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-color btn-lg my-5 d-block my-sm-0 text-white" type="submit">Donate</button>
                         </li>
                     </ul>
                     <hr>
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav d-flex justify-content-end">
                         <li class="nav-item active">
-                            <a class="nav-link color_nav" href="#">ABOUT US</a>
+                            <a class="nav-link lg-nav p-4 color_nav" href="#">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">OUR APPROACH</a>
+                            <a class="nav-link lg-nav p-4" href="#">OUR APPROACH</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">OUR WORK</a>
+                            <a class="nav-link lg-nav p-4" href="#">OUR WORK</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#">WAYS TO GIVE</span></a>
+                            <a class="nav-link lg-nav p-4" href="#">WAYS TO GIVE</span></a>
                         </li>
-                        <li>
-                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                        </li>
-                        <li class="ml-2">
-                            <button class="btn btn-success ml-2" type="submit"><i class="fas fa-search"></i></button>
+                        <li class="ml-2 p-3">
+                            <button class="btn btn-color ml-2 text-white" type="submit"><i class="fas fa-search"></i></button>
                         </li>
                     </ul>
                 </div>
@@ -82,19 +80,17 @@
         <div class="container d-none d-sm-block">
             <div class="page-banner-text">
                 <div class="section bg1">
-                    <h1 class="revealUp text-white mb-5">Program for Adults </h1>
-                    <br> <br>
+                    <h1 class="animate__animated animate__fadeInDown text-white">Program for Adults </h1>
                     <div></div>
-                    <p class="revealUp_1 text-white mt-5">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
+                    <p class="animate__animated animate__fadeInDown animate__delay-1s text-white">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
                 </div>
             </div>
         </div>
         <div class="container d-block d-sm-none pb-5">
             <div class="page-banner-text_sm">
                 <div class="section bg1">
-                    <h1 class="revealUp text-white mb-5">Program for Adults </h1>
-                    <br> <br>
-                    <p class="revealUp text-white pb-5">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
+                    <h1 class="animate__animated animate__fadeInDown text-white">Program for Adults </h1>
+                    <p class="animate__animated animate__fadeInDown animate__delay-1s text-white">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
                 </div>
             </div>
         </div>
@@ -112,7 +108,7 @@
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR MISSION</strong></h2>
                             </div>
-                            <p class="card-text mt-3 font_cg">BBP Pariwar supports farmers and marginalized communities especially women 
+                            <p class="card-text mt-3 font_cg text-wrap">BBP Pariwar supports farmers and marginalized communities especially women 
                                 through formation of groups with a motive that, "groups are the entry point for any development 
                                 activities" to improve the livelihoods of marginalized communities. </p>
                         </div>
@@ -126,7 +122,7 @@
                             </div>
                             <p class="card-text mt-3 font_cg">BBP Pariwar introduce the means of the agro ecological farming system, livestock 
                                 husbandry(goats and buffalo), for the small holder farmers and facilitate and provides necessary support for 
-                                them while they start the ecological farming principles on their farm.</p>
+                                them while they start ecological farming principles on their farm.</p>
                         </div>
                     </div>
                 </div>
@@ -137,8 +133,7 @@
                                 <h2 class="card-title p-2"><strong>OUR GOAL</strong></h2>
                             </div>
                             <p class="card-text mt-3 font_cg">BBP Pariwar, works as a roof organization for the local NGO'S facilitating them 
-                                and developing their capacity to improve and expand activities in sustainable manner with sustainable 
-                                preventive and curative health services, educational sector, community development.</p>
+                                and developing their capacity to improve and expand activities in sustainable manner with preventive curative health services, educational sector, community development.</p>
                         </div>
                     </div>
                 </div>
@@ -157,8 +152,8 @@
                     <div class="card mb-4">
                         <img class="card-img-top" src="./img/recent_project/recent_project_4.png" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-2"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive economies..</h4>
-                            <button class="btn btn-md btn-success card-text text-white float-end">Read more</button>
+                            <h4 class="card-title p-3"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive econo...</h4>
+                            <button class="btn btn-md btn-color card-text text-white float-end mt-1">Read more</button>
                         </div>
                     </div>
                 </div>
@@ -166,8 +161,8 @@
                     <div class="card mb-4">
                         <img class="card-img-top" src="./img/recent_project/recent_project_5.png" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-2"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting the health services for women through...</h4>
-                            <button class="btn btn-md btn-success card-text text-white float-end">Read more</button>
+                            <h4 class="card-title p-3"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting the health services for women...</h4>
+                            <button class="btn btn-md btn-color card-text text-white float-end mt-1">Read more</button>
                         </div>
                     </div>
                 </div>
@@ -175,8 +170,8 @@
                     <div class="card mb-4">
                         <img class="card-img-top" src="./img/recent_project/recent_project_6.png" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-2"><strong><u>World Neighbors</u> </strong> is an international development organization that works to alleviate hunger, poverty, and disease...</h4>
-                            <button class="btn btn-md btn-success card-text text-white float-end">Read more</button>
+                            <h4 class="card-title p-3"><strong><u>World Neighbors</u> </strong> is an international development organization that works to alleviate hunger, poverty...</h4>
+                            <button class="btn btn-md btn-color card-text text-white float-end mt-1">Read more</button>
                         </div>
                     </div>
                 </div>
@@ -234,7 +229,7 @@
             <h1 class="d-flex justify-content-center mb-5"><strong>STORY OF SUCCESS</strong></h1>
             <div class="row">
                 <div class="col-md-6 pl-2">
-                    <img src="./img/recent_news/recent_news.png" class="img-fluid" alt="Business">
+                    <img src="./img/recent_news/recent_news_0.png" class="img-fluid mt-1" alt="Business">
                     <h3 class="pt-4 mb-0"><strong>Trying to upgrade the living standard</strong></h3>
                     <p class="pt-2">Saving and credit program is being conducted in the community especially with 
                         women's participation in order to fulfill the needs like enrollment of the children's in 
@@ -336,7 +331,7 @@
                 </div>
                 <div class="col-md-2 col-sm-4 mb-2">
                     <div class="list-group">
-                        <h5 class="text-white"><strong>Story of success</strong></h5>
+                        <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
                         <a href="#" class="list-group text-white pt-2">How We Work</a>
                         <a href="#" class="list-group text-white pt-2">Where We Work</a>
                         <a href="#" class="list-group text-white pt-2">Research & Publications</a>
@@ -347,18 +342,19 @@
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Ways to help</strong></h5>
-                        <a href="#" class="list-group text-white pt-2">How We Work</a>
-                        <a href="#" class="list-group text-white pt-2">Partners</a>
-                        <a href="#" class="list-group text-white pt-2">Stories</a>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Get involved</strong></h5>
-                        <a href="#" class="list-group text-white pt-2">How We Work</a>
-                        <a href="#" class="list-group text-white pt-2">Where We Work</a>
-                        <a href="#" class="list-group text-white pt-2">Partners</a>
-                        <a href="#" class="list-group text-white pt-2">Stories</a>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
                     </div>
                 </div>
             </div>
@@ -373,7 +369,7 @@
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" placeholder="Add your gmail" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <span class="btn btn-success"><i class="fas fa-envelope socio_site"><a href="#"></a></i></span>
+                                <span class="btn btn-color"><i class="fas fa-envelope socio_site"><a href="#"></a></i></span>
                             </div>
                         </div>
                     </div>
