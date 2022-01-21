@@ -1,63 +1,101 @@
-<footer class="footer-section">
-    <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="col-md-3 col-sm-6 col-xm-12 mt-3">
-                <!-- <img src="img/Naava PP.png" alt="Logo"> -->
-                <h2 class="text-white">Naava Resort & Retreat</h2>
-                <p class="text-white">Our hotel is an image of quality and profesionalism combined with hard work and precision.
-                    You can expect only the best services from our staff.
-                </p>
-                <div class="footer-social-icon mt-2">
-                    <a href="https://www.facebook.com/Naava-Resort-Retreat-100547551927011/"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                    <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+<footer class="parallax pb-3">
+        <div class="container">
+            <h2 class="text-white pt-5 mt-5">FAITH.ACTION.RESULT.</h2>
+            <p class="text-white">Our organization has been carrying out social service activities 
+                independently as well as an organizational network. </p>
+            <hr class="bg-white">
+            <div class="row">
+                <div class="col-md-2 col-sm-4">
+                    <div class="list-group">
+                        <h5 class="text-white"><strong>About us</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Our Mission</a>
+                        <a href="#" class="list-group text-white pt-2">Careers</a>
+                        <a href="#" class="list-group text-white pt-2">Contact</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 mb-2">
+                    <div class="list-group">
+                        <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">How We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Where We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Research & Publications</a>
+                        <a href="#" class="list-group text-white pt-2">Partners</a>
+                        <a href="#" class="list-group text-white pt-2">Stories</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="list-group">
+                        <h5 class="text-white"><strong>Ways to help</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="list-group">
+                        <h5 class="text-white"><strong>Get involved</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xm-12 mt-3">
-                <h2 class="text-white">Useful Links</h2>
-                <ul style="list-style-type:none;">
-                    <li><a class="footer_link" href="explore_shivapuri.php">Blog</a></li>
-                    <li><a class="footer_link" href="room.php">Rooms</a></li>
-                    <li><a class="footer_link" href="package.php">Gift Card</a></li>
-                    <li><a class="footer_link" href="about.php">Testimonials</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xm-12 mt-3">
-                <h2 class="text-white">Privacy</h2>
-                <ul style="list-style-type: none;">
-                    <li><a class="footer_link" href="about.php">About Us</a></li>
-                    <li><a class="footer_link" href="contact.php">Contact us</a></li>
-                    <li><a class="footer_link" href="eat_and_drink.php">Services</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xm-12 mt-3">
-                <h2 class="text-white">Contact</h2>
-                <div class="footer-social-icon">
-                    <div class="single-cta d-flex">
-                        <i class="far fa-envelope"></i>
-                        <div>
-                            <a href="mailto: resortnaava@gmail.com"><span class="text-white p-4">resortnaava@gmail.com</span></a>
-                            <a href="mailto: info@naavaresort.com.np"><span class="text-white p-4">info@naavaresort.com.np</span></a>
+        </div>
+    </footer>
+    <footer class="footer_2 bg-dark pb-5">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-md-6 d-flex align-self-center">
+                    <div>
+                        <p class="text-white pt-2">BOUDHA BAHANUPATI PROJECT Kalyan Yojana-PARIWAR (BBP PARIWAR) <br> EST Date: 2051B.S (1994A.D)</p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Add your gmail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="btn btn-color"><i class="fas fa-envelope socio_site"><a href="#"></a></i></span>
+                            </div>
                         </div>
                     </div>
-                    <div class="single-cta">
-                        <a href="tel:9860239993"><i class="fas fa-phone-alt"></i>&nbsp;<span class="text-white pl-2">986-0239993</span></a>
-                    </div>
-                    <div class="single-cta">
-                        <a href="https://goo.gl/maps/hDyLdheNnbfPhsNb9"><i class="fas fa-map-marker-alt"></i>&nbsp;<span class="text-white">Thulogaun, Budhanilkantha</span></a>
+                </div>
+                <div class="col-md-6  d-flex align-self-center justify-content-center">
+                    <div class="social-handles-footer mb-2 mt-3">
+                        <div>
+                            <span><i class="fab fa-2x fa-facebook-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-twitter-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-linkedin socio_site"></i><a href="#"></a></span>
+                            <span><i class="fab fa-2x fa-instagram-square socio_site"><a href="#"></a></i></span>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-6">
-                <p class="text-white float-start">Copyright &copy; 2018, All Right Reserved Naava resort and retreat </p>
-                <p class="text-white float-start">&nbsp; | Powered by SewaTech</p>
+            <hr class="bg-white">
+            <div class="col-md-12">
+                <h2 class="text-white text-justify">Our approach positively improves the community participation in existing 
+                    economic, social, educational, health and environmental issues.</h2>
             </div>
-            <div class="col-6">
-                <a class="footer_link float-end" href="#">https://naavaresort.com.np</a>
+            <hr class="bg-white">
+            <div class="row">
+                <div class="col-md-4 d-flex align-self-center">
+                    <p class="text-white">BBP PARIWAR is a non-profit voluntary organization registered with District Administration 
+                        Office and affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously operating different 
+                        types of social development programs at three districts, Sindhupalchok, Ramechhap and Kavreplanchok. 
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xm-8 pb-2 d-flex justify-content-around">
+                    <div class="">
+                        <img src="./img/logos/footer_logo.png" class="img-fluid" alt="Logo for orgainzation">
+                    </div>
+                    <div class="">
+                        <img src="./img/logos/footer_logo.png" class="img-fluid" alt="Logo for orgainzation">
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex align-self-center">
+                    <p class="text-white">With a belief that only integrated development of the society can be sustainable development, 
+                        this organization mobilizes local resources with the participation of backwarded, marginalized and communities 
+                        at risk in the society by mobilizing local resources for health, education, and development of local infrastructure.</p>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-</footer>
+    </footer>
