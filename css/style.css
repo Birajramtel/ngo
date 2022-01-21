@@ -30,7 +30,7 @@ div {
 }
 .page-banner {
   position: relative;
-  background: url(../img/banner/who_banner.jpg) center center no-repeat;
+  background: url(../img/banner/who_banner_1.png) center center no-repeat;
   background-size: cover;
   overflow: hidden; 
   min-height: 480px; 

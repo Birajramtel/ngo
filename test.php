@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="./img/logo.png" alt="Logo">
+                    <img src="./img/logo.png" class="img-fluid" alt="Logo">
                 </a>
                 <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,19 +31,16 @@
                 <div id="myDIV">  
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Press Room</span></a>
+                            <a class="nav-link" href="#">SUPPORTING ORGANIZATIONS</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Research & Publications</a>
+                            <a class="nav-link" href="#">OUR IMPACT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Catholic Values</a>
+                            <a class="nav-link" href="#">OUR BOARD</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">My CRS (login)</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CRSEspañol.org</a>
+                            <a class="nav-link" href="#">STORY OF SUCCESS</a>
                         </li>
                         <li>
                             <button class="btn btn-outline-success btn-lg my-2 my-sm-0" type="submit">Donate</button>
@@ -52,16 +49,16 @@
                     <hr>
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link color_nav" href="#">WAYS TO GIVE</span></a>
+                            <a class="nav-link color_nav" href="#">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">GET INVOLVED</a>
+                            <a class="nav-link" href="#">OUR APPROACH</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">OUR WORK OVERSEAS</a>
+                            <a class="nav-link" href="#">OUR WORK</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
+                            <a class="nav-link " href="#">WAYS TO GIVE</span></a>
                         </li>
                         <li>
                             <input class="form-control" type="search" placeholder="Search" aria-label="Search">
@@ -77,8 +74,21 @@
 </header>
 
 <body>
+    <div class="nacep-table-wrap">
+        <div class="nacep-align-wrap">
+            <div class="banner-container">
+                <div class="col-na-row align-items-center">
+                    <div class="col-na-12">
+                        <div class="banner-caption left-align">
+                            <h1 class="banner-title animated" data-animation="fadeInDown">Food and Shelter For All the Children</h1><p class="animated" data-animation="fadeInDown">There will be a day–in our lifetime–when we get to celebrate every person on the planet having access to clean water, shelter and good clothing. We want to celebrate that day with you.</p>				            	</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="hero mb-5">
-        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner.jpg" alt="">
+        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="">
         <img src="./img/square_with_buddha.png" class="banner_shape h-100 img-fluid d-none d-sm-block mb-5" alt="Square">
         <img src="./img/square_with_buddha_sm.png" class="banner_shape-sm w-100 img-fluid d-block d-sm-none" alt="Square">
         <!--  -->
@@ -88,7 +98,7 @@
                     <h1 class="revealUp text-white mb-5">Program for Adults </h1>
                     <br> <br>
                     <div></div>
-                    <p class="revealUp text-white mt-5">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
+                    <p class="revealUp_1 text-white mt-5">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
                 </div>
             </div>
         </div>
@@ -110,35 +120,38 @@
             <h1 class="d-flex justify-content-center who_we_are mb-5"><strong>WHO WE ARE ?</strong></h1>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card mb-4">
                         <div class="card-body">
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR MISSION</strong></h2>
                             </div>
-                            <p class="card-text mt-3">Together with our partners, we will save lives, defeat poverty, and achieve social justice. 
-                                We will save lives, defeat poverty, and achieve social justice.</p>
+                            <p class="card-text mt-3 font_cg">BBP Pariwar supports farmers and marginalized communities especially women 
+                                through formation of groups with a motive that, "groups are the entry point for any development 
+                                activities" to improve the livelihoods of marginalized communities. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card mb-4">
                         <div class="card-body">
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR VISION</strong></h2>
                             </div>
-                            <p class="card-text mt-3">We seek communities of hope, inclusion and social justice, where poverty has been overcome
-                                and all Nepali people live in dignity and safety.</p>
+                            <p class="card-text mt-3 font_cg">BBP Pariwar introduce the means of the agro ecological farming system, livestock 
+                                husbandry(goats and buffalo), for the small holder farmers and facilitate and provides necessary support for 
+                                them while they start the ecological farming principles on their farm.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card mb-4">
                         <div class="card-body">
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR GOAL</strong></h2>
                             </div>
-                            <p class="card-text mt-3">By 2025, 2.5 million women and girls of Nepal have economic, social and political
-                                power and resilience to withstand shocks and overcome poverty and social injustice.</p>
+                            <p class="card-text mt-3 font_cg">BBP Pariwar, works as a roof organization for the local NGO'S facilitating them 
+                                and developing their capacity to improve and expand activities in sustainable manner with sustainable 
+                                preventive and curative health services, educational sector, community development.</p>
                         </div>
                     </div>
                 </div>
@@ -155,29 +168,28 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_1.png" alt="Card image cap">
+                        <img class="card-img-top" src="./img/recent_project/recent_project_4.png" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-2">Promoting quality education and empowering children, women and youth to secure their rights. </h4>
-                            <button class="btn btn-md btn-success card-text text-white">Read more</button>
+                            <h4 class="card-title p-2"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive economies..</h4>
+                            <button class="btn btn-md btn-success card-text text-white float-end">Read more</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_2.png" alt="Card image cap">
+                        <img class="card-img-top" src="./img/recent_project/recent_project_5.png" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-2">We seek communities of hope, inclusion and social justice, where poverty has been overcome...</h4>
-                            <button class="btn btn-md btn-success card-text text-white">Read more</button>
+                            <h4 class="card-title p-2"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting the health services for women through...</h4>
+                            <button class="btn btn-md btn-success card-text text-white float-end">Read more</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_3.png" alt="Card image cap">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="./img/recent_project/recent_project_6.png" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-2">By 2025, 2.5 million women and girls of Nepal have economic, social and political
-                                power.</h4>
-                            <button class="btn btn-md btn-success card-text text-white">Read more</button>
+                            <h4 class="card-title p-2"><strong><u>World Neighbors</u> </strong> is an international development organization that works to alleviate hunger, poverty, and disease...</h4>
+                            <button class="btn btn-md btn-success card-text text-white float-end">Read more</button>
                         </div>
                     </div>
                 </div>
@@ -190,32 +202,39 @@
     <section class="accordion_color">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 mt-3 mb-3 p-3 align-self-center">
-                    <h1 class="d-flex justify-content-center"><strong>We inspire and help them live better</strong></h1>
+                <div class="col-md-6 mt-3 mb-3 p-3">
+                    <h1 class="d-flex justify-content-center"><strong>Our Impact:</strong></h1>
                     <br>
-                    <button class="accordion text-white">We help to create better lives</button>
+                    <button class="accordion text-white">Works with the partner organizations to provide health services</button>
                     <div class="panel">
-                        <p class="pt-3">There are many variations of passages the majority have suffered alteration in 
-                            some of injected humour, or randomised words believable.</p>
+                        <h6 class="pt-3">Works with the partner organizations to provide health services for around 20000-24000 
+                            peoples in a year especially for women of rural area and is organizing the medical camps for women health 
+                            issues and also is providing scholarship for the formal agriculture, animal health, ANM (Auxiliary nurse midwife) 
+                            education with an objective of providing service to the community and to uplift their economic status.</h6>
                     </div>
-                    <button class="accordion text-white">Donation is Hope for Poor Childrens</button>
+                    <button class="accordion text-white">Health camps for women diseases</button>
                     <div class="panel">
-                        <p class="pt-3">The Spring is a passionate and determined group of monthly givers on a mission 
-                            to end the water crisis in our lifetime. </p>
+                        <h6 class="pt-3">By conducting the health camps for women diseases (like cervix cancer, eyes, teeth, throat, family 
+                            planning, reproductive health) every year BBP Pariwar is providing the special health service for around 1100 women's in a year.</h6>
                     </div>
-                    <button class="accordion text-white">Build School for Poor Childrens</button>
+                    <button class="accordion text-white">Awareness on agricutural development</button>
                     <div class="panel">
-                        <p class="pt-3">People like you, from more than 100 countries around the world, giving anything 
-                            they can to prove how unstoppable we are when we work together.</p>
+                        <h6 class="pt-3">With the help of BBP Pariwar, farmers are able to produce and use liquid manure, organic pesticides, organic manure, 
+                            compost manure, vermicompost etc in their field to maximize the production and to avoid the consequences from the 
+                            use of the chemical fertilizers in the soil and human beings.</h6>
                     </div>
-                    <button class="accordion text-white">Highlights New York Fashion Week 2018</button>
+                    <button class="accordion text-white">Self dependent women with quality life</button>
                     <div class="panel">
-                        <p class="pt-3">As a midway answer to these two answers, there was a third opinion about 
-                            “Lead Qualification” that revealed a new aspect.</p>
+                        <h6 class="pt-3">Women members of the groups are able to establish mutual proximity in the community and food security 
+                            through the cultivation of various value added fruits and vegetables, herbs and are generating income through the 
+                            help of the livestock husbandry like goat, swine, cow and buffalo, stall improvement program with the financial, 
+                            technical and educational support and guidance of BBP Pariwar and also are participating in the various 
+                            educational tour in order to  be capable of managing them in well manner.</h6>
                     </div>
                 </div>
                 <div class="col-md-6 mb-5 p-3">
-                    <img src="./img/accordion_image.jpg" class="img-fluid" alt="">
+                    <!-- <img src="./img/accordion_image.jpg" class="img-fluid" alt=""> -->
+                    <img src="./img/accordion_image_1.png" class="img-fluid" alt="Business">
                 </div>
             </div>
         </div>
@@ -225,48 +244,52 @@
     <!-- Recent news opened  -->
     <section>
         <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>RECENT NEWS</strong></h1>
+            <h1 class="d-flex justify-content-center mb-5"><strong>STORY OF SUCCESS</strong></h1>
             <div class="row">
                 <div class="col-md-6 pl-2">
-                    <img src="./img/children.png" class="img-fluid" alt="Children with happy faces">
-                    <h3 class="pt-4 mb-0"><strong>The best apps to your next trip</strong></h3>
-                    <p>It is a well-known fact that when any discussion on lead generation takes place, 
-                        quality conquers over the measure. </p>
+                    <img src="./img/recent_news/recent_news.png" class="img-fluid" alt="Business">
+                    <h3 class="pt-4 mb-0"><strong>Trying to upgrade the living standard</strong></h3>
+                    <p class="pt-2">Saving and credit program is being conducted in the community especially with 
+                        women's participation in order to fulfill the needs like enrollment of the children's in 
+                        the school, health treatment, economic growth etc.</p>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
                         <div class="d-flex pb-2">
                             <div>
-                                <img src="./img/recent_news_2.jpg" class="rounded p-2" alt="Children">
+                                <img src="./img/recent_news/recent_news_1.png" class="rounded p-2" alt="Bina Gautam">
                             </div>
                             <div class="mt-2">
-                                <h3><strong>Highlights New York Fashion Week 2018</strong></h3>
-                                <span class="d-none d-md-block">As a midway answer to these two answers, there was a third opinion about 
-                                    “Lead Qualification” that revealed a new aspect. </span>
+                                <h3><strong>A story of Self confidence</strong></h3>
+                                <span class="d-none d-md-block">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari 
+                                    VDC as 3rd children of Mr. Kedarnath Aryal and Mrs.Chitra Kumari Aryal among 7 
+                                    children's, without any formal education Bina's childhood was not good at all.</span>
                             </div>
                         </div>
                     </div>
                     <div class="row mt-2">
                         <div class="d-flex pb-2">
                             <div>
-                                <img src="./img/recent_news_3.jpg" class="rounded p-2" alt="Children">
+                                <img src="./img/recent_news/recent_news_2.png" class="rounded p-2" alt="Sabitri Giri">
                             </div>
                             <div class="mt-2">
-                                <h3><strong>Bond of communication</strong></h3>
-                                <span class="d-none d-md-block">Sending a clear message to the prospects that the organization has 
-                                    their welfare in mind.</span>
+                                <h3><strong>New Life</strong></h3>
+                                <span class="d-none d-md-block">There is a saying that “life is a struggle” where we have to face 
+                                    unexpected events and difficulties. This is a story of Sabitri Giri of Kavre Mahadevsthan born on 
+                                    2026 on the month of Jestha; she was the first child among 4 children's of Mr.Sovit Bharati and Mrs. Kali Bharati.</span>
                             </div>
                         </div>
                     </div>
                     <div class="row mt-2">
                         <div class="d-flex pb-2">
                             <div>
-                                <img src="./img/recent_news_4.jpg" class="rounded p-2" alt="Children">
+                                <img src="./img/recent_news/recent_news_3.png" class="rounded p-2" alt="Laxmi Bishowkarma">
                             </div>
                             <div class="mt-2">
-                                <h3><strong>Email Marketing as Lead Generation Tactics of B2B</strong></h3>
-                                <span class="d-none d-md-block">Email marketing was the most popular among all other lead generation tactics 
-                                    primarily.</span>
+                                <h3><strong>Dream Came True</strong></h3>
+                                <span class="d-none d-md-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of Mr. Tika Bahadur 
+                                    Bishowkarma and Mrs. Naradevi Bishowkarma at Pipal Dada, Sindhupalchok district. All the family members were 
+                                    very happy on her birth but the happiness didn't last long, as her mother died when she was small. </span>
                             </div>
                         </div>
                     </div>
@@ -282,37 +305,38 @@
     </div>
     <div class="container owl-carousel owl-theme d-flex flex-wrap">
         <div class="item">
-            <img src="img/logos/logo_1.jpg" class="p-5 owl_image1" alt="NGO logo">
+            <img src="img/logos/Samaj_sewa_1.png" class="p-5 owl_image1" alt="NGO logo">
         </div>
         <div class="item">
-            <img src="img/logos/logo_2.jpg" class="p-5 owl_image1" alt="NGO logo">
+            <img src="img/logos/Nauling_2.png" class="p-5 owl_image1" alt="NGO logo">
         </div>
         <div class="item">
-            <img src="img/logos/logo_3.png" class="p-5 owl_image1" alt="NGO logo">        
+            <img src="img/logos/Bajra_3.png" class="p-5 owl_image1" alt="NGO logo">        
         </div>
         <div class="item">
-            <img src="img/logos/logo_9.png" class="p-5 owl_image1" alt="NGO logo">
+            <img src="img/logos/American_4.jpg" class="p-5 owl_image1" alt="NGO logo">
         </div>
         <div class="item">
-            <img src="img/logos/logo_5.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+            <img src="img/logos/world_neighbors_5.jpg" class="p-5 owl_image1" alt="NGO logo">
         </div>
         <div class="item">
-            <img src="img/logos/logo_6.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+            <img src="img/logos/FONPF_6.jpg" class="p-5 owl_image1" alt="NGO logo">        
         </div>
         <div class="item">
-            <img src="img/logos/logo_7.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+            <img src="img/logos/ground_7.png" class="p-5 owl_image1" alt="NGO logo">        
         </div>
         <div class="item">
-            <img src="img/logos/logo_8.jpg" class="p-5 owl_image1 bg-none" alt="NGO logo">
+            <img src="img/logos/Nauling_2.png" class="p-5 owl_image1" alt="NGO logo">
         </div>
+        
     </div>
     <!-- Photos Slider opened  -->
     
     <footer class="parallax pb-3">
         <div class="container">
             <h2 class="text-white pt-5 mt-5">FAITH.ACTION.RESULT.</h2>
-            <p class="text-white">Catholic Relief Services carries out the commitment of the Bishops of the
-                United States to assist the poor and vulnerable overseas.</p>
+            <p class="text-white">Our organization has been carrying out social service activities 
+                independently as well as an organizational network. </p>
             <hr class="bg-white">
             <div class="row">
                 <div class="col-md-2 col-sm-4">
@@ -325,7 +349,7 @@
                 </div>
                 <div class="col-md-2 col-sm-4 mb-2">
                     <div class="list-group">
-                        <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
+                        <h5 class="text-white"><strong>Story of success</strong></h5>
                         <a href="#" class="list-group text-white pt-2">How We Work</a>
                         <a href="#" class="list-group text-white pt-2">Where We Work</a>
                         <a href="#" class="list-group text-white pt-2">Research & Publications</a>
@@ -336,19 +360,18 @@
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Ways to help</strong></h5>
-                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
-                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
+                        <a href="#" class="list-group text-white pt-2">How We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Partners</a>
+                        <a href="#" class="list-group text-white pt-2">Stories</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Get involved</strong></h5>
-                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
-                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
+                        <a href="#" class="list-group text-white pt-2">How We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Where We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Partners</a>
+                        <a href="#" class="list-group text-white pt-2">Stories</a>
                     </div>
                 </div>
             </div>
@@ -359,7 +382,7 @@
             <div class="row pt-2">
                 <div class="col-md-6 d-flex align-self-center">
                     <div>
-                        <p class="text-white pt-2">13-5563422FEDERAL TAX EXEMPTION ID NUMBER</p>
+                        <p class="text-white pt-2">BOUDHA BAHANUPATI PROJECT Kalyan Yojana-PARIWAR (BBP PARIWAR) <br> EST Date: 2051B.S (1994A.D)</p>
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" placeholder="Add your gmail" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
@@ -368,8 +391,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="social-handles-footer mb-2 d-flex justify-content-center mt-3">
+                <div class="col-md-6  d-flex align-self-center justify-content-center">
+                    <div class="social-handles-footer mb-2 mt-3">
                         <div>
                             <span><i class="fab fa-2x fa-facebook-square socio_site"><a href="#"></a></i></span>
                             <span><i class="fab fa-2x fa-twitter-square socio_site"><a href="#"></a></i></span>
@@ -382,27 +405,29 @@
             </div>
             <hr class="bg-white">
             <div class="col-md-12">
-                <h2 class="text-white text-justify">Catholic Relief Services is a 501(c)(3) non-profit organization; Donations
-                    to CRS are tax-deductible to the full extent allowable under the law.</h2>
+                <h2 class="text-white text-justify">Our approach positively improves the community participation in existing 
+                    economic, social, educational, health and environmental issues.</h2>
             </div>
             <hr class="bg-white">
             <div class="row">
                 <div class="col-md-4 d-flex align-self-center">
-                    <p class="text-white">Catholic Relief Services eases suffering and provides assistance to people in
-                        need in more than 100 countries, without regard to race, religion or nationality.
+                    <p class="text-white">BBP PARIWAR is a non-profit voluntary organization registered with District Administration 
+                        Office and affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously operating different 
+                        types of social development programs at three districts, Sindhupalchok, Ramechhap and Kavreplanchok. 
                     </p>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xm-8 pb-2 d-flex justify-content-around">
                     <div class="">
-                        <img src="./img/logo_2.jpg" class="img-fluid" alt="Logo for orgainzation">
+                        <img src="./img/logos/footer_logo.png" class="img-fluid" alt="Logo for orgainzation">
                     </div>
                     <div class="">
-                        <img src="./img/logo_2.jpg" class="img-fluid" alt="Logo for orgainzation">
+                        <img src="./img/logos/footer_logo.png" class="img-fluid" alt="Logo for orgainzation">
                     </div>
                 </div>
                 <div class="col-md-4 d-flex align-self-center">
-                    <p class="text-white">Catholic Relief Services is a 501(c)(3) non-profit organization; Donations
-                        to CRS are tax-deductible to the full extent allowable under the law.</p>
+                    <p class="text-white">With a belief that only integrated development of the society can be sustainable development, 
+                        this organization mobilizes local resources with the participation of backwarded, marginalized and communities 
+                        at risk in the society by mobilizing local resources for health, education, and development of local infrastructure.</p>
                 </div>
             </div>
         </div>
@@ -421,7 +446,7 @@
             autoplayHoverPause:true,
             responsive: {
                 0: {
-                    items: 2
+                    items: 1
                 },
                 600: {
                     items: 3
@@ -497,6 +522,62 @@
         });
     </script>
     <script>
+        gsap.registerPlugin(ScrollTrigger);
+        // REVEAL //
+        gsap.utils.toArray(".revealUp_1").forEach(function(elem) {
+            ScrollTrigger.create({
+                trigger: elem,
+                start: "top 80%",
+                end: "bottom 20%",
+                markers: false,
+                onEnter: function() {
+                    gsap.fromTo(
+                        elem, {
+                            y: 100,
+                            autoAlpha: 0
+                        }, {
+                            duration: 10,
+                            y: 1,
+                            autoAlpha: 1,
+                            ease: "back",
+                            overwrite: "auto"
+                        }
+                    );
+                },
+                onLeave: function() {
+                    gsap.fromTo(elem, {
+                        autoAlpha: 1
+                    }, {
+                        autoAlpha: 0,
+                        overwrite: "auto"
+                    });
+                },
+                onEnterBack: function() {
+                    gsap.fromTo(
+                        elem, {
+                            y: -100,
+                            autoAlpha: 0
+                        }, {
+                            duration: 1.25,
+                            y: 0,
+                            autoAlpha: 1,
+                            ease: "back",
+                            overwrite: "auto"
+                        }
+                    );
+                },
+                onLeaveBack: function() {
+                    gsap.fromTo(elem, {
+                        autoAlpha: 1
+                    }, {
+                        autoAlpha: 0,
+                        overwrite: "auto"
+                    });
+                }
+            });
+        });
+    </script>
+    <script>
         function myFunction() {
         var x = document.getElementById("myDIV");
         if (x.style.display === "none") {
@@ -521,7 +602,7 @@
         });
         }
     </script>
-    
+
 </body>
 
 </html>
