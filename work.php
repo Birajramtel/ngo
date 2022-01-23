@@ -122,46 +122,46 @@
         <div class="container mt-3">
             <h1 class="d-flex justify-content-center mb-3"><strong>OUR PARTNERS</strong></h1>
             <div class="row">
-                <div class="col-md-9 d-flex">
-                    <div class="align-self-center">
+                <div class="clearfix">
+                    <div class="col-md-9">
                         <h2 class="card-title"><strong><b>Samaj Sewa Samuha</b></strong></h2>
-                        <p class="text-justify">A local NGO founded in 1991 AD (2048 BS) located at Mandandeupur Municipality ward no 7
+                        <p class="text-justify mb-0">A local NGO founded in 1991 AD (2048 BS) located at Mandandeupur Municipality ward no 7
                             Kuntabesi to improve the wellbeing of the marginalized populations especially women's form the Janajati,
                             Tribal communities and the socially excluded (Dalit's) living in the remote areas facilitating in different
                             sectors like education scholarship program...
                         </p>
-                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
+                        <button class="btn btn-md btn-color text-white mb-1 float-end">Read more</button>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work.png" class="img-fluid" alt="Our Work">
+                    <div class="col-md-3">
+                        <div class="card mb-4 p-2">
+                            <img class="img-fluid" src="../ngo/img/our work/our_work.png" alt="Our Work">
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-9 d-flex">
                     <div class="align-self-center">
                         <h2 class="card-title"><strong><b>Nauling Health Service Centre</b></strong></h2>
-                        <p class="text-justify">Nauling Health Service Centre founded in 2012 AD (2069 BS) located at Melamchi
+                        <p class="text-justify mb-0">Nauling Health Service Centre founded in 2012 AD (2069 BS) located at Melamchi
                             Municipality Ward no-9 to facilitate the local peoples of the remote areas mainly in the
                             sector of health and also is facilitating the economically backwarded students by providing
                             scholarship programs and is continuously and effectively conducting the medical camps...
                         </p>
-                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
+                        <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_2.png" alt="Our Work">
+                        <img src="../ngo/img/our work/our_work_2.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
                 <div class="col-md-9 d-flex">
                     <div class="align-self-center">
                         <h2 class="card-title"><strong><b>Bajra Samaj Nepal</b></strong></h2>
-                        <p class="text-justify">Bajra Samaj Nepal (BSN) is a non-profit organization located at Ramechhap
+                        <p class="text-justify mb-0">Bajra Samaj Nepal (BSN) is a non-profit organization located at Ramechhap
                             Municipality, Ward no-6, Ramechhap Nepal formed by local young people, teachers women,
                             farmers and ordinary community people for carrying out sustainable development activities
                             in Ramechhap district in 2012 AD (2068 BS). Bajra Samaj Nepal empowers deprived ...</p>
-                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
+                        <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -172,11 +172,11 @@
                 <div class="col-md-9 d-flex">
                     <div class="align-self-center">
                         <h2 class="card-title"><strong><b>Supporting organizations</b></strong></h2>
-                        <p class="text-justify order-sm-1">Groundswell international is a partnership of local organizations and their network of
+                        <p class="text-justify mb-0">Groundswell international is a partnership of local organizations and their network of
                             grassroots community groups and is working in West Africa, America, and South Asia. Groundswell's
                             programs catalyze the transition from unsustainable agriculture and extractive economies to regenerative,
                             just farming and local food systems Communities...</p>
-                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
+                        <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -187,11 +187,11 @@
                 <div class="col-md-9 d-flex">
                     <div class="align-self-center">
                         <h2 class="card-title"><strong><b>Friends of Nepal Pariwar Foundation</b></strong></h2>
-                        <p class="text-justify">Friends of Nepal Pariwar Foundation is a non-profit organization supporting
+                        <p class="text-justify mb-0">Friends of Nepal Pariwar Foundation is a non-profit organization supporting
                             the health services for women through the help of registered non-profit community organizations in Nepal to
                             improve the health and well being of women and their families in rural Nepal and strengthening their capacity
                             to sustain and expand health services and support development...</p>
-                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
+                        <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -202,12 +202,12 @@
                 <div class="col-md-9 d-flex">
                     <div class="align-self-center">
                         <h2 class="card-title"><strong><b>World Neighbors</b></strong></h2>
-                        <p class="text-justify">World Neighbors is an international development organization that works
+                        <p class="text-justify mb-0">World Neighbors is an international development organization that works
                             to alleviate hunger, poverty, and disease in the most isolated rural villages in Asia, Africa
                             and Latin America. World Neighbors does not give away food or material aid, but provides a
                             big-picture, holistic approach focusing on the entire community rather than on one issue.
                             With a conclusion...</p>
-                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
+                        <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
                     </div>
                 </div>
                 <div class="col-md-3">

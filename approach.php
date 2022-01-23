@@ -121,17 +121,18 @@
             </div>
         </div>
     </section>
+    <hr class="container">
     <!-- Who we are closed  -->
 
 
     <!-- Our project opened  -->
     <section>
-        <div class="container mt-3">
+        <div class="container mt-4 mb-4">
             <h1 class="d-flex justify-content-center mb-5"><strong>OUR RECENT PROJECTS</strong></h1>
             <div class="row">
                 <div class="col-md-6">
                     <div class="card mb-4 p-2">
-                        <p class="p-2">BBP Pariwar supports farmers and marginalized communities especially women through
+                        <p class="">BBP Pariwar supports farmers and marginalized communities especially women through
                             formation of groups with a motive that, "groups are the entry point for any development
                             activities" to improve the livelihoods of marginalized communities...
                         </p>
@@ -140,7 +141,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="card mb-4 p-2">
-                        <p class="p-2">Then various development activities like irrigation system, drinking water, non-formal education,
+                        <p class="">Then various development activities like irrigation system, drinking water, non-formal education,
                             agro foresty, environmental programs, trainings, health camps etc. are conducted in order to improve
                             the economic, social, and intellectual and health...
                         </p>
@@ -149,7 +150,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="card mb-4 p-2">
-                        <p class="p-2">BBP Pariwar introduce the means of the agro ecological farming system, livestock husbandry(goats and buffalo),
+                        <p class="">BBP Pariwar introduce the means of the agro ecological farming system, livestock husbandry(goats and buffalo),
                             for the small holder farmers and facilitate and provides necessary support for them while they start the
                             ecological farming ...
                         </p>
@@ -158,7 +159,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="card mb-4 p-2">
-                        <p class="p-2">BBP Pariwar, works as a roof organization for the local NGO'S facilitating them and developing
+                        <p class="">BBP Pariwar, works as a roof organization for the local NGO'S facilitating them and developing
                             their capacity to improve and expand activities in sustainable manner providing the sustainable
                             preventive and curative health services, educational sector...
                         </p>
