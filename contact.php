@@ -56,7 +56,7 @@
                                 <a class="nav-link lg-nav p-4 " href="../ngo/approach.php">OUR APPROACH</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link lg-nav p-4 color_nav" href="../ngo/work.php">OUR WORK</a>
+                                <a class="nav-link lg-nav p-4" href="../ngo/work.php">OUR WORK</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link lg-nav p-4" href="#">WAYS TO GIVE</span></a>
@@ -72,246 +72,52 @@
     </div>
 </header>
 
-
 <body>
-    <div class="hero mb-5">
-        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="">
-        <img src="./img/square_with_buddha.png" class="banner_shape h-100 img-fluid d-none d-sm-block mb-5" alt="Square">
-        <img src="./img/square_with_buddha_sm.png" class="banner_shape-sm w-100 img-fluid d-block d-sm-none" alt="Square">
-        <!--  -->
-        <div class="container d-none d-sm-block">
-            <div class="page-banner-text">
-                <div class="section bg1">
-                    <h1 class="animate__animated animate__fadeInDown text-white">Program for Adults </h1>
-                    <div></div>
-                    <p class="animate__animated animate__fadeInDown animate__delay-1s text-white">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
+
+    <div class="container mt-5 mb-5">
+        <h1 class=""><strong><b> Contact us to get free support.</b></strong></h1>
+        <form>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="10" id="Description" placeholder="Description"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="form-group input-group-lg">
+                        <input type="text" class="form-control input-md p-2 mb-3" id="inputlg" placeholder="Subject">
+                    </div>
+                    <div class="form-group input-group-lg">
+                        <input type="text" class="form-control input-md p-2 mb-3" id="inputlg" placeholder="Name">
+                    </div>
+                    <div class="form-group input-group-lg">
+                        <input type="email" class="form-control input-md p-2 mb-3" id="inputlg" placeholder="Email">
+                    </div>
+                    <button style="font-size:18px" class="btn btn-primary btn-sm"> Send <i class="fa fa-send-o"></i></button>
                 </div>
             </div>
-        </div>
-        <div class="container d-block d-sm-none pb-5">
-            <div class="page-banner-text_sm">
-                <div class="section bg1">
-                    <h1 class="animate__animated animate__fadeInDown text-white">Program for Adults </h1>
-                    <p class="animate__animated animate__fadeInDown animate__delay-1s text-white">Programs to help children with disabilities in Western MA at all ages and levels of need.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Who we are opened  -->
-    <div class="mt-5 d-block d-sm-none"></div>
-    <!-- Who we are opened  -->
-    <section>
+        </form>
         <div class="container">
-            <h1 class="d-flex justify-content-center who_we_are mb-3"><strong>OUR WORK</strong></h1>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text_aligining">We work with small holder farmers Janajati, Tribal communities and the socially excluded
-                        (Dalit's) prioritizing marginalized women to address the main cause of social and economic
-                        vulnerability, food insecurity, health and environmental issues. Our approach positively
-                        improves the community participation in existing economic, social, educational, health and environmental issues.
-                    </p>
+            <div class="row mt-5 mb-2">
+                <div class="col-4 d-flex justify-content-center">
+                    <i class="fa fa-envelope" style="font-size:15px"></i>
+                    <h6><strong class="p-2">Email</strong></h6>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <i class="fas fa-phone-alt" style="font-size:15px"></i>
+                    <h6><strong class="p-2">Phone</strong></h6>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <i class="fas fa-map-marker-alt" style="font-size:15px"></i>
+                    <h6><strong class="p-2">Location</strong></h6>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Who we are closed  -->
-
-
-    <!-- Our project opened  -->
-    <section>
-        <div class="container mt-3">
-            <h1 class="d-flex justify-content-center mb-3"><strong>OUR PARTNERS</strong></h1>
-            <div class="row">
-                <div class="col-md-9 d-flex">
-                    <div class="align-self-center">
-                        <h2 class="card-title"><strong><b>Samaj Sewa Samuha</b></strong></h2>
-                        <p class="text-justify">A local NGO founded in 1991 AD (2048 BS) located at Mandandeupur Municipality ward no 7
-                            Kuntabesi to improve the wellbeing of the marginalized populations especially women's form the Janajati,
-                            Tribal communities and the socially excluded (Dalit's) living in the remote areas facilitating in different
-                            sectors like education scholarship program...
-                        </p>
-                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-                <div class="col-md-9 d-flex">
-                    <div class="align-self-center">
-                        <h2 class="card-title"><strong><b>Nauling Health Service Centre</b></strong></h2>
-                        <p class="text-justify">Nauling Health Service Centre founded in 2012 AD (2069 BS) located at Melamchi
-                            Municipality Ward no-9 to facilitate the local peoples of the remote areas mainly in the
-                            sector of health and also is facilitating the economically backwarded students by providing
-                            scholarship programs and is continuously and effectively conducting the medical camps...
-                        </p>
-                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_2.png" alt="Our Work">
-                    </div>
-                </div>
-                <div class="col-md-9 d-flex">
-                    <div class="align-self-center">
-                        <h2 class="card-title"><strong><b>Bajra Samaj Nepal</b></strong></h2>
-                        <p class="text-justify">Bajra Samaj Nepal (BSN) is a non-profit organization located at Ramechhap
-                            Municipality, Ward no-6, Ramechhap Nepal formed by local young people, teachers women,
-                            farmers and ordinary community people for carrying out sustainable development activities
-                            in Ramechhap district in 2012 AD (2068 BS). Bajra Samaj Nepal empowers deprived ...</p>
-                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_3.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-                <div class="col-md-9 d-flex">
-                    <div class="align-self-center">
-                        <h2 class="card-title"><strong><b>Supporting organizations</b></strong></h2>
-                        <p class="text-justify order-sm-1">Groundswell international is a partnership of local organizations and their network of
-                            grassroots community groups and is working in West Africa, America, and South Asia. Groundswell's
-                            programs catalyze the transition from unsustainable agriculture and extractive economies to regenerative,
-                            just farming and local food systems Communities...</p>
-                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-4 p-2 order-sm-12">
-                        <img src="../ngo/img/our work/our_work_4.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-                <div class="col-md-9 d-flex">
-                    <div class="align-self-center">
-                        <h2 class="card-title"><strong><b>Friends of Nepal Pariwar Foundation</b></strong></h2>
-                        <p class="text-justify">Friends of Nepal Pariwar Foundation is a non-profit organization supporting
-                            the health services for women through the help of registered non-profit community organizations in Nepal to
-                            improve the health and well being of women and their families in rural Nepal and strengthening their capacity
-                            to sustain and expand health services and support development...</p>
-                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_5.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-                <div class="col-md-9 d-flex">
-                    <div class="align-self-center">
-                        <h2 class="card-title"><strong><b>World Neighbors</b></strong></h2>
-                        <p class="text-justify">World Neighbors is an international development organization that works
-                            to alleviate hunger, poverty, and disease in the most isolated rural villages in Asia, Africa
-                            and Latin America. World Neighbors does not give away food or material aid, but provides a
-                            big-picture, holistic approach focusing on the entire community rather than on one issue.
-                            With a conclusion...</p>
-                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_7.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Our project closed  -->
-
-    <!-- Question and Answer opened  -->
-
-    <!-- Question and Answer Closed -->
-
-    <!-- Recent news opened  -->
-    <section>
-        <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>STORY OF SUCCESS</strong></h1>
-            <div class="row">
-                <div class="col-md-6 pl-2">
-                    <img src="./img/recent_news/recent_news_0.png" class="img-fluid mt-1" alt="Business">
-                    <h3 class="pt-4 mb-0"><strong>Trying to upgrade the living standard</strong></h3>
-                    <p class="pt-2">Saving and credit program is being conducted in the community especially with
-                        women's participation in order to fulfill the needs like enrollment...</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="d-flex pb-2">
-                            <div>
-                                <img src="./img/recent_news/recent_news_1.png" class="rounded p-2" alt="Bina Gautam">
-                            </div>
-                            <div class="mt-2">
-                                <h3><strong>A story of Self confidence</strong></h3>
-                                <span class="d-none d-lg-block">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari
-                                    VDC as 3rd children of Mr. Kedarnath Aryal and Mrs.Chitra Kumari Aryal among 7
-                                    children.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="d-flex pb-2">
-                            <div>
-                                <img src="./img/recent_news/recent_news_2.png" class="rounded p-2" alt="Sabitri Giri">
-                            </div>
-                            <div class="mt-2">
-                                <h3><strong>New Life</strong></h3>
-                                <span class="d-none d-lg-block">There is a saying that “life is a struggle” where we have to face
-                                    unexpected events and difficulties. This is a story of Sabitri Giri of Kavre.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="d-flex pb-2">
-                            <div>
-                                <img src="./img/recent_news/recent_news_3.png" class="rounded p-2" alt="Laxmi Bishowkarma">
-                            </div>
-                            <div class="mt-2">
-                                <h3><strong>Dream Came True</strong></h3>
-                                <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of Mr. Tika Bahadur
-                                    Bishowkarma and Mrs. Naradevi Bishowkarma at Pipal Dada. </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Recent news closed  -->
-
-    <!-- The script itself, loaded AFTER your root element. -->
-
-    <!-- Photos Slider opened  -->
-    <div class="container d-flex justify-content-center mt-5">
-        <h1><strong>OUR CLIENTS</strong></h1>
-    </div>
-    <div class="container owl-carousel owl-theme d-flex flex-wrap">
-        <div class="item">
-            <img src="img/logos/Samaj_sewa_1.png" class="p-5 owl_image1" alt="NGO logo">
-        </div>
-        <div class="item">
-            <img src="img/logos/Nauling_2.png" class="p-5 owl_image1" alt="NGO logo">
-        </div>
-        <div class="item">
-            <img src="img/logos/Bajra_3.png" class="p-5 owl_image1" alt="NGO logo">
-        </div>
-        <div class="item">
-            <img src="img/logos/American_4.jpg" class="p-5 owl_image1" alt="NGO logo">
-        </div>
-        <div class="item">
-            <img src="img/logos/world_neighbors_5.jpg" class="p-5 owl_image1" alt="NGO logo">
-        </div>
-        <div class="item">
-            <img src="img/logos/FONPF_6.jpg" class="p-5 owl_image1" alt="NGO logo">
-        </div>
-        <div class="item">
-            <img src="img/logos/ground_7.png" class="p-5 owl_image1" alt="NGO logo">
-        </div>
-        <div class="item">
-            <img src="img/logos/Nauling_2.png" class="p-5 owl_image1" alt="NGO logo">
         </div>
     </div>
-    <!-- Photos Slider opened  -->
+    <div class="container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.7414470954905!2d85.34323539588155!3d27.694384981202713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb193d190665f5%3A0x9b12cdecdef62987!2sSewa%20Tech%20Pvt%20Ltd!5e0!3m2!1sen!2snp!4v1642929170423!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
     <footer class="parallax pb-3">
         <div class="container">
             <h2 class="text-white pt-5 mt-5">FAITH.ACTION.RESULT.</h2>
@@ -472,7 +278,6 @@
             });
         }
     </script>
-
 </body>
 
 </html>
