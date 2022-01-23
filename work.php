@@ -49,14 +49,14 @@
                         </ul>
                         <hr>
                         <ul class="navbar-nav d-flex justify-content-end">
-                            <li class="nav-item active">
-                                <a class="nav-link lg-nav p-4 color_nav" href="../ngo/index.php">ABOUT US</a>
+                            <li class="nav-item">
+                                <a class="nav-link lg-nav p-4" href="../ngo/index.php">ABOUT US</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="../ngo/approach.php">OUR APPROACH</a>
+                                <a class="nav-link lg-nav p-4 " href="../ngo/approach.php">OUR APPROACH</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="../ngo/work.php">OUR WORK</a>
+                                <a class="nav-link lg-nav p-4 color_nav" href="../ngo/work.php">OUR WORK</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link lg-nav p-4" href="#">WAYS TO GIVE</span></a>
@@ -102,42 +102,14 @@
     <!-- Who we are opened  -->
     <section>
         <div class="container">
-            <h1 class="d-flex justify-content-center who_we_are mb-5"><strong>WHO WE ARE ?</strong></h1>
+            <h1 class="d-flex justify-content-center who_we_are mb-3"><strong>OUR WORK</strong></h1>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="vl">
-                                <h2 class="card-title p-2"><strong>OUR MISSION</strong></h2>
-                            </div>
-                            <p class="card-text mt-3 font_cg text-wrap">BBP Pariwar supports farmers and marginalized communities especially women
-                                through formation of groups with a motive that, "groups are the entry point for any development
-                                activities" to improve the livelihoods of marginalized communities. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="vl">
-                                <h2 class="card-title p-2"><strong>OUR VISION</strong></h2>
-                            </div>
-                            <p class="card-text mt-3 font_cg">BBP Pariwar introduce the means of the agro ecological farming system, livestock
-                                husbandry(goats and buffalo), for the small holder farmers and facilitate and provides necessary support for
-                                them while they start ecological farming principles on their farm.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="vl">
-                                <h2 class="card-title p-2"><strong>OUR GOAL</strong></h2>
-                            </div>
-                            <p class="card-text mt-3 font_cg">BBP Pariwar, works as a roof organization for the local NGO'S facilitating them
-                                and developing their capacity to improve and expand activities in sustainable manner with preventive curative health services, educational sector, community development.</p>
-                        </div>
-                    </div>
+                <div class="col-md-12">
+                    <p class="text_aligining">We work with small holder farmers Janajati, Tribal communities and the socially excluded
+                        (Dalit's) prioritizing marginalized women to address the main cause of social and economic
+                        vulnerability, food insecurity, health and environmental issues. Our approach positively
+                        improves the community participation in existing economic, social, educational, health and environmental issues.
+                    </p>
                 </div>
             </div>
         </div>
@@ -147,34 +119,70 @@
 
     <!-- Our project opened  -->
     <section>
-        <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>OUR RECENT PROJECTS</strong></h1>
+        <div class="container mt-3">
+            <h1 class="d-flex justify-content-center mb-3"><strong>OUR PARTNERS</strong></h1>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_4.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title p-3"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive econo...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end mt-1">Read more</button>
-                        </div>
+                <div class="col-md-9 d-flex">
+                    <div class="align-self-center">
+                        <h2 class="card-title"><strong><b>Samaj Sewa Samuha</b></strong></h2>
+                        <p class="text-justify">A local NGO founded in 1991 AD (2048 BS) located at Mandandeupur Municipality ward no 7
+                            Kuntabesi to improve the wellbeing of the marginalized populations especially women's form the Janajati,
+                            Tribal communities and the socially excluded (Dalit's) living in the remote areas facilitating in different
+                            sectors like education scholarship program...
+                        </p>
+                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_5.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title p-3"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting the health services for women...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end mt-1">Read more</button>
-                        </div>
+                <div class="col-md-3">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/our work/our_work.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_6.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title p-3"><strong><u>World Neighbors</u> </strong> is an international development organization that works to alleviate hunger, poverty...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end mt-1">Read more</button>
-                        </div>
+                <div class="col-md-9 d-flex">
+                    <div class="align-self-center">
+                        <h2 class="card-title"><strong><b>Nauling Health Service Centre</b></strong></h2>
+                        <p class="text-justify">Nauling Health Service Centre founded in 2012 AD (2069 BS) located at Melamchi
+                            Municipality Ward no-9 to facilitate the local peoples of the remote areas mainly in the
+                            sector of health and also is facilitating the economically backwarded students by providing
+                            scholarship programs and is continuously and effectively conducting the medical camps...
+                        </p>
+                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/our work/our_work_2.png" alt="Our Work">
+                    </div>
+                </div>
+                <div class="col-md-9 d-flex">
+                    <div class="align-self-center">
+                        <h2 class="card-title"><strong><b>Bajra Samaj Nepal</b></strong></h2>
+                        <p class="text-justify">Bajra Samaj Nepal (BSN) is a non-profit organization located at Ramechhap
+                            Municipality, Ward no-6, Ramechhap Nepal formed by local young people, teachers women,
+                            farmers and ordinary community people for carrying out sustainable development activities
+                            in Ramechhap district in 2012 AD (2068 BS). Bajra Samaj Nepal empowers deprived ...</p>
+                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/our work/our_work_3.png" class="img-fluid" alt="Our Work">
+                    </div>
+                </div>
+
+                <div class="col-md-9 d-flex">
+                    <div class="align-self-center">
+                        <h2 class="card-title"><strong><b>Supporting organizations</b></strong></h2>
+                        <p class="text-justify order-sm-1">Groundswell international is a partnership of local organizations and their network of
+                            grassroots community groups and is working in West Africa, America, and South Asia. Groundswell's
+                            programs catalyze the transition from unsustainable agriculture and extractive economies to regenerative,
+                            just farming and local food systems Communities...</p>
+                        <button class="btn btn-md btn-color text-white mb-5 float-end">Read more</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-4 p-2 order-sm-12">
+                        <img src="../ngo/img/our work/our_work_4.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
             </div>

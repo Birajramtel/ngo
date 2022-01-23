@@ -1,12 +1,12 @@
 @media only screen and (max-width: 991px) {
-  .nav_medium{
+  .nav_medium {
     display: flex;
     flex-basis: auto;
     justify-content: end !important;
   }
 }
 @media only screen and (max-width: 572px) {
-  .who_we_are{
+  .who_we_are {
     margin-top: 7rem;
   }
 }
@@ -32,13 +32,12 @@ div {
   position: relative;
   background: url(../img/banner/who_banner_1.png) center center no-repeat;
   background-size: cover;
-  overflow: hidden; 
-  min-height: 480px; 
+  overflow: hidden;
+  min-height: 480px;
 }
-.font_cg{
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+.font_cg {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 /* vertical line  */
 .vl {
@@ -77,23 +76,23 @@ div {
   justify-content: center;
   align-items: center;
 }
-.color_nav{
+.color_nav {
   color: #2f3985 !important;
 }
-.hero{
+.hero {
   position: relative;
 }
-.banner_image{
+.banner_image {
   position: relative;
   z-index: -1;
 }
-.banner_shape{
+.banner_shape {
   position: absolute;
   z-index: 0;
   top: 0;
   left: 0;
 }
-.banner_shape-sm{
+.banner_shape-sm {
   position: absolute;
   z-index: 0;
   top: 60%;
@@ -136,7 +135,7 @@ div {
 } */
 
 .accordion:after {
-  content: '\002B';
+  content: "\002B";
   color: rgb(255, 255, 255);
   font-weight: bold;
   float: right;
@@ -154,38 +153,50 @@ div {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-.accordion_color{
+.accordion_color {
   background-color: #95bce5 !important;
 }
 
-.owl-theme .owl-nav.disabled+.owl-dots  {
+.owl-theme .owl-nav.disabled + .owl-dots {
   /* margin-top: 0px; */
   margin: auto !important;
 }
-.sm_nav
-{
+.sm_nav {
   font-size: 11px;
   font-weight: bold;
   padding: 20px;
 }
-.lg-nav{
+.lg-nav {
   font-size: 14px;
   font-weight: bolder;
 }
-.btn-outline-color{
+.btn-outline-color {
   background-color: #2f3985 !important;
 }
-.btn-color{
+.btn-color {
   background-color: #2f3985 !important;
 }
 
-#type{
+#type {
   height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 3rem;
-    padding: 0 2rem;
-    font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  padding: 0 2rem;
+  font-weight: 600;
+}
+.text_aligining {
+  text-align: center !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.approach_card_image {
+  background: url(../img/approach/approach_1.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
