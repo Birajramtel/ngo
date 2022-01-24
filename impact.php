@@ -38,7 +38,7 @@
                                 <a class="nav-link sm_nav p-3 color_nav" href="impact.php">OUR IMPACT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="#">OUR BOARD</a>
+                                <a class="nav-link sm_nav p-3" href="board.php">OUR BOARD</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link sm_nav p-3" href="#">STORY OF SUCCESS</a>
