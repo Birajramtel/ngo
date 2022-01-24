@@ -35,7 +35,7 @@
                                 <a class="nav-link sm_nav p-3" href="#">SUPPORTING ORGANIZATIONS</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="#">OUR IMPACT</a>
+                                <a class="nav-link sm_nav p-3 color_nav" href="impact.php">OUR IMPACT</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link sm_nav p-3" href="#">OUR BOARD</a>
@@ -53,10 +53,10 @@
                                 <a class="nav-link lg-nav p-4" href="../ngo/index.php">ABOUT US</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link lg-nav p-4 " href="../ngo/approach.php">OUR APPROACH</a>
+                                <a class="nav-link lg-nav p-4" href="../ngo/approach.php">OUR APPROACH</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link lg-nav p-4 color_nav" href="../ngo/work.php">OUR WORK</a>
+                                <a class="nav-link lg-nav p-4" href="../ngo/work.php">OUR WORK</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link lg-nav p-4" href="#">WAYS TO GIVE</span></a>
@@ -100,130 +100,51 @@
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
     <!-- Who we are opened  -->
-    <section>
-        <div class="container">
-            <h1 class="d-flex justify-content-center who_we_are mb-3"><strong>OUR WORK</strong></h1>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text_aligining">We work with small holder farmers Janajati, Tribal communities and the socially excluded
-                        (Dalit's) prioritizing marginalized women to address the main cause of social and economic
-                        vulnerability, food insecurity, health and environmental issues. Our approach positively
-                        improves the community participation in existing economic, social, educational, health and environmental issues.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- Who we are closed  -->
 
 
-    <!-- Our project opened  -->
-    <section>
-        <div class="container mt-3">
-            <h1 class="d-flex justify-content-center mb-4"><strong>OUR PARTNERS</strong></h1>
+
+    <!-- Question and Answer opened  -->
+    <section class="accordion_color">
+        <div class="container">
             <div class="row">
-                <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Samaj Sewa Samuha</b></strong></h2>
-                    <img src="../ngo/img/our work/our_work.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">A local NGO founded in 1991 AD (2048 BS) located at Mandandeupur Municipality ward no 7
-                        Kuntabesi to improve the wellbeing of the marginalized populations especially women's form the Janajati,
-                        Tribal communities and the socially excluded (Dalit's) living in the remote areas facilitating in different
-                        sectors like education scholarship program...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
-                </div>
-                <div class="col-md-3 d-none d-md-block">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work.png" class="img-fluid" alt="Our Work">
+                <div class="col-md-6 mt-3 mb-3 p-3">
+                    <h1 class="d-flex justify-content-center"><strong>Our Impact:</strong></h1>
+                    <br>
+                    <button class="accordion text-white">Works with the partner organizations to provide health services</button>
+                    <div class="panel">
+                        <h6 class="pt-3">Works with the partner organizations to provide health services for around 20000-24000
+                            peoples in a year especially for women of rural area and is organizing the medical camps for women health
+                            issues and also is providing scholarship for the formal agriculture, animal health, ANM (Auxiliary nurse midwife)
+                            education with an objective of providing service to the community and to uplift their economic status.</h6>
+                    </div>
+                    <button class="accordion text-white">Health camps for women diseases</button>
+                    <div class="panel">
+                        <h6 class="pt-3">By conducting the health camps for women diseases (like cervix cancer, eyes, teeth, throat, family
+                            planning, reproductive health) every year BBP Pariwar is providing the special health service for around 1100 women's in a year.</h6>
+                    </div>
+                    <button class="accordion text-white">Awareness on agricutural development</button>
+                    <div class="panel">
+                        <h6 class="pt-3">With the help of BBP Pariwar, farmers are able to produce and use liquid manure, organic pesticides, organic manure,
+                            compost manure, vermicompost etc in their field to maximize the production and to avoid the consequences from the
+                            use of the chemical fertilizers in the soil and human beings.</h6>
+                    </div>
+                    <button class="accordion text-white">Self dependent women with quality life</button>
+                    <div class="panel">
+                        <h6 class="pt-3">Women members of the groups are able to establish mutual proximity in the community and food security
+                            through the cultivation of various value added fruits and vegetables, herbs and are generating income through the
+                            help of the livestock husbandry like goat, swine, cow and buffalo, stall improvement program with the financial,
+                            technical and educational support and guidance of BBP Pariwar and also are participating in the various
+                            educational tour in order to be capable of managing them in well manner.</h6>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Nauling Health Service Centre</b></strong></h2>
-                    <img src="../ngo/img/our work/our_work_2.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">Nauling Health Service Centre founded in 2012 AD (2069 BS) located at Melamchi
-                        Municipality Ward no-9 to facilitate the local peoples of the remote areas mainly in the
-                        sector of health and also is facilitating the economically backwarded students by providing
-                        scholarship programs and is continuously and effectively conducting the medical camps...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
-                </div>
-                <div class="col-md-3 d-none d-md-block">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_2.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Bajra Samaj Nepal</b></strong></h2>
-                    <img src="../ngo/img/our work/our_work_3.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">Bajra Samaj Nepal (BSN) is a non-profit organization located at Ramechhap
-                        Municipality, Ward no-6, Ramechhap Nepal formed by local young people, teachers women,
-                        farmers and ordinary community people for carrying out sustainable development activities
-                        in Ramechhap district in 2012 AD (2068 BS). Bajra Samaj Nepal empowers deprived ...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
-                </div>
-                <div class="col-md-3 d-none d-md-block">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_3.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Supporting organizations</b></strong></h2>
-                    <img src="../ngo/img/our work/our_work_4.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">Groundswell international is a partnership of local organizations and their network of
-                        grassroots community groups and is working in West Africa, America, and South Asia. Groundswell's
-                        programs catalyze the transition from unsustainable agriculture and extractive economies to regenerative,
-                        just farming and local food systems Communities...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
-                </div>
-                <div class="col-md-3 d-none d-md-block">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_4.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Friends of Nepal Pariwar Foundation</b></strong></h2>
-                    <img src="../ngo/img/our work/our_work_5.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">Friends of Nepal Pariwar Foundation is a non-profit organization supporting
-                        the health services for women through the help of registered non-profit community organizations in Nepal to
-                        improve the health and well being of women and their families in rural Nepal and strengthening their capacity
-                        to sustain and expand health services and support development...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
-                </div>
-                <div class="col-md-3 d-none d-md-block">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_5.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9 ">
-                    <h2 class="card-title"><strong><b>World Neighbors</b></strong></h2>
-                    <img src="../ngo/img/our work/our_work_7.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">World Neighbors is an international development organization that works
-                        to alleviate hunger, poverty, and disease in the most isolated rural villages in Asia, Africa
-                        and Latin America. World Neighbors does not give away food or material aid, but provides a
-                        big-picture, holistic approach focusing on the entire community rather than on one issue.
-                        With a conclusion...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
-                </div>
-                <div class="col-md-3 d-none d-md-block">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_7.png" class="img-fluid" alt="Our Work">
-                    </div>
+                <div class="col-md-6 mb-5 p-3">
+                    <!-- <img src="./img/accordion_image.jpg" class="img-fluid" alt=""> -->
+                    <img src="./img/accordion_image_1.png" class="img-fluid" alt="Business">
                 </div>
             </div>
         </div>
     </section>
-    <!-- Our project closed  -->
-
-    <!-- Question and Answer opened  -->
-
     <!-- Question and Answer Closed -->
 
     <!-- Recent news opened  -->
@@ -235,7 +156,8 @@
                     <img src="./img/recent_news/recent_news_0.png" class="img-fluid mt-1" alt="Business">
                     <h3 class="pt-4 mb-0"><strong>Trying to upgrade the living standard</strong></h3>
                     <p class="pt-2">Saving and credit program is being conducted in the community especially with
-                        women's participation in order to fulfill the needs like enrollment...</p>
+                        women's participation in order to fulfill the needs like enrollment of the children's in
+                        the school, health treatment, economic growth etc.</p>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
@@ -431,9 +353,6 @@
             responsive: {
                 0: {
                     items: 1
-                },
-                350: {
-                    items: 2
                 },
                 600: {
                     items: 3
