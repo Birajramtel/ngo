@@ -187,7 +187,7 @@
             </div>
         </div>
     </div>
-    <div class="container mt-4 mb-4">
+    <div class="container mt-4 mb-5">
         <h1 class="text-center mb-4"><strong><b>OUR STAFF'S</b></strong></h1>
         <table class="table table-success table-striped table-hover">
             <thead>
