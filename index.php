@@ -44,7 +44,7 @@
                                 <a class="nav-link sm_nav p-3" href="index.php">STORY OF SUCCESS</a>
                             </li>
                             <li class="nav-item">
-                                <button class="btn btn-outline-color btn-lg my-5 d-block my-sm-0 text-white" type="submit">Donate</button>
+                                <button class="btn btn-outline-color btn-lg my-5 d-block my-sm-0 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
                             </li>
                         </ul>
                         <hr>
@@ -71,6 +71,27 @@
         </nav>
     </div>
 </header>
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="exampleModalLabel">DONATE</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <p>Scan to pay</p>
+            <div class="modal-body">
+                <img src="./img/scan_to_pay.png" class="" alt="Scan to pay">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <body>
@@ -473,6 +494,14 @@
                 }
             });
         }
+    </script>
+    <script>
+        var myModal = document.getElementById('myModal')
+        var myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', function() {
+            myInput.focus()
+        })
     </script>
 
 </body>
