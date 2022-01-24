@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/fav_icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -22,7 +22,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand col-md-4" href="#">
+                <a class="navbar-brand col-md-4" href="index.php">
                     <img src="./img/logo.png" class="img-fluid" alt="Logo">
                 </a>
                 <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,13 +35,13 @@
                                 <a class="nav-link sm_nav p-3" href="#">SUPPORTING ORGANIZATIONS</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="#">OUR IMPACT</a>
+                                <a class="nav-link sm_nav p-3" href="index.php">OUR IMPACT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="#">OUR BOARD</a>
+                                <a class="nav-link sm_nav p-3" href="board.php">OUR BOARD</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="#">STORY OF SUCCESS</a>
+                                <a class="nav-link sm_nav p-3" href="index.php">STORY OF SUCCESS</a>
                             </li>
                             <li class="nav-item">
                                 <button class="btn btn-outline-color btn-lg my-5 d-block my-sm-0 text-white" type="submit">Donate</button>
