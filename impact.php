@@ -32,7 +32,7 @@
                     <div id="myDIV">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link sm_nav p-3" href="#">SUPPORTING ORGANIZATIONS</span></a>
+                                <a class="nav-link sm_nav p-3" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link sm_nav p-3 color_nav" href="impact.php">OUR IMPACT</a>
