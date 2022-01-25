@@ -200,3 +200,38 @@ div {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.card_support {
+  position: relative;
+  top: 0%;
+  margin-bottom: 60px;
+}
+.card_img {
+  position: absolute;
+  top: -0%;
+  left: 65%;
+  z-index: 1;
+  margin-top: 20px;
+}
+.card_text {
+  position: absolute;
+  top: 20%;
+}
+.bg_color {
+  background-color: #a373b1 !important;
+}
+.bg_color_1 {
+  background-color: #d4a433 !important;
+}
+.bg_color_2 {
+  background-color: #d67a5b !important;
+}
+.bg_color_3 {
+  background-color: #87aa4d !important;
+}
+.bg_color_4 {
+  background-color: #34a1b9 !important;
+}
+.bg_color_5 {
+  background-color: #39aa7b !important;
+}
