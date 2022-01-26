@@ -18,58 +18,56 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-<header>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand col-md-4" href="index.php">
-                    <img src="./img/logo.png" class="img-fluid" alt="Logo">
-                </a>
-                <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse nav_medium justify-content-end" id="navbarTogglerDemo01">
-                    <div id="myDIV">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link sm_nav p-3" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="impact.php">OUR IMPACT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="board.php">OUR BOARD</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="index.php">STORY OF SUCCESS</a>
-                            </li>
-                            <li class="nav-item">
-                                <button class="btn btn-outline-color btn-lg my-5 d-block my-sm-0 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
-                            </li>
-                        </ul>
-                        <hr>
-                        <ul class="navbar-nav d-flex justify-content-end">
-                            <li class="nav-item active">
-                                <a class="nav-link lg-nav p-4 color_nav" href="../ngo/index.php">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="../ngo/approach.php">OUR APPROACH</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="../ngo/work.php">OUR WORK</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="#">WAYS TO GIVE</span></a>
-                            </li>
-                            <li class="ml-2 p-3">
-                                <button class="btn btn-color ml-2 text-white" type="submit"><i class="fas fa-search"></i></button>
-                            </li>
-                        </ul>
-                    </div>
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand col-md-4" href="index.php">
+                <img src="./img/logo.png" class="img-fluid" alt="Logo">
+            </a>
+            <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav_medium justify-content-end" id="navbarTogglerDemo01">
+                <div id="myDIV">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link sm_nav p-3" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav p-3" href="impact.php">OUR IMPACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav p-3" href="board.php">OUR BOARD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav p-3" href="index.php">STORY OF SUCCESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-color btn-lg my-5 d-block my-sm-0 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul class="navbar-nav d-flex justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link lg-nav p-4 color_nav" href="../ngo/index.php">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-4" href="../ngo/approach.php">OUR APPROACH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-4" href="../ngo/work.php">OUR WORK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-4" href="#">WAYS TO GIVE</span></a>
+                        </li>
+                        <li class="ml-2 p-3">
+                            <button class="btn btn-color ml-2 text-white" type="submit"><i class="fas fa-search"></i></button>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 </header>
 <!-- Button trigger modal -->
 
@@ -96,7 +94,7 @@
 
 <body>
     <div class="hero mb-5">
-        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="">
+        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="Banner Image">
         <img src="./img/square_with_buddha.png" class="banner_shape h-100 img-fluid d-none d-sm-block mb-5" alt="Square">
         <img src="./img/square_with_buddha_sm.png" class="banner_shape-sm w-100 img-fluid d-block d-sm-none" alt="Square">
         <!--  -->
