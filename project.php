@@ -18,60 +18,63 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-<header>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand col-md-4" href="index.php">
-                    <img src="./img/logo.png" class="img-fluid" alt="Logo">
-                </a>
-                <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse nav_medium justify-content-end" id="navbarTogglerDemo01">
-                    <div id="myDIV">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link sm_nav p-3" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="index.php">OUR IMPACT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="board.php">OUR BOARD</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="index.php">STORY OF SUCCESS</a>
-                            </li>
-                            <li class="nav-item">
-                                <button class="btn btn-outline-color btn-lg my-5 d-block my-sm-0 text-white" type="submit">Donate</button>
-                            </li>
-                        </ul>
-                        <hr>
-                        <ul class="navbar-nav d-flex justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="../ngo/index.php">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4 " href="../ngo/approach.php">OUR APPROACH</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="../ngo/work.php">OUR WORK</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="#">WAYS TO GIVE</span></a>
-                            </li>
-                            <li class="ml-2 p-3">
-                                <button class="btn btn-color ml-2 text-white" type="submit"><i class="fas fa-search"></i></button>
-                            </li>
-                        </ul>
-                    </div>
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand col-md-4" href="index.php">
+                <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
+                <img src="./img/Logo_Bg.png" class="img-fluid" alt="Logo">
+            </a>
+            <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav_medium justify-content-end" id="navbarTogglerDemo01">
+                <div id="myDIV">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link sm_nav mt-2 p-2" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav mt-2 p-2" href="impact.php">OUR IMPACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav mt-2 p-2 color_nav" href="project.php"> OUR PARTNERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav mt-2 p-2" href="story.php">STORY OF SUCCESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-color btn-md text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul class="navbar-nav d-flex justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link lg-nav p-2" href="../ngo/index.php">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/about.php">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/approach.php">APPROACH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/board.php">OUR BOARD ADVISOR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/contact.php">CONTACT US</span></a>
+                        </li>
+                        <li class="ml-2 p-0 mb-2">
+                            <button type="button" class="btn btn-secondary btn-color text-white" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Search">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 </header>
-
 
 <body>
     <div class="hero mb-5">
@@ -103,52 +106,56 @@
     <!-- Our project opened  -->
     <section>
         <div class="container mt-3">
-            <h1 class="d-flex justify-content-center mb-4"><strong>OUR PROJECTS</strong></h1>
+            <h1 class="d-flex justify-content-center mb-4"><strong>OUR PARTNERS</strong></h1>
             <div class="row">
                 <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Groundswell's programs</b></strong></h2>
-                    <img src="../ngo/img/projects/project_1.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">A local NGO founded in 1991 AD (2048 BS) located at Mandandeupur Municipality ward no 7
-                        Kuntabesi to improve the wellbeing of the marginalized populations especially women's form the Janajati,
-                        Tribal communities and the socially excluded (Dalit's) living in the remote areas facilitating in different
-                        sectors like education scholarship program...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
+                    <h2 class="card-title"><strong><b>Samaj Sewa Samuha</b></strong></h2>
+                    <img src="../ngo/img/partners/partner_1.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">A local NGO founded in 1991 AD (2048 BS) located at Mandandeupur Municipality
+                        ward no 7 Kuntabesi to improve the wellbeing of the marginalized populations especially women's form the
+                        Janajati, Tribal communities and the socially excluded (Dalit's) living in the remote areas facilitating
+                        in different sectors like education (scholarship program), drinking water, promotes the ecological agriculture,
+                        strengthens community groups/organizations and improves community access to general and reproductive health
+                        services.</p>
                 </div>
                 <div class="col-md-3 d-none d-md-block">
                     <div class="card mb-4 p-2">
-                        <img src="../ngo/img/projects/project_1.png" class="img-fluid" alt="Our Work">
+                        <img src="../ngo/img/partners/partner_1.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Friends of Nepal Pariwar Foundation </b></strong></h2>
-                    <img src="../ngo/img/projects/project_2.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">Nauling Health Service Centre founded in 2012 AD (2069 BS) located at Melamchi
-                        Municipality Ward no-9 to facilitate the local peoples of the remote areas mainly in the
-                        sector of health and also is facilitating the economically backwarded students by providing
-                        scholarship programs and is continuously and effectively conducting the medical camps...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
+                    <h2 class="card-title"><strong><b>Nauling Health Service Centre</b></strong></h2>
+                    <img src="../ngo/img/partners/partner_2.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">Nauling Health Service Centre founded in 2012 AD (2069 BS) located at Melamchi Municipality
+                        Ward no-9 to facilitate the local peoples of the remote areas mainly in the sector of health and also is facilitating
+                        the economically backwarded students by providing scholarship programs and is continuously and effectively conducting
+                        the medical camps and also is promoting the agro ecological means of farming systems and conducting various
+                        sustainable community development through the formation of women saving and credit groups for the social, economical
+                        and intellectual growth of the farmers and women living in the community.
+                    </p>
                 </div>
                 <div class="col-md-3 d-none d-md-block">
                     <div class="card mb-4 p-2">
-                        <img src="../ngo/img/projects/project_2.png" class="img-fluid" alt="Our Work">
+                        <img src="../ngo/img/partners/partner_2.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>World Neighbors</b></strong></h2>
-                    <img src="../ngo/img/projects/project_3.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">Bajra Samaj Nepal (BSN) is a non-profit organization located at Ramechhap
-                        Municipality, Ward no-6, Ramechhap Nepal formed by local young people, teachers women,
-                        farmers and ordinary community people for carrying out sustainable development activities
-                        in Ramechhap district in 2012 AD (2068 BS). Bajra Samaj Nepal empowers deprived ...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
+                    <h2 class="card-title"><strong><b>Bajra Samaj Nepal</b></strong></h2>
+                    <img src="../ngo/img/partners/partner_3.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">Bajra Samaj Nepal (BSN) is a non-profit organization located at Ramechhap Municipality,
+                        Ward no-6, Ramechhap Nepal formed by local young people, teachers women, farmers and ordinary community people
+                        for carrying out sustainable development activities in Ramechhap district in 2012 AD (2068 BS). Bajra Samaj Nepal
+                        empowers deprived community of Ramechhap to enhance their knowledge in health & sanitation, livelihood and
+                        education.
+                    </p>
                 </div>
                 <div class="col-md-3 d-none d-md-block">
                     <div class="card mb-4 p-2">
-                        <img src="../ngo/img/projects/project_3.png" class="img-fluid" alt="Our Work">
+                        <img src="../ngo/img/partners/partner_3.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
             </div>

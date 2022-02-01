@@ -22,7 +22,8 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand col-md-4" href="index.php">
-                <img src="./img/logo.png" class="img-fluid" alt="Logo">
+                <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
+                <img src="./img/Logo_Bg.png" class="img-fluid" alt="Logo">
             </a>
             <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,37 +32,42 @@
                 <div id="myDIV">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link sm_nav p-3" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
+                            <a class="nav-link sm_nav mt-2 p-2" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link sm_nav p-3" href="impact.php">OUR IMPACT</a>
+                            <a class="nav-link sm_nav mt-2 p-2" href="impact.php">OUR IMPACT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link sm_nav p-3" href="board.php">OUR BOARD</a>
+                            <a class="nav-link sm_nav mt-2 p-2" href="project.php">OUR PARTNERS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link sm_nav p-3" href="index.php">STORY OF SUCCESS</a>
+                            <a class="nav-link sm_nav mt-2 p-2" href="story.php">STORY OF SUCCESS</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-outline-color btn-lg my-5 d-block my-sm-0 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
+                            <button class="btn btn-outline-color btn-md text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
                         </li>
                     </ul>
                     <hr>
                     <ul class="navbar-nav d-flex justify-content-end">
                         <li class="nav-item active">
-                            <a class="nav-link lg-nav p-4 color_nav" href="../ngo/index.php">ABOUT US</a>
+                            <a class="nav-link lg-nav p-2 color_nav" href="../ngo/index.php">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link lg-nav p-4" href="../ngo/approach.php">OUR APPROACH</a>
+                            <a class="nav-link lg-nav p-2" href="../ngo/about.php">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link lg-nav p-4" href="../ngo/work.php">OUR WORK</a>
+                            <a class="nav-link lg-nav p-2" href="../ngo/approach.php">APPROACH</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link lg-nav p-4" href="#">WAYS TO GIVE</span></a>
+                            <a class="nav-link lg-nav p-2" href="../ngo/board.php">OUR BOARD ADVISOR</a>
                         </li>
-                        <li class="ml-2 p-3">
-                            <button class="btn btn-color ml-2 text-white" type="submit"><i class="fas fa-search"></i></button>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/contact.php">CONTACT US</span></a>
+                        </li>
+                        <li class="ml-2 p-0 mb-2">
+                            <button type="button" class="btn btn-secondary btn-color text-white" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Search">
+                                <i class="fas fa-search"></i>
+                            </button>
                         </li>
                     </ul>
                 </div>
@@ -118,63 +124,37 @@
     </div>
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
-    <!-- Who we are opened  -->
+    <!-- About Us page opened  -->
     <section>
         <div class="container">
-            <h1 class="d-flex justify-content-center who_we_are mb-5"><strong>WHO WE ARE ?</strong></h1>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="vl">
-                                <h2 class="card-title p-2"><strong>OUR MISSION</strong></h2>
-                            </div>
-                            <p class="card-text mt-3 font_cg text-wrap">BBP Pariwar supports farmers and marginalized communities especially women
-                                through formation of groups with a motive that, "groups are the entry point for any development
-                                activities" to improve the livelihoods of marginalized communities. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="vl">
-                                <h2 class="card-title p-2"><strong>OUR VISION</strong></h2>
-                            </div>
-                            <p class="card-text mt-3 font_cg">BBP Pariwar introduce the means of the agro ecological farming system, livestock
-                                husbandry(goats and buffalo), for the small holder farmers and facilitate and provides necessary support for
-                                them while they start ecological farming principles on their farm.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="vl">
-                                <h2 class="card-title p-2"><strong>OUR GOAL</strong></h2>
-                            </div>
-                            <p class="card-text mt-3 font_cg">BBP Pariwar, works as a roof organization for the local NGO'S facilitating them
-                                and developing their capacity to improve and expand activities in sustainable manner with preventive curative health services, educational sector, community development.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h1 class="who_we_are mb-4 d-flex justify-content-center "><strong>ABOUT US</strong></h1>
+            <img src="img/Logo_Bg.png" class="img_float img-fluid" alt="Logo">
+            <p class=""> BBP PARIWAR is a non-profit voluntary organization registered with District Administration
+                Office and affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously
+                operating different types of social development programs at three districts, Sindhupalchok,
+                Ramechhap and Kavreplanchok. With a belief that only integrated development of the society
+                can be sustainable development, this organization mobilizes local resources with the participation
+                of backwarded, marginalized and communities at risk in the society by mobilizing local resources for
+                health, education, agriculture, animal husbandry, herbs, forest conservation, drinking water and
+                development of local infrastructure.
+            </p>
+
         </div>
     </section>
-    <!-- Who we are closed  -->
+    <!-- About Us page Closed  -->
 
 
     <!-- Our project opened  -->
     <section>
         <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>OUR RECENT PROJECTS</strong></h1>
+            <h1 class="d-flex justify-content-center mb-5"><strong>SUPPORTING ORGANIZATIONS</strong></h1>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4">
                         <img class="card-img-top" src="./img/recent_project/recent_project_4.png" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-3"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive econo...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end mt-1">Read more</button>
+                            <h4 class="card-title"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive econo...</h4>
+                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
                         </div>
                     </div>
                 </div>
@@ -182,8 +162,8 @@
                     <div class="card mb-4">
                         <img class="card-img-top" src="./img/recent_project/recent_project_5.png" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-3"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting the health services for women...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end mt-1">Read more</button>
+                            <h4 class="card-title"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting...</h4>
+                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
                         </div>
                     </div>
                 </div>
@@ -191,8 +171,8 @@
                     <div class="card mb-4">
                         <img class="card-img-top" src="./img/recent_project/recent_project_6.png" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title p-3"><strong><u>World Neighbors</u> </strong> is an international development organization that works to alleviate hunger, poverty...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end mt-1">Read more</button>
+                            <h4 class="card-title"><strong><u>World Neighbors</u> </strong> is an international development organization that...</h4>
+                            <button class="btn btn-md btn-color card-text float-end"><a href="./project.php" class="text-white">Read more</a></button>
                         </div>
                     </div>
                 </div>
@@ -206,7 +186,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mt-3 mb-3 p-3">
-                    <h1 class="d-flex justify-content-center"><strong>Our Impact:</strong></h1>
+                    <h1 class="d-flex justify-content-center"><strong>FAQ</strong></h1>
                     <br>
                     <button class="accordion text-white">Works with the partner organizations to provide health services</button>
                     <div class="panel">
@@ -254,7 +234,8 @@
                     <h3 class="pt-4 mb-0"><strong>Trying to upgrade the living standard</strong></h3>
                     <p class="pt-2">Saving and credit program is being conducted in the community especially with
                         women's participation in order to fulfill the needs like enrollment of the children's in
-                        the school, health treatment, economic growth etc.</p>
+                        the school, health treatment, economic growth etc.
+                    </p>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
@@ -265,8 +246,9 @@
                             <div class="mt-2">
                                 <h3><strong>A story of Self confidence</strong></h3>
                                 <span class="d-none d-lg-block">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari
-                                    VDC as 3rd children of Mr. Kedarnath Aryal and Mrs.Chitra Kumari Aryal among 7
-                                    children.</span>
+                                    VDC as 3rd children of Mr...
+                                    <button class="btn btn-sm btn-color text-white img_float mt-2">Read more</button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -278,7 +260,9 @@
                             <div class="mt-2">
                                 <h3><strong>New Life</strong></h3>
                                 <span class="d-none d-lg-block">There is a saying that “life is a struggle” where we have to face
-                                    unexpected events and difficulties. This is a story of Sabitri Giri of Kavre.</span>
+                                    unexpected events...
+                                    <button class="btn btn-sm btn-color text-white img_float mt-2">Read more</button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -289,8 +273,10 @@
                             </div>
                             <div class="mt-2">
                                 <h3><strong>Dream Came True</strong></h3>
-                                <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of Mr. Tika Bahadur
-                                    Bishowkarma and Mrs. Naradevi Bishowkarma at Pipal Dada. </span>
+                                <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of
+                                    Mr. Tika Bahadur...
+                                    <button class="btn btn-sm btn-color text-white img_float mt-2">Read more</button>
+                                </span>
                             </div>
                         </div>
                     </div>

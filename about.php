@@ -18,64 +18,89 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-<header>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand col-md-4" href="index.php">
-                    <img src="./img/logo.png" class="img-fluid" alt="Logo">
-                </a>
-                <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse nav_medium justify-content-end" id="navbarTogglerDemo01">
-                    <div id="myDIV">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link sm_nav p-3" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="index.php">OUR IMPACT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="board.php">OUR BOARD</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="index.php">STORY OF SUCCESS</a>
-                            </li>
-                            <li class="nav-item">
-                                <button class="btn btn-outline-color btn-lg my-5 d-block my-sm-0 text-white" type="submit">Donate</button>
-                            </li>
-                        </ul>
-                        <hr>
-                        <ul class="navbar-nav d-flex justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="../ngo/index.php">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4 " href="../ngo/approach.php">OUR APPROACH</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4 color_nav" href="../ngo/work.php">OUR WORK</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="#">WAYS TO GIVE</span></a>
-                            </li>
-                            <li class="ml-2 p-3">
-                                <button class="btn btn-color ml-2 text-white" type="submit"><i class="fas fa-search"></i></button>
-                            </li>
-                        </ul>
-                    </div>
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand col-md-4" href="index.php">
+                <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
+                <img src="./img/Logo_Bg.png" class="img-fluid" alt="Logo">
+            </a>
+            <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav_medium justify-content-end" id="navbarTogglerDemo01">
+                <div id="myDIV">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link sm_nav mt-2 p-2" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav mt-2 p-2" href="impact.php">OUR IMPACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav mt-2 p-2" href="project.php">OUR PARTNERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav mt-2 p-2" href="story.php">STORY OF SUCCESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-color btn-md text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul class="navbar-nav d-flex justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link lg-nav p-2" href="../ngo/index.php">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2 color_nav" href="../ngo/about.php">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/approach.php">APPROACH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/board.php">OUR BOARD ADVISOR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/contact.php">CONTACT US</span></a>
+                        </li>
+                        <li class="ml-2 p-0 mb-2">
+                            <button type="button" class="btn btn-secondary btn-color text-white" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Search">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 </header>
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="exampleModalLabel">DONATE</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <p>Scan to pay</p>
+            <div class="modal-body">
+                <img src="./img/scan_to_pay.png" class="" alt="Scan to pay">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <body>
     <div class="hero mb-5">
-        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="">
+        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="Banner Image">
         <img src="./img/square_with_buddha.png" class="banner_shape h-100 img-fluid d-none d-sm-block mb-5" alt="Square">
         <img src="./img/square_with_buddha_sm.png" class="banner_shape-sm w-100 img-fluid d-block d-sm-none" alt="Square">
         <!--  -->
@@ -99,131 +124,130 @@
     </div>
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
-    <!-- Who we are opened  -->
+    <!-- About Us page opened  -->
     <section>
         <div class="container">
-            <h1 class="d-flex justify-content-center who_we_are mb-3"><strong>OUR WORK</strong></h1>
+            <h1 class="who_we_are mb-4 d-flex justify-content-center "><strong>ABOUT US</strong></h1>
+            <img src="img/Logo_Bg.png" class="img_float img-fluid" alt="Logo">
+            <p class="text-justify"> BBP PARIWAR is a non-profit voluntary organization registered with District Administration
+                Office and affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously
+                operating different types of social development programs at three districts, Sindhupalchok,
+                Ramechhap and Kavreplanchok. With a belief that only integrated development of the society
+                can be sustainable development, this organization mobilizes local resources with the participation
+                of backwarded, marginalized and communities at risk in the society by mobilizing local resources for
+                health, education, agriculture, animal husbandry, herbs, forest conservation, drinking water and
+                development of local infrastructure. <br> The family is also working as a roof organization to increase
+                the capacity of the other three organizations to give and get the maximum productivity. Samaj Sewa
+                Samuha, Kavre, Nauling Swastha Sewa Kendra, Sindhupalchok and Bajra Samaj Nepal, Ramechhap are working
+                as member organization of BBP Pariwar. Therefore this organization has been carrying out social service
+                activities independently as well as an organizational network. Since 1994 conducting various programs
+                and activities for the upliftment of the poor and marginalized women and men by empowering them with
+                different capacity building activities in order to help them become self-reliant. BBP Pariwar's focus is
+                on reproductive health, women's issues, saving and credit group program, non formal education, community
+                based natural resources management, community development activities like drinking water, micro-irrigation
+                etc.
+            </p>
+
+        </div>
+    </section>
+    <!-- About Us page Closed  -->
+
+    <!-- Who we are opened  -->
+    <section>
+        <div class="container mb-5">
+            <h1 class="d-flex justify-content-center who_we_are mt-5 mb-5"><strong>WHO WE ARE ?</strong></h1>
             <div class="row">
-                <div class="col-md-12">
-                    <p class="text_aligining">We work with small holder farmers Janajati, Tribal communities and the socially excluded
-                        (Dalit's) prioritizing marginalized women to address the main cause of social and economic
-                        vulnerability, food insecurity, health and environmental issues. Our approach positively
-                        improves the community participation in existing economic, social, educational, health and environmental issues.
-                    </p>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="vl">
+                                <h2 class="card-title p-2"><strong>OUR MISSION</strong></h2>
+                            </div>
+                            <p class="card-text mt-3 font_cg text-wrap">BBP Pariwar supports farmers and marginalized communities especially women
+                                through formation of groups with a motive that, "groups are the entry point for any development
+                                activities" to improve the livelihoods of marginalized communities. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="vl">
+                                <h2 class="card-title p-2"><strong>OUR VISION</strong></h2>
+                            </div>
+                            <p class="card-text mt-3 font_cg">BBP Pariwar introduce the means of the agro ecological farming system, livestock
+                                husbandry(goats and buffalo), for the small holder farmers and facilitate and provides necessary support for
+                                them while they start ecological farming principles on their farm.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="vl">
+                                <h2 class="card-title p-2"><strong>OUR GOAL</strong></h2>
+                            </div>
+                            <p class="card-text mt-3 font_cg">BBP Pariwar, works as a roof organization for the local NGO'S facilitating them
+                                and developing their capacity to improve and expand activities in sustainable manner with preventive curative health services, educational sector, community development.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Who we are closed  -->
 
-
-    <!-- Our project opened  -->
-    <section>
-        <div class="container mt-3">
-            <h1 class="d-flex justify-content-center mb-4"><strong>OUR PARTNERS</strong></h1>
+    <!-- Question and Answer opened  -->
+    <section class="accordion_color">
+        <div class="container">
+            <h1 class="d-flex justify-content-center who_we_are pt-5 mb-3"><strong>OUR IMPACT<strong></h1>
             <div class="row">
-                <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Samaj Sewa Samuha</b></strong></h2>
-                    <img src="../ngo/img/our work/our_work.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">A local NGO founded in 1991 AD (2048 BS) located at Mandandeupur Municipality ward no 7
-                        Kuntabesi to improve the wellbeing of the marginalized populations especially women's form the Janajati,
-                        Tribal communities and the socially excluded (Dalit's) living in the remote areas facilitating in different
-                        sectors like education scholarship program...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
-                </div>
-                <div class="col-md-3 d-none d-md-block">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Nauling Health Service Centre</b></strong></h2>
-                    <img src="../ngo/img/our work/our_work_2.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">Nauling Health Service Centre founded in 2012 AD (2069 BS) located at Melamchi
-                        Municipality Ward no-9 to facilitate the local peoples of the remote areas mainly in the
-                        sector of health and also is facilitating the economically backwarded students by providing
-                        scholarship programs and is continuously and effectively conducting the medical camps...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
-                </div>
-                <div class="col-md-3 d-none d-md-block">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_2.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Bajra Samaj Nepal</b></strong></h2>
-                    <img src="../ngo/img/our work/our_work_3.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">Bajra Samaj Nepal (BSN) is a non-profit organization located at Ramechhap
-                        Municipality, Ward no-6, Ramechhap Nepal formed by local young people, teachers women,
-                        farmers and ordinary community people for carrying out sustainable development activities
-                        in Ramechhap district in 2012 AD (2068 BS). Bajra Samaj Nepal empowers deprived ...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
-                </div>
-                <div class="col-md-3 d-none d-md-block">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_3.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Supporting organizations</b></strong></h2>
-                    <img src="../ngo/img/our work/our_work_4.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">Groundswell international is a partnership of local organizations and their network of
-                        grassroots community groups and is working in West Africa, America, and South Asia. Groundswell's
-                        programs catalyze the transition from unsustainable agriculture and extractive economies to regenerative,
-                        just farming and local food systems Communities...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
-                </div>
-                <div class="col-md-3 d-none d-md-block">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_4.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Friends of Nepal Pariwar Foundation</b></strong></h2>
-                    <img src="../ngo/img/our work/our_work_5.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">Friends of Nepal Pariwar Foundation is a non-profit organization supporting
-                        the health services for women through the help of registered non-profit community organizations in Nepal to
-                        improve the health and well being of women and their families in rural Nepal and strengthening their capacity
-                        to sustain and expand health services and support development...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
-                </div>
-                <div class="col-md-3 d-none d-md-block">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_5.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9 ">
-                    <h2 class="card-title"><strong><b>World Neighbors</b></strong></h2>
-                    <img src="../ngo/img/our work/our_work_7.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">World Neighbors is an international development organization that works
-                        to alleviate hunger, poverty, and disease in the most isolated rural villages in Asia, Africa
-                        and Latin America. World Neighbors does not give away food or material aid, but provides a
-                        big-picture, holistic approach focusing on the entire community rather than on one issue.
-                        With a conclusion...</p>
-                    <button class="btn btn-md btn-color text-white mb-2 float-end">Read more</button>
-                </div>
-                <div class="col-md-3 d-none d-md-block">
-                    <div class="card mb-4 p-2">
-                        <img src="../ngo/img/our work/our_work_7.png" class="img-fluid" alt="Our Work">
-                    </div>
-                </div>
+                <ol class="list-group list-group-numbered mb-5">
+                    <li class="list-group-item list-group-item-action mt-2">
+                        Works with the partner organizations to provide health services
+                        for around 20000-24000 peoples in a year especially for women of rural area and is organizing
+                        the medical camps for women health issues and also is providing scholarship for the formal
+                        agriculture, animal health, ANM (Auxiliary nurse midwife) education with an objective of
+                        providing service to the community and to uplift their economic status.
+                    </li>
+                    <li class="list-group-item list-group-item-action mt-2 pt-2 pb-2">
+                        By conducting the health camps for women diseases (like cervix cancer, eyes,
+                        teeth, throat, family planning, reproductive health) every year BBP Pariwar is providing the special
+                        health service for around 1100 women's in a year.
+                    </li>
+                    <li class="list-group-item list-group-item-action mt-2 pt-2 pb-2">
+                        With the help of BBP Pariwar, farmers are able to produce and use liquid manure,
+                        organic pesticides, organic manure, compost manure, vermicompost etc in their field to maximize the
+                        production and to avoid the consequences from the use of the chemical fertilizers in the soil and human
+                        beings.
+                    </li>
+                    <li class="list-group-item list-group-item-action mt-2 pt-2 pb-2">
+                        Every year farmers are doing home nursery of different types of fodder grasses around
+                        53000 and are cultivating them in their fields to provide the nutritious grass for their livestock without
+                        affecting the crops.
+                    </li>
+                    <li class="list-group-item list-group-item-action mt-2 pt-2 pb-2">
+                        Women members of the groups are able to establish mutual proximity in the community
+                        and food security through the cultivation of various value added fruits and vegetables, herbs and are generating
+                        income through the help of the livestock husbandry like goat, swine, cow and buffalo, stall improvement program
+                        with the financial, technical and educational support and guidance of BBP Pariwar and also are participating in
+                        the various educational tour in order to be capable of managing them in well manner.
+                    </li>
+                    <li class="list-group-item list-group-item-action mt-2 pt-2 pb-2">
+                        Saving and credit program is being conducted in the community especially with women's
+                        participation in order to fulfill the needs like enrollment of the children's in the school, health treatment,
+                        economic growth etc. Due to which women's are getting priority on home and community as well as are able to
+                        increase the self confidence also.
+                    </li>
+                    <li class="list-group-item list-group-item-action mt-2 pt-2 pb-2">
+                        With the successful community participation construction of the drinking water and its maintenance
+                        has been done as a result women are able to save time to bring water and spend that time on productive
+                        work.
+                    </li>
+                </ol>
             </div>
         </div>
     </section>
-    <!-- Our project closed  -->
-
-    <!-- Question and Answer opened  -->
-
     <!-- Question and Answer Closed -->
 
     <!-- Recent news opened  -->
@@ -235,7 +259,9 @@
                     <img src="./img/recent_news/recent_news_0.png" class="img-fluid mt-1" alt="Business">
                     <h3 class="pt-4 mb-0"><strong>Trying to upgrade the living standard</strong></h3>
                     <p class="pt-2">Saving and credit program is being conducted in the community especially with
-                        women's participation in order to fulfill the needs like enrollment...</p>
+                        women's participation in order to fulfill the needs like enrollment of the children's in
+                        the school, health treatment, economic growth etc.
+                    </p>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
@@ -246,8 +272,9 @@
                             <div class="mt-2">
                                 <h3><strong>A story of Self confidence</strong></h3>
                                 <span class="d-none d-lg-block">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari
-                                    VDC as 3rd children of Mr. Kedarnath Aryal and Mrs.Chitra Kumari Aryal among 7
-                                    children.</span>
+                                    VDC as 3rd children of Mr...
+                                    <button class="btn btn-sm btn-color text-white img_float mt-2">Read more</button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -259,7 +286,9 @@
                             <div class="mt-2">
                                 <h3><strong>New Life</strong></h3>
                                 <span class="d-none d-lg-block">There is a saying that “life is a struggle” where we have to face
-                                    unexpected events and difficulties. This is a story of Sabitri Giri of Kavre.</span>
+                                    unexpected events...
+                                    <button class="btn btn-sm btn-color text-white img_float mt-2">Read more</button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -270,8 +299,10 @@
                             </div>
                             <div class="mt-2">
                                 <h3><strong>Dream Came True</strong></h3>
-                                <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of Mr. Tika Bahadur
-                                    Bishowkarma and Mrs. Naradevi Bishowkarma at Pipal Dada. </span>
+                                <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of
+                                    Mr. Tika Bahadur...
+                                    <button class="btn btn-sm btn-color text-white primary img_float mt-2">Read more</button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -432,9 +463,6 @@
                 0: {
                     items: 1
                 },
-                350: {
-                    items: 2
-                },
                 600: {
                     items: 3
                 },
@@ -476,6 +504,14 @@
                 }
             });
         }
+    </script>
+    <script>
+        var myModal = document.getElementById('myModal')
+        var myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', function() {
+            myInput.focus()
+        })
     </script>
 
 </body>

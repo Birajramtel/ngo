@@ -18,58 +18,62 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-<header>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand col-md-4" href="index.php">
-                    <img src="./img/logo.png" class="img-fluid" alt="Logo">
-                </a>
-                <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse nav_medium justify-content-end" id="navbarTogglerDemo01">
-                    <div id="myDIV">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link sm_nav p-3" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="impact.php">OUR IMPACT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="board.php">OUR BOARD</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="index.php">STORY OF SUCCESS</a>
-                            </li>
-                            <li class="nav-item">
-                                <button class="btn btn-outline-color btn-lg my-5 d-block my-sm-0 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
-                            </li>
-                        </ul>
-                        <hr>
-                        <ul class="navbar-nav d-flex justify-content-end">
-                            <li class="nav-item active">
-                                <a class="nav-link lg-nav p-4 color_nav" href="../ngo/index.php">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="../ngo/approach.php">OUR APPROACH</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="../ngo/work.php">OUR WORK</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="#">WAYS TO GIVE</span></a>
-                            </li>
-                            <li class="ml-2 p-3">
-                                <button class="btn btn-color ml-2 text-white" type="submit"><i class="fas fa-search"></i></button>
-                            </li>
-                        </ul>
-                    </div>
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand col-md-4" href="index.php">
+                <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
+                <img src="./img/Logo_Bg.png" class="img-fluid" alt="Logo">
+            </a>
+            <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav_medium justify-content-end" id="navbarTogglerDemo01">
+                <div id="myDIV">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link sm_nav mt-2 p-2 color_nav" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav mt-2 p-2" href="impact.php">OUR IMPACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav mt-2 p-2" href="project.php">OUR PARTNERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav mt-2 p-2" href="story.php">STORY OF SUCCESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-color btn-md text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul class="navbar-nav d-flex justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link lg-nav p-2" href="../ngo/index.php">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/about.php">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/approach.php">APPROACH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/board.php">OUR BOARD ADVISOR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/contact.php">CONTACT US</span></a>
+                        </li>
+                        <li class="ml-2 p-0 mb-2">
+                            <button type="button" class="btn btn-secondary btn-color text-white" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Search">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 </header>
 <!-- Button trigger modal -->
 
@@ -121,6 +125,83 @@
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
     <!-- Who we are opened  -->
+
+    <!-- Our project opened  -->
+    <section>
+        <div class="container mt-3">
+            <h1 class="d-flex justify-content-center mb-4"><strong>SUPPORTING ORGANIZATIONS</strong></h1>
+            <div class="row">
+                <div class="col-md-9">
+                    <h2 class="card-title"><strong><b>Groundswell's programs</b></strong></h2>
+                    <img src="../ngo/img/projects/project_1.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">Groundswell international is a partnership of local organizations and their network
+                        of grassroots community groups and is working in West Africa, America, and South Asia. Groundswell's programs
+                        catalyze the transition from unsustainable agriculture and extractive economies to regenerative, just farming
+                        and local food systems. Communities and family farmers improve their wellbeing, produce more abundant and
+                        nourishing food in ecologically sustainable ways, increase their incomes, build resilience to climate change,
+                        and strengthen local economies and cultures.</p>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/projects/project_1.png" class="img-fluid" alt="Our Work">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <h2 class="card-title"><strong><b>Friends of Nepal Pariwar Foundation </b></strong></h2>
+                    <img src="../ngo/img/projects/project_2.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">Friends of Nepal Pariwar Foundation is a non-profit organization supporting the health
+                        services for women through the help of registered non-profit community organizations in Nepal to improve the
+                        health and well being of women and their families in rural Nepal and strengthening their capacity to sustain
+                        and expand health services and support development, particularly improved drinking water and educational
+                        opportunities, in remote and socially excluded and tribal communities.</p>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/projects/project_2.png" class="img-fluid" alt="Our Work">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <h2 class="card-title"><strong><b>World Neighbors</b></strong></h2>
+                    <img src="../ngo/img/projects/project_3.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">World Neighbors is an international development organization that works to alleviate hunger,
+                        poverty, and disease in the most isolated rural villages in Asia, Africa and Latin America. World Neighbors does
+                        not give away food or material aid, but provides a big-picture, holistic approach focusing on the entire community
+                        rather than on one issue. With a conclusion that problems and issues within a community are all interrelated and
+                        cannot be solved in isolation World Neighbors invests in people and their communities by training and inspiring
+                        them to create their own life changing solutions through programs in agriculture, literacy, water, health,
+                        leadership, financial management and environmental protection.</p>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/projects/project_3.png" class="img-fluid" alt="Our Work">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <h2 class="card-title"><strong><b>American Jewish</b></strong></h2>
+                    <img src="../ngo/img/projects/project_3.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">American Jewish World Service supports more than 500 social justice organizations in
+                        18 countries in Africa, Asia, Latin America and the Caribbean. American Jewish World Service focus is on civil
+                        and political rights, sexual health and rights, ending child marriage, humanitarian and disaster response,
+                        achieving gender equality, land, water, and climate justice etc. American Jewish World Service is leading
+                        campaigns for human rights and other supporter of human rights to promote the justice and equality in developing
+                        countries.</p>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/projects/project_4.png" class="img-fluid" alt="Our Work">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our project closed  -->
+
     <section>
         <div class="container mt-4 mb-4">
             <h1 class="d-flex justify-content-center"><strong><b>SUPPORT OUR ORGANIZATION</b></strong></h1>
@@ -134,9 +215,7 @@
                                 This is a unique hands-on volunteer event founded on the Catholic call to social justice.
                             </p>
                         </div>
-                        <div class="card-footer d-flex justify-content-center bg_color">
-                            <button class="btn btn-sm text-white">Learn more>>></button>
-                        </div>
+
                     </div>
                 </div>
                 <div class="col card_support">
@@ -148,9 +227,7 @@
                                 Enrich your parish event with stories of faith from a CRS Global Fellow.
                             </p>
                         </div>
-                        <div class="card-footer d-flex justify-content-center bg_color_1">
-                            <button class="btn btn-sm text-white">Explore more>>></button>
-                        </div>
+
                     </div>
                 </div>
                 <div class="col card_support">
@@ -161,9 +238,6 @@
                             <p class="card-text text-white pt-5">
                                 We provide updates from our regional offices plus training tools to promote social justice.
                             </p>
-                        </div>
-                        <div class="card-footer d-flex justify-content-center bg_color_2">
-                            <button class="btn btn-sm text-white">Learn more>>></button>
                         </div>
                     </div>
                 </div>
@@ -178,9 +252,6 @@
                                 This is a unique hands-on volunteer event founded on the Catholic call to social justice.
                             </p>
                         </div>
-                        <div class="card-footer d-flex justify-content-center bg_color_3">
-                            <button class="btn btn-sm text-white">Learn more>>></button>
-                        </div>
                     </div>
                 </div>
                 <div class="col card_support">
@@ -191,9 +262,6 @@
                             <p class="card-text text-white pt-5">
                                 Enrich your parish event with stories of faith from a CRS Global Fellow.
                             </p>
-                        </div>
-                        <div class="card-footer d-flex justify-content-center bg_color_4">
-                            <button class="btn btn-sm text-white">Explore more>>></button>
                         </div>
                     </div>
                 </div>
@@ -206,58 +274,12 @@
                                 We provide updates from our regional offices plus training tools to promote social justice.
                             </p>
                         </div>
-                        <div class="card-footer d-flex justify-content-center bg_color_5">
-                            <button class="btn btn-sm text-white">Learn more>>></button>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
     </section>
-
-    <!-- Question and Answer opened  -->
-    <section class="accordion_color">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mt-3 mb-3 p-3">
-                    <h1 class="d-flex justify-content-center"><strong>Our Impact:</strong></h1>
-                    <br>
-                    <button class="accordion text-white">Works with the partner organizations to provide health services</button>
-                    <div class="panel">
-                        <h6 class="pt-3">Works with the partner organizations to provide health services for around 20000-24000
-                            peoples in a year especially for women of rural area and is organizing the medical camps for women health
-                            issues and also is providing scholarship for the formal agriculture, animal health, ANM (Auxiliary nurse midwife)
-                            education with an objective of providing service to the community and to uplift their economic status.</h6>
-                    </div>
-                    <button class="accordion text-white">Health camps for women diseases</button>
-                    <div class="panel">
-                        <h6 class="pt-3">By conducting the health camps for women diseases (like cervix cancer, eyes, teeth, throat, family
-                            planning, reproductive health) every year BBP Pariwar is providing the special health service for around 1100 women's in a year.</h6>
-                    </div>
-                    <button class="accordion text-white">Awareness on agricutural development</button>
-                    <div class="panel">
-                        <h6 class="pt-3">With the help of BBP Pariwar, farmers are able to produce and use liquid manure, organic pesticides, organic manure,
-                            compost manure, vermicompost etc in their field to maximize the production and to avoid the consequences from the
-                            use of the chemical fertilizers in the soil and human beings.</h6>
-                    </div>
-                    <button class="accordion text-white">Self dependent women with quality life</button>
-                    <div class="panel">
-                        <h6 class="pt-3">Women members of the groups are able to establish mutual proximity in the community and food security
-                            through the cultivation of various value added fruits and vegetables, herbs and are generating income through the
-                            help of the livestock husbandry like goat, swine, cow and buffalo, stall improvement program with the financial,
-                            technical and educational support and guidance of BBP Pariwar and also are participating in the various
-                            educational tour in order to be capable of managing them in well manner.</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5 p-3">
-                    <!-- <img src="./img/accordion_image.jpg" class="img-fluid" alt=""> -->
-                    <img src="./img/accordion_image_1.png" class="img-fluid" alt="Business">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Question and Answer Closed -->
 
     <!-- Recent news opened  -->
     <section>

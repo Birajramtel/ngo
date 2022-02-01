@@ -18,58 +18,62 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-<header>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand col-md-4" href="index.php">
-                    <img src="./img/logo.png" class="img-fluid" alt="Logo">
-                </a>
-                <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse nav_medium justify-content-end" id="navbarTogglerDemo01">
-                    <div id="myDIV">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link sm_nav p-3" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="impact.php">OUR IMPACT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="board.php">OUR BOARD</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link sm_nav p-3" href="index.php">STORY OF SUCCESS</a>
-                            </li>
-                            <li class="nav-item">
-                                <button class="btn btn-outline-color btn-lg my-5 d-block my-sm-0 text-white" type="submit">Donate</button>
-                            </li>
-                        </ul>
-                        <hr>
-                        <ul class="navbar-nav d-flex justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="../ngo/index.php">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4 color_nav" href="../ngo/approach.php">OUR APPROACH</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="../ngo/work.php">OUR WORK</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link lg-nav p-4" href="#">WAYS TO GIVE</span></a>
-                            </li>
-                            <li class="ml-2 p-3">
-                                <button class="btn btn-color ml-2 text-white" type="submit"><i class="fas fa-search"></i></button>
-                            </li>
-                        </ul>
-                    </div>
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand col-md-4" href="index.php">
+                <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
+                <img src="./img/Logo_Bg.png" class="img-fluid" alt="Logo">
+            </a>
+            <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav_medium justify-content-end" id="navbarTogglerDemo01">
+                <div id="myDIV">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link sm_nav mt-2 p-2" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav mt-2 p-2" href="impact.php">OUR IMPACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav mt-2 p-2" href="project.php">OUR PARTNERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sm_nav mt-2 p-2" href="story.php">STORY OF SUCCESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-color btn-md text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul class="navbar-nav d-flex justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link lg-nav p-2" href="../ngo/index.php">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/about.php">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2 color_nav" href="../ngo/approach.php">APPROACH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/board.php">OUR BOARD ADVISOR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lg-nav p-2" href="../ngo/contact.php">CONTACT US</span></a>
+                        </li>
+                        <li class="ml-2 p-0 mb-2">
+                            <button type="button" class="btn btn-secondary btn-color text-white" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Search">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 </header>
 
 
