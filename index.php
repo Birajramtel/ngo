@@ -247,7 +247,7 @@
                                 <h3><strong>A story of Self confidence</strong></h3>
                                 <span class="d-none d-lg-block">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari
                                     VDC as 3rd children of Mr...
-                                    <button class="btn btn-sm btn-color text-white img_float mt-2">Read more</button>
+                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story.php" class="text-white">Read more</a></button>
                                 </span>
                             </div>
                         </div>
@@ -261,7 +261,7 @@
                                 <h3><strong>New Life</strong></h3>
                                 <span class="d-none d-lg-block">There is a saying that “life is a struggle” where we have to face
                                     unexpected events...
-                                    <button class="btn btn-sm btn-color text-white img_float mt-2">Read more</button>
+                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story_2.php" class="text-white">Read more</a></button>
                                 </span>
                             </div>
                         </div>
@@ -275,7 +275,7 @@
                                 <h3><strong>Dream Came True</strong></h3>
                                 <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of
                                     Mr. Tika Bahadur...
-                                    <button class="btn btn-sm btn-color text-white img_float mt-2">Read more</button>
+                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story_3.php" class="text-white">Read more</a></button>
                                 </span>
                             </div>
                         </div>

@@ -104,73 +104,88 @@
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
     <div class="container d-flex justify-content-center mt-5 mb-4">
-        <h1><strong>A story of Self confidence</strong></h1>
+        <h1><strong>Dream Came True </strong></h1>
     </div>
     <div class="container">
         <div class="row d-flex">
             <div class="col-md-9">
-                <p>Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari VDC as 3rd children of Mr. Kedarnath Aryal
-                    and Mrs.Chitra Kumari Aryal among 7 children's, without any formal education Bina's childhood was not
-                    good at all. At early age of 8 due to family issues she was child labored in a house in Chawuni-
-                    Kathmandu, at a very small age she was forced to word from morning 4-o-clock until 10-o clock at night.
-                    Cleaning the five stored house, washing dishes, sending the children's of the house owner who were almost
-                    same as her age to the school and bringing them back, watching the children's of her age going to school
-                    she also dreamed of going to the school but her dreams never turned into reality, she was not doing
-                    households works only but she was also working in the chicken husbandry collecting the eggs of the chicken,
-                    while sometimes she used to sleep while collecting the eggs and used to wake up when scolded by the owner.
-                    During Saturday she used to wash the clothes of her house owner and his family. Taking a flash back of her
-                    past she never thought of getting the life she is living now for her everything seems like a dream.
-                    While meetings her friends and family after seven years she felt like she got a new life and her struggling
-                    days were over but her happiness didn't last long when she found out that she was taken home to get married.
-                    She said she was shocked when she heard that she was getting married and wanted to run away from there but
-                    there was nothing she could do. <br> On the date 2056 at the early age of 15 she got married to Mr.Tika Prasad
-                    Gautam of Kubinde-6, Sindhupalchok and got separated form father in law and mother in law just after 3 months of
-                    marriage both of them were just children's when they have to face difficulties for fulfillment of their basic
-                    needs like food and shelter, they didn't used to have any knowledge and plans about the future. After some
-                    time Bina's husband left home in search of work for 3 years while Bina have to face many difficulties during
-                    this period sometimes she couldn't even eat full appetite also but she never told anyone about the difficult
-                    situation she was facing not even to her father and mother due to superstitions in the society, After some
-                    time her husband learned construction work and at 2064 BS they took loan and build their house which relieved
-                    Bina somehow. Bina's first child was born at age of 18 but when she reached age of 27 she gave birth to 4 more
-                    children's which added more responsibilities and more struggle for them. Slowly she started to get involved in
-                    the other activities in the village she wanted to join the women groups established in her village, wanted to
-                    do new works but she couldn't do it because she was not involved in any women groups due to her financial
-                    status since the groups were established long time ago and she didn't used to have that much money. Slowly
-                    she started to explain the importance of group and make the other women's in the village aware about the
-                    benefits working in the group rather than working isolated as a result she was successful to establish a
-                    women group named Shrijansil Women Saving Group on 2071-4-1 BS with 15 members with the help of BBP Pariwar.
-                    While the regular events were being carried out by the groups the group members decided to send me to the
-                    leader farmer training being conducted on Sindhuli with the support of the BBP Pariwar (support of world
-                    Neighbors) and SIDS Nepal Sindhuli on 2071-9-4 BS till 2071-9-11 which lifted up my self confidence and
-                    after the training I started to relay the things that she have learnt to the group members and started to
-                    practice in my behavior as well. Then I established a plastic pond to collect the wasted water and started
-                    the cultivation of vegetables and tomatoes in the wasted land. Although i was not able to take good care
-                    due to the big earthquake last year (2072BS) I sold the garlic and onion of 5000 rupees, tomatoes of 7000
-                    rupees, which increased my self confidence and motivated me to do the farming with business motive. This
-                    year my target is to generate 40000 rupees form vegetable farming. I have cultivated vegetables like tomatoes,
-                    garlic, onion, green leaves, cucumber, pumpkin, potatoes etc. I have received rupees 17000 from tomatoes
-                    until now other vegetable farming is also good. I am not using any pesticides or chemical feces in the
-                    vegetables rather I am using the vermicompost, organic pesticides produced at home. I am able to fulfill
-                    the needs of my children's as I am able to generate income from farming. I have a will to do more work and
-                    to be a leader farmer and I wanted to bring change in the life of other women members of my group. <br>
-                    I am very thankful to the organization for sending me in the leader farmer training which helped me to develop
-                    my self confidence.
+                <p>
+                    On the date 2035-4-18 BS Laxmi B.K was born as a second child of Mr. Tika Bahadur Bishowkarma
+                    and Mrs. Naradevi Bishowkarma at Pipal Dada, Sindhupalchok district. All the family members were
+                    very happy on her birth but the happiness didn't last long, as her mother died when she was small.
+                    Laxmi didn't got a chance of going to school, rather than going to school she used to be busy
+                    taking care of her small brothers and sisters, household works, cow and goats herdsman. At the
+                    small age of 11 she used to go for labor. She used to get 10 rupees per day. <br>
+                    Days were passing by, as per the rituals of the society she got married at the early age of 13 on
+                    date 2048 to 18 years old Mr. Makar Bahadur Bishowkarma living at Chautara-6, Kubinde. She was
+                    totally unknown about what marriage was and she didn't knew that she have to do a lot of work as
+                    well, even for bringing the water it used to take around 3- 4 hours, sometimes she used to fall
+                    down and all her time and her effort used to be wasted. She used to go to jungle for the grass for
+                    livestock but couldn't carry more and less was not enough. She used to get scolded and sometimes
+                    beaten by her husband and her mother in law. She couldn't eat full appetite even at time when she
+                    got hungry. All her past seemed like a dream to her now. Until the age of 24 she gave birth to 3
+                    children's but she never went to hospital or clinic for the checkup despite, she didn't even knew
+                    that she have to go for the checkup. She didn't get to eat full appetite after the delivery and
+                    even couldn't get proper rest as well. She used to do all the household works just after 2-4 days
+                    of delivery and even used to go to work in the fields after 10 -12 days of delivery. While talking
+                    about her past she had tears in her eyes but her confidence level never decreased and she always had
+                    a will of learning new works. <br>
+                    I didn't knew, what is a Group? What are the benefits of the being a part of group for us? I used to
+                    wonder while other woman's used to tell they have a group meeting today. Slowly women's of my society
+                    also started talking about the groups the social mobilizer's representing an organizations also
+                    started to explain about the importance of the group but I didn't used to have a confidence in me
+                    that even the lower class (dalit) women's like us could be a part of the group and work with other
+                    women's. Slowly we established a group named Srijansil Women Saving Group on the date 2071-4-1 BS
+                    until then we didn't know that we have to elect the chairperson, vice chairperson, secretary and
+                    treasurer, i was hearing this for the first time. After discussion the group members elected me as a
+                    chairperson but I couldn't sleep the whole night thinking that I may not be able to fulfill the
+                    responsibilities handed over to me by the members. I was afraid and nervous because I couldn't even
+                    say my name in front of the mass, I was afraid about how to speak, what to say about group in front
+                    of the social mobilizer's of an organization but slowly I started to fulfill my responsibilities. <br>
+                    We made a group and started to do savings also but I was afraid that the social mobilizer's may take
+                    our savings and run away. Time was passing by, and then 2 members of our group were given a chance to
+                    join the farmer's educational tour to Sindhuli. The group decided to send me and selected one other
+                    member and we went for the visit, there we met other new women members of other women groups and
+                    listening to their experience I started to have a trust on the organization and social mobilizer's.
+                    The objective of the visit was to observe and gain knowledge about the activities of the groups
+                    conducted by other women like us. Observing the activities like stall improvement, vermicompost
+                    production, vegetable farming, cultivation of fodder grasses, collection of the wasted water and
+                    its utilization I realized that if we have a will to do the things there is always a way and I
+                    thought implementing the things I have learned from the tour and also thought of encouraging the
+                    other group members also. On the next day we returned from the visit I made a plastic pond for the
+                    collection of the wasted water and went Chautara to buy vegetables seeds. I started the vegetable
+                    farming by taking the advice of the social mobilizer's of the BBP Pariwar and in that year I earned
+                    around 8000 rupees by selling the vegetables that year. The next year I was able to generate an
+                    income of 10000-12000 by selling vegetables like, chilly, tomatoes, string beans (Bodi), onion and
+                    green leaves, I am planning to extend the vegetable farming. Especially the people in my caste do
+                    not cultivate vegetables my relatives also started cultivating the vegetables watching me. <br>
+                    Nowadays I don't have to depend on my husband for saving in the group rather I am giving the money
+                    that I have earned from vegetables to my husband and even I have planted some fodder grasses and
+                    started the livestock husbandry also, now I can fulfill my desires, there was a time when I couldn't
+                    even eat the food I liked, buy the things I liked, my sisters used to buy the things for me but now
+                    they are happy that I able to fulfill some of my desires. I developed a confidence even to speak in
+                    front of the mass, I am able to convince the members of my group, BBP Pariwar is also supporting us
+                    well, and slowly I have a thought of registering the group in agriculture and livestock and I am also
+                    discussing with the group members as well. <br>
+                    I heartily thank BBP Pariwar and the social mobilizer's of BBP Pariwar for providing the opportunity
+                    for the women's of the lower casts like us and the women of the backwarded communities and the support
+                    provided for making us self dependent.
                 </p>
             </div>
             <div class="col-md-3 justify-content-end">
                 <div class="card" style="width: 18rem;">
-                    <img src="./img/recent_news/recent_news_1.png" class="card-img-top p-2" alt="Story">
+                    <img src="./img/recent_news/recent_news_3.png" class="card-img-top p-2" alt="Story">
                     <div class="card-body">
-                        <h5 class="card-title text-center pt-1">Bina Gautam</h5>
+                        <h5 class="card-title text-center pt-1">Laxmi Bishowkarma</h5>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong> Date of Birth </strong> : 2040-8-27 B.S | 1983-12-13 AD </li>
-                        <li class="list-group-item"><strong> Age </strong> : 37 years </li>
-                        <li class="list-group-item"><strong> Gender </strong> : Female </li>
-                        <li class="list-group-item"><strong> Birth place </strong> : Sindhupalchok </li>
-                        <li class="list-group-item"><strong> Father's name </strong> : Kedarnath Aryal </li>
-                        <li class="list-group-item"><strong> Mother's name </strong> : Chitra kumari Aryal </li>
-                        <li class="list-group-item"><strong> Husband's name </strong> : Tika Prasad Gautam </li>
+                        <li class="list-group-item"><strong> Date of Birth </strong> :2035-4-18 BS | 1978-8-2 AD</li>
+                        <li class="list-group-item"><strong> Age </strong> : 43 years</li>
+                        <li class="list-group-item"><strong> Gender </strong> : Female</li>
+                        <li class="list-group-item"><strong> Birth place </strong> : Pipal Dada, Sindhupalchok </li>
+                        <li class="list-group-item"><strong> Father's name </strong> : Tika Bahadur Bishowkarma </li>
+                        <li class="list-group-item"><strong> Mother's name </strong> : Naradevi Bishowkarma</li>
+                        <li class="list-group-item"><strong> Husband's name </strong> : Makar Bahadur Bishowkarma </li>
                     </ul>
                 </div>
             </div>
@@ -185,13 +200,13 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="./img/recent_news/recent_news_2.png" class="img-fluid w-100 rounded-start p-2" alt="...">
+                            <img src="./img/recent_news/recent_news_1.png" class="img-fluid w-100 rounded-start p-2" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Sabitri Giri</h5>
-                                <p class="card-text">This is a story of Sabitri Giri of Kavre Mahadevsthan born on 2026</p>
-                                <button class="btn btn-sm btn-color"><a href="story_2.php" class="text-white">Read more</a></button>
+                                <h5 class="card-title">Bina Gautam</h5>
+                                <p class="card-text">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari VDC as 3rd children</p>
+                                <button class="btn btn-sm btn-color"><a href="story.php" class="text-white">Read more</a> </button>
                             </div>
                         </div>
                     </div>
@@ -201,13 +216,13 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="./img/recent_news/recent_news_3.png" class="img-fluid w-100 rounded-start p-2" alt="...">
+                            <img src="./img/recent_news/recent_news_2.png" class="img-fluid w-100 rounded-start p-2" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Laxmi Bishowkarma</h5>
-                                <p class="card-text">Mrs. Naradevi Bishowkarma at Pipal Dada, Sindhupalchok district</p>
-                                <button class="btn btn-sm btn-color"><a href="story_3.php" class="text-white">Read more</a></button>
+                                <h5 class="card-title">Sabitri Giri</h5>
+                                <p class="card-text">This is a story of Sabitri Giri of Kavre Mahadevsthan born on 2026</p>
+                                <button class="btn btn-sm btn-color"><a href="story_2.php" class="text-white">Read more</a></button>
                             </div>
                         </div>
                     </div>

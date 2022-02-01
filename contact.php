@@ -97,7 +97,7 @@
                     <div class="form-group input-group-lg">
                         <input type="email" class="form-control input-md p-2 mb-3" id="inputlg" placeholder="Email">
                     </div>
-                    <button style="font-size:18px" class="btn btn-primary btn-sm"> Send <i class="fa fa-send-o"></i></button>
+                    <button style="font-size:18px" class="btn btn-color text-white btn-sm"> Send <i class="fa fa-send-o"></i></button>
                 </div>
             </div>
         </form>

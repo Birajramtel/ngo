@@ -104,73 +104,77 @@
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
     <div class="container d-flex justify-content-center mt-5 mb-4">
-        <h1><strong>A story of Self confidence</strong></h1>
+        <h1><strong>New Life</strong></h1>
     </div>
     <div class="container">
         <div class="row d-flex">
             <div class="col-md-9">
-                <p>Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari VDC as 3rd children of Mr. Kedarnath Aryal
-                    and Mrs.Chitra Kumari Aryal among 7 children's, without any formal education Bina's childhood was not
-                    good at all. At early age of 8 due to family issues she was child labored in a house in Chawuni-
-                    Kathmandu, at a very small age she was forced to word from morning 4-o-clock until 10-o clock at night.
-                    Cleaning the five stored house, washing dishes, sending the children's of the house owner who were almost
-                    same as her age to the school and bringing them back, watching the children's of her age going to school
-                    she also dreamed of going to the school but her dreams never turned into reality, she was not doing
-                    households works only but she was also working in the chicken husbandry collecting the eggs of the chicken,
-                    while sometimes she used to sleep while collecting the eggs and used to wake up when scolded by the owner.
-                    During Saturday she used to wash the clothes of her house owner and his family. Taking a flash back of her
-                    past she never thought of getting the life she is living now for her everything seems like a dream.
-                    While meetings her friends and family after seven years she felt like she got a new life and her struggling
-                    days were over but her happiness didn't last long when she found out that she was taken home to get married.
-                    She said she was shocked when she heard that she was getting married and wanted to run away from there but
-                    there was nothing she could do. <br> On the date 2056 at the early age of 15 she got married to Mr.Tika Prasad
-                    Gautam of Kubinde-6, Sindhupalchok and got separated form father in law and mother in law just after 3 months of
-                    marriage both of them were just children's when they have to face difficulties for fulfillment of their basic
-                    needs like food and shelter, they didn't used to have any knowledge and plans about the future. After some
-                    time Bina's husband left home in search of work for 3 years while Bina have to face many difficulties during
-                    this period sometimes she couldn't even eat full appetite also but she never told anyone about the difficult
-                    situation she was facing not even to her father and mother due to superstitions in the society, After some
-                    time her husband learned construction work and at 2064 BS they took loan and build their house which relieved
-                    Bina somehow. Bina's first child was born at age of 18 but when she reached age of 27 she gave birth to 4 more
-                    children's which added more responsibilities and more struggle for them. Slowly she started to get involved in
-                    the other activities in the village she wanted to join the women groups established in her village, wanted to
-                    do new works but she couldn't do it because she was not involved in any women groups due to her financial
-                    status since the groups were established long time ago and she didn't used to have that much money. Slowly
-                    she started to explain the importance of group and make the other women's in the village aware about the
-                    benefits working in the group rather than working isolated as a result she was successful to establish a
-                    women group named Shrijansil Women Saving Group on 2071-4-1 BS with 15 members with the help of BBP Pariwar.
-                    While the regular events were being carried out by the groups the group members decided to send me to the
-                    leader farmer training being conducted on Sindhuli with the support of the BBP Pariwar (support of world
-                    Neighbors) and SIDS Nepal Sindhuli on 2071-9-4 BS till 2071-9-11 which lifted up my self confidence and
-                    after the training I started to relay the things that she have learnt to the group members and started to
-                    practice in my behavior as well. Then I established a plastic pond to collect the wasted water and started
-                    the cultivation of vegetables and tomatoes in the wasted land. Although i was not able to take good care
-                    due to the big earthquake last year (2072BS) I sold the garlic and onion of 5000 rupees, tomatoes of 7000
-                    rupees, which increased my self confidence and motivated me to do the farming with business motive. This
-                    year my target is to generate 40000 rupees form vegetable farming. I have cultivated vegetables like tomatoes,
-                    garlic, onion, green leaves, cucumber, pumpkin, potatoes etc. I have received rupees 17000 from tomatoes
-                    until now other vegetable farming is also good. I am not using any pesticides or chemical feces in the
-                    vegetables rather I am using the vermicompost, organic pesticides produced at home. I am able to fulfill
-                    the needs of my children's as I am able to generate income from farming. I have a will to do more work and
-                    to be a leader farmer and I wanted to bring change in the life of other women members of my group. <br>
-                    I am very thankful to the organization for sending me in the leader farmer training which helped me to develop
-                    my self confidence.
+                <p>There is a saying that “life is a struggle” where we have to face unexpected events
+                    and difficulties. This is a story of Sabitri Giri of Kavre Mahadevsthan born on 2026
+                    on the month of Jestha; she was the first child among 4 children's of Mr.Sovit Bharati
+                    and Mrs. Kali Bharati. At that time due to social tradition she was deprived from education,
+                    she was busy taking care of her small brothers and sisters and doing household works rather
+                    than going to school due to which she can't even write her name as well. <br> Time was passing
+                    by; at the small age of 13 years she got married to Mr. Ram Bahadur Giri of age 26 living in
+                    Mandandeupur-9, Kavre. She has to take responsibilities at the small age while other child's
+                    used to go to school, play and her husband also mostly used to stay outside due to Army's job,
+                    she was taking all the responsibilities of the house. At the age of 15 she gave birth to a child
+                    but she couldn't save him more than 10 days. She stated that if there was facility of clinic and
+                    the regular checking she wouldn't have lost her child. She gave birth to 2 children when she
+                    reached 20 but she stated that she never got a chance to go for the checkup, neither she knew
+                    about the reproductive health nor her family member made her understand regarding the checkup
+                    during pregnancy. <br>I was interested to be involved in a group watching her neighbors being
+                    involved in a group. Finally i got involved in Bacchaladevi Women Saving Group on Falgun 2073,
+                    on the same date i got involved in a group; BBP Pariwar organized a health awareness program
+                    especially focused on the cancer of the cervix. And the social mobilizer's of the BBP Pariwar
+                    had informed all of the members of the group to attend the camp for the checkup for cancer of
+                    the cervix which was going to be held on Samaj Sewa Samuha Kuntabesi on the date 2073 Chaitra
+                    19. But i didn't pay any attention because i felt like i was healthy, as i never felt any
+                    symptoms. And felt like why should I do the checkup? But considering the words of the social
+                    mobilizer's i thought of checking up once just to be clear regarding my health status. <br> On
+                    the date of the camp i.e. 2073-12-19 i went to Samaj Sewa Samuha for the checkup and was found
+                    positive in the VIA Test. At first I didn't understood what was the meaning of VIA Positive,
+                    Sisters conducting the camp informed me to do the checkup in Banepa city once. Following the
+                    instruction of the sisters I went to Banepa for the checkup and from Banepa the doctor recommended
+                    me to Bhaktapur cancer hospital and I went there. After i checked up at Bhaktapur cancer hospital
+                    I got the report on the 7th day and found out that i was on second stage of cervix cancer, everyone
+                    of my family members were shocked when they knew about my report because we used to hear the rumors
+                    that cancer patients will not survive and felt like I was going to die soon, at that time all I
+                    could think of was about my family members and started to cry. The doctors started to consult me
+                    and told me not to worry and informed me that I was in the initial stage and informed that I would
+                    be cured and they have to start the treatment. According to the advice of the doctors I had to
+                    undergo 5 chemotherapies. I got the first chemo on date 2073-2-4, after the chemotherapy i felt
+                    very weak I was not able to walk also during that time I felt like I was about to die watching my
+                    condition my husband was angry and started to blame sisters of BBP Pariwar thinking that her wife
+                    was fine but they made me sick and I will die but the reality was that I was about to get a new
+                    life because of them. But slowly with the help and support and care of BBP Pariwar I was able to
+                    develop self confidence. My hair started to fall when I was undergoing the second and third chemo,
+                    observing the other patients on the hospital I thought that I came for the checkup early, after my
+                    4th chemotherapy the doctor told that there was no need of the 5th chemotherapy. My health condition
+                    was getting better and after 3-4 months of the treatment at Kathmandu finally I got cured and came
+                    home I am fine now, I can do some households works, I can walk for the monthly meetings of the group.
+                    <br>I am very thankful to BBP Pariwar for providing me a new life; maybe I couldn't be alive even
+                    after getting the treatment if I was not suggested for the checkup on time by the staffs of the BBP
+                    Pariwar, if the treatment was started late may I couldn't be saved by money. Now I am even convincing
+                    the other women's in my society as well to do the checkup and I am very thankful once again to the
+                    Social Mobilizer's and the BBP Pariwar for providing me a new life.
+
                 </p>
             </div>
             <div class="col-md-3 justify-content-end">
                 <div class="card" style="width: 18rem;">
-                    <img src="./img/recent_news/recent_news_1.png" class="card-img-top p-2" alt="Story">
+                    <img src="./img/recent_news/recent_news_2.png" class="card-img-top p-2" alt="Story">
                     <div class="card-body">
-                        <h5 class="card-title text-center pt-1">Bina Gautam</h5>
+                        <h5 class="card-title text-center pt-1">Sabitri Giri</h5>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong> Date of Birth </strong> : 2040-8-27 B.S | 1983-12-13 AD </li>
-                        <li class="list-group-item"><strong> Age </strong> : 37 years </li>
-                        <li class="list-group-item"><strong> Gender </strong> : Female </li>
-                        <li class="list-group-item"><strong> Birth place </strong> : Sindhupalchok </li>
-                        <li class="list-group-item"><strong> Father's name </strong> : Kedarnath Aryal </li>
-                        <li class="list-group-item"><strong> Mother's name </strong> : Chitra kumari Aryal </li>
-                        <li class="list-group-item"><strong> Husband's name </strong> : Tika Prasad Gautam </li>
+                        <li class="list-group-item"><strong> Date of Birth </strong> : Jestha 2026 BS | 1969 May AD</li>
+                        <li class="list-group-item"><strong> Age </strong> : 52 years</li>
+                        <li class="list-group-item"><strong> Gender </strong> : Female</li>
+                        <li class="list-group-item"><strong> Birth place </strong> : Mahadevsthan, Kavre</li>
+                        <li class="list-group-item"><strong> Father's name </strong> : Sovit Bharati</li>
+                        <li class="list-group-item"><strong> Mother's name </strong> : Kali Bharati</li>
+                        <li class="list-group-item"><strong> Husband's name </strong> : Ram Bahadur Giri</li>
                     </ul>
                 </div>
             </div>
@@ -185,13 +189,13 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="./img/recent_news/recent_news_2.png" class="img-fluid w-100 rounded-start p-2" alt="...">
+                            <img src="./img/recent_news/recent_news_1.png" class="img-fluid w-100 rounded-start p-2" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Sabitri Giri</h5>
-                                <p class="card-text">This is a story of Sabitri Giri of Kavre Mahadevsthan born on 2026</p>
-                                <button class="btn btn-sm btn-color"><a href="story_2.php" class="text-white">Read more</a></button>
+                                <h5 class="card-title">Bina Gautam</h5>
+                                <p class="card-text">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari VDC as 3rd children</p>
+                                <button class="btn btn-sm btn-color"><a href="story.php" class="text-white">Read more</a></button>
                             </div>
                         </div>
                     </div>

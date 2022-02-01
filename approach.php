@@ -134,40 +134,38 @@
         <div class="container mt-4 mb-4">
             <h1 class="d-flex justify-content-center mb-5"><strong>OUR RECENT PROJECTS</strong></h1>
             <div class="row">
-                <div class="col-md-6">
-                    <div class="card mb-4 p-2">
-                        <p class="">BBP Pariwar supports farmers and marginalized communities especially women through
+                <div class="col-md-6 mb-2">
+                    <div class="card h-100 mb-4 p-2 d-flex justify-content-center bg_color_4">
+                        <p class="text-white">BBP Pariwar supports farmers and marginalized communities especially women through
                             formation of groups with a motive that, "groups are the entry point for any development
-                            activities" to improve the livelihoods of marginalized communities...
+                            activities" to improve the livelihoods of marginalized communities.
                         </p>
-                        <button class="btn btn-md btn-color text-white">Read more</button>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card mb-4 p-2">
-                        <p class="">Then various development activities like irrigation system, drinking water, non-formal education,
+                <div class="col-md-6 mb-2">
+                    <div class="card h-100 mb-4 p-2 d-flex justify-content-center bg_color_2">
+                        <p class="text-white">Then various development activities like irrigation system, drinking water, non-formal education,
                             agro foresty, environmental programs, trainings, health camps etc. are conducted in order to improve
-                            the economic, social, and intellectual and health...
+                            the economic, social, and intellectual and health status of the participants in order to spread these
+                            approaches through participants to other peoples.
                         </p>
-                        <button class="btn btn-md btn-color text-white">Read more</button>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card mb-4 p-2">
-                        <p class="">BBP Pariwar introduce the means of the agro ecological farming system, livestock husbandry(goats and buffalo),
+                <div class="col-md-6 mb-2">
+                    <div class="card h-100 mb-4 p-2 d-flex justify-content-center bg_color_3">
+                        <p class="text-white">BBP Pariwar introduce the means of the agro ecological farming system, livestock husbandry(goats and buffalo),
                             for the small holder farmers and facilitate and provides necessary support for them while they start the
-                            ecological farming ...
+                            ecological farming principles on their farm.
                         </p>
-                        <button class="btn btn-md btn-color text-white">Read more</button>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card mb-4 p-2">
-                        <p class="">BBP Pariwar, works as a roof organization for the local NGO'S facilitating them and developing
+                <div class="col-md-6 mb-2">
+                    <div class="card h-100 mb-4 p-2 d-flex justify-content-center bg_color_5">
+                        <p class="text-white">BBP Pariwar, works as a roof organization for the local NGO'S facilitating them and developing
                             their capacity to improve and expand activities in sustainable manner providing the sustainable
-                            preventive and curative health services, educational sector...
+                            preventive and curative health services, educational sector, community development as well as
+                            advocates for the improved facilities.
                         </p>
-                        <button class="btn btn-md btn-color text-white">Read more</button>
                     </div>
                 </div>
             </div>
@@ -228,7 +226,8 @@
                     <h3 class="pt-4 mb-0"><strong>Trying to upgrade the living standard</strong></h3>
                     <p class="pt-2">Saving and credit program is being conducted in the community especially with
                         women's participation in order to fulfill the needs like enrollment of the children's in
-                        the school, health treatment, economic growth etc.</p>
+                        the school, health treatment, economic growth etc.
+                    </p>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
@@ -239,8 +238,9 @@
                             <div class="mt-2">
                                 <h3><strong>A story of Self confidence</strong></h3>
                                 <span class="d-none d-lg-block">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari
-                                    VDC as 3rd children of Mr. Kedarnath Aryal and Mrs.Chitra Kumari Aryal among 7
-                                    children.</span>
+                                    VDC as 3rd children of Mr...
+                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story.php" class="text-white">Read more</a></button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -252,7 +252,9 @@
                             <div class="mt-2">
                                 <h3><strong>New Life</strong></h3>
                                 <span class="d-none d-lg-block">There is a saying that “life is a struggle” where we have to face
-                                    unexpected events and difficulties. This is a story of Sabitri Giri of Kavre.</span>
+                                    unexpected events...
+                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story_2.php" class="text-white">Read more</a></button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -263,8 +265,10 @@
                             </div>
                             <div class="mt-2">
                                 <h3><strong>Dream Came True</strong></h3>
-                                <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of Mr. Tika Bahadur
-                                    Bishowkarma and Mrs. Naradevi Bishowkarma at Pipal Dada. </span>
+                                <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of
+                                    Mr. Tika Bahadur...
+                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story_3.php" class="text-white">Read more</a></button>
+                                </span>
                             </div>
                         </div>
                     </div>

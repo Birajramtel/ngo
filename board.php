@@ -292,7 +292,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mt-3 mb-3 p-3">
-                    <h1 class="d-flex justify-content-center"><strong>Our Impact:</strong></h1>
+                    <h1 class="d-flex justify-content-center"><strong>FAQ</strong></h1>
                     <br>
                     <button class="accordion text-white">Works with the partner organizations to provide health services</button>
                     <div class="panel">
@@ -340,7 +340,8 @@
                     <h3 class="pt-4 mb-0"><strong>Trying to upgrade the living standard</strong></h3>
                     <p class="pt-2">Saving and credit program is being conducted in the community especially with
                         women's participation in order to fulfill the needs like enrollment of the children's in
-                        the school, health treatment, economic growth etc.</p>
+                        the school, health treatment, economic growth etc.
+                    </p>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
@@ -351,8 +352,9 @@
                             <div class="mt-2">
                                 <h3><strong>A story of Self confidence</strong></h3>
                                 <span class="d-none d-lg-block">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari
-                                    VDC as 3rd children of Mr. Kedarnath Aryal and Mrs.Chitra Kumari Aryal among 7
-                                    children.</span>
+                                    VDC as 3rd children of Mr...
+                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story.php" class="text-white">Read more</a></button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -364,7 +366,9 @@
                             <div class="mt-2">
                                 <h3><strong>New Life</strong></h3>
                                 <span class="d-none d-lg-block">There is a saying that “life is a struggle” where we have to face
-                                    unexpected events and difficulties. This is a story of Sabitri Giri of Kavre.</span>
+                                    unexpected events...
+                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story.php" class="text-white">Read more</a></button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -375,8 +379,10 @@
                             </div>
                             <div class="mt-2">
                                 <h3><strong>Dream Came True</strong></h3>
-                                <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of Mr. Tika Bahadur
-                                    Bishowkarma and Mrs. Naradevi Bishowkarma at Pipal Dada. </span>
+                                <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of
+                                    Mr. Tika Bahadur...
+                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story.php" class="text-white">Read more</a></button>
+                                </span>
                             </div>
                         </div>
                     </div>
