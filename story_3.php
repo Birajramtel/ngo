@@ -108,6 +108,23 @@
     </div>
     <div class="container">
         <div class="row d-flex">
+            <div class="col-md-3 mb-4 justify-content-end">
+                <div class="card">
+                    <img src="./img/recent_news/recent_news_3.png" class="card-img-top p-2" alt="Story">
+                    <div class="card-body">
+                        <h5 class="card-title text-center pt-1">Laxmi Bishowkarma</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong> Date of Birth </strong> :2035-4-18 BS | 1978-8-2 AD</li>
+                        <li class="list-group-item"><strong> Age </strong> : 43 years</li>
+                        <li class="list-group-item"><strong> Gender </strong> : Female</li>
+                        <li class="list-group-item"><strong> Birth place </strong> : Pipal Dada, Sindhupalchok </li>
+                        <li class="list-group-item"><strong> Father's name </strong> : Tika Bahadur Bishowkarma </li>
+                        <li class="list-group-item"><strong> Mother's name </strong> : Naradevi Bishowkarma</li>
+                        <li class="list-group-item"><strong> Husband's name </strong> : Makar Bahadur Bishowkarma </li>
+                    </ul>
+                </div>
+            </div>
             <div class="col-md-9">
                 <p>
                     On the date 2035-4-18 BS Laxmi B.K was born as a second child of Mr. Tika Bahadur Bishowkarma
@@ -172,23 +189,7 @@
                     provided for making us self dependent.
                 </p>
             </div>
-            <div class="col-md-3 justify-content-end">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/recent_news/recent_news_3.png" class="card-img-top p-2" alt="Story">
-                    <div class="card-body">
-                        <h5 class="card-title text-center pt-1">Laxmi Bishowkarma</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong> Date of Birth </strong> :2035-4-18 BS | 1978-8-2 AD</li>
-                        <li class="list-group-item"><strong> Age </strong> : 43 years</li>
-                        <li class="list-group-item"><strong> Gender </strong> : Female</li>
-                        <li class="list-group-item"><strong> Birth place </strong> : Pipal Dada, Sindhupalchok </li>
-                        <li class="list-group-item"><strong> Father's name </strong> : Tika Bahadur Bishowkarma </li>
-                        <li class="list-group-item"><strong> Mother's name </strong> : Naradevi Bishowkarma</li>
-                        <li class="list-group-item"><strong> Husband's name </strong> : Makar Bahadur Bishowkarma </li>
-                    </ul>
-                </div>
-            </div>
+
         </div>
     </div>
     <div class="container d-flex justify-content-center mt-3 mb-3">

@@ -108,6 +108,23 @@
     </div>
     <div class="container">
         <div class="row d-flex">
+            <div class="col-md-3 mb-4 justify-content-end">
+                <div class="card">
+                    <img src="./img/recent_news/recent_news_1.png" class="card-img-top p-2" alt="Story">
+                    <div class="card-body">
+                        <h5 class="card-title text-center pt-1">Bina Gautam</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong> Date of Birth </strong> : 2040-8-27 B.S | 1983-12-13 AD </li>
+                        <li class="list-group-item"><strong> Age </strong> : 37 years </li>
+                        <li class="list-group-item"><strong> Gender </strong> : Female </li>
+                        <li class="list-group-item"><strong> Birth place </strong> : Sindhupalchok </li>
+                        <li class="list-group-item"><strong> Father's name </strong> : Kedarnath Aryal </li>
+                        <li class="list-group-item"><strong> Mother's name </strong> : Chitra kumari Aryal </li>
+                        <li class="list-group-item"><strong> Husband's name </strong> : Tika Prasad Gautam </li>
+                    </ul>
+                </div>
+            </div>
             <div class="col-md-9">
                 <p>Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari VDC as 3rd children of Mr. Kedarnath Aryal
                     and Mrs.Chitra Kumari Aryal among 7 children's, without any formal education Bina's childhood was not
@@ -157,23 +174,7 @@
                     my self confidence.
                 </p>
             </div>
-            <div class="col-md-3 justify-content-end">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/recent_news/recent_news_1.png" class="card-img-top p-2" alt="Story">
-                    <div class="card-body">
-                        <h5 class="card-title text-center pt-1">Bina Gautam</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong> Date of Birth </strong> : 2040-8-27 B.S | 1983-12-13 AD </li>
-                        <li class="list-group-item"><strong> Age </strong> : 37 years </li>
-                        <li class="list-group-item"><strong> Gender </strong> : Female </li>
-                        <li class="list-group-item"><strong> Birth place </strong> : Sindhupalchok </li>
-                        <li class="list-group-item"><strong> Father's name </strong> : Kedarnath Aryal </li>
-                        <li class="list-group-item"><strong> Mother's name </strong> : Chitra kumari Aryal </li>
-                        <li class="list-group-item"><strong> Husband's name </strong> : Tika Prasad Gautam </li>
-                    </ul>
-                </div>
-            </div>
+
         </div>
     </div>
     <div class="container d-flex justify-content-center mt-3 mb-3">

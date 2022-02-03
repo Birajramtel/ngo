@@ -134,7 +134,7 @@
                 <div class="col-md-9">
                     <h2 class="card-title"><strong><b>Groundswell's programs</b></strong></h2>
                     <img src="../ngo/img/projects/project_1.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
-                    <p class="text-justify mb-0">Groundswell international is a partnership of local organizations and their network
+                    <p class="text-justify mb-3">Groundswell international is a partnership of local organizations and their network
                         of grassroots community groups and is working in West Africa, America, and South Asia. Groundswell's programs
                         catalyze the transition from unsustainable agriculture and extractive economies to regenerative, just farming
                         and local food systems. Communities and family farmers improve their wellbeing, produce more abundant and
@@ -148,8 +148,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>Friends of Nepal Pariwar Foundation </b></strong></h2>
+                <div class="col-md-9 mt-5">
+                    <h2 class="card-title mb-3"><strong><b>Friends of Nepal Pariwar Foundation </b></strong></h2>
                     <img src="../ngo/img/projects/project_2.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
                     <p class="text-justify mb-0">Friends of Nepal Pariwar Foundation is a non-profit organization supporting the health
                         services for women through the help of registered non-profit community organizations in Nepal to improve the
@@ -157,15 +157,15 @@
                         and expand health services and support development, particularly improved drinking water and educational
                         opportunities, in remote and socially excluded and tribal communities.</p>
                 </div>
-                <div class="col-md-3 d-none d-md-block">
+                <div class="col-md-3 d-none d-md-block mt-5">
                     <div class="card mb-4 p-2">
                         <img src="../ngo/img/projects/project_2.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>World Neighbors</b></strong></h2>
+                    <h2 class="card-title mb-3"><strong><b>World Neighbors</b></strong></h2>
                     <img src="../ngo/img/projects/project_3.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
                     <p class="text-justify mb-0">World Neighbors is an international development organization that works to alleviate hunger,
                         poverty, and disease in the most isolated rural villages in Asia, Africa and Latin America. World Neighbors does
@@ -181,9 +181,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-md-9">
-                    <h2 class="card-title"><strong><b>American Jewish</b></strong></h2>
+                    <h2 class="card-title mb-3"><strong><b>American Jewish</b></strong></h2>
                     <img src="../ngo/img/projects/project_3.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
                     <p class="text-justify mb-0">American Jewish World Service supports more than 500 social justice organizations in
                         18 countries in Africa, Asia, Latin America and the Caribbean. American Jewish World Service focus is on civil
