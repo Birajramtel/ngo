@@ -329,37 +329,23 @@
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>About us</strong></h5>
-                        <a href="#" class="list-group text-white pt-2">Our Mission</a>
-                        <a href="#" class="list-group text-white pt-2">Careers</a>
-                        <a href="#" class="list-group text-white pt-2">Contact</a>
+                        <a href="./about.php" class="list-group text-white pt-2">Our Mission</a>
+                        <a href="./contact.php" class="list-group text-white pt-2">Contact</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4 mb-2">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
-                        <a href="#" class="list-group text-white pt-2">How We Work</a>
-                        <a href="#" class="list-group text-white pt-2">Where We Work</a>
-                        <a href="#" class="list-group text-white pt-2">Research & Publications</a>
-                        <a href="#" class="list-group text-white pt-2">Partners</a>
-                        <a href="#" class="list-group text-white pt-2">Stories</a>
+                        <a href="./project.php" class="list-group text-white pt-2">Partners</a>
+                        <a href="./impact.php" class="list-group text-white pt-2">Impact</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
-                        <h5 class="text-white"><strong>Ways to help</strong></h5>
-                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
-                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-4">
-                    <div class="list-group">
-                        <h5 class="text-white"><strong>Get involved</strong></h5>
-                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
-                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
+                        <h5 class="text-white"><strong>Stories</strong></h5>
+                        <a href="./story.php" class="list-group text-white pt-2">Bina Gautam</a>
+                        <a href="./story_2.php" class="list-group text-white pt-2">Sabitri Giri</a>
+                        <a href="./story_3.php" class="list-group text-white pt-2">Laxmi Bishowkarma</a>
                     </div>
                 </div>
             </div>
