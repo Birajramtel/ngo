@@ -105,15 +105,15 @@
             <div class="row mt-5 mb-2">
                 <div class="col-4 d-flex justify-content-center">
                     <i class="fa fa-envelope" style="font-size:15px"></i>
-                    <h6><strong class="p-2">Email</strong></h6>
+                    <h6><strong class="p-2">bbppariwar2051@gmail.com</strong></h6>
                 </div>
                 <div class="col-4 d-flex justify-content-center">
                     <i class="fas fa-phone-alt" style="font-size:15px"></i>
-                    <h6><strong class="p-2">Phone</strong></h6>
+                    <h6><strong class="p-2">9808424314</strong></h6>
                 </div>
                 <div class="col-4 d-flex justify-content-center">
                     <i class="fas fa-map-marker-alt" style="font-size:15px"></i>
-                    <h6><strong class="p-2">Location</strong></h6>
+                    <h6><strong class="p-2">Banepa-6, Budol</strong></h6>
                 </div>
             </div>
         </div>

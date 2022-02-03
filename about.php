@@ -129,23 +129,23 @@
         <div class="container">
             <h1 class="who_we_are mb-4 d-flex justify-content-center "><strong>ABOUT US</strong></h1>
             <img src="img/Logo_Bg.png" class="img_float img-fluid" alt="Logo">
-            <p class="text-justify"> BBP PARIWAR is a non-profit voluntary organization registered with District Administration
-                Office and affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously
-                operating different types of social development programs at three districts, Sindhupalchok,
-                Ramechhap and Kavreplanchok. With a belief that only integrated development of the society
-                can be sustainable development, this organization mobilizes local resources with the participation
-                of backwarded, marginalized and communities at risk in the society by mobilizing local resources for
-                health, education, agriculture, animal husbandry, herbs, forest conservation, drinking water and
-                development of local infrastructure. <br> The family is also working as a roof organization to increase
-                the capacity of the other three organizations to give and get the maximum productivity. Samaj Sewa
-                Samuha, Kavre, Nauling Swastha Sewa Kendra, Sindhupalchok and Bajra Samaj Nepal, Ramechhap are working
-                as member organization of BBP Pariwar. Therefore this organization has been carrying out social service
-                activities independently as well as an organizational network. Since 1994 conducting various programs
-                and activities for the upliftment of the poor and marginalized women and men by empowering them with
-                different capacity building activities in order to help them become self-reliant. BBP Pariwar's focus is
-                on reproductive health, women's issues, saving and credit group program, non formal education, community
-                based natural resources management, community development activities like drinking water, micro-irrigation
-                etc.
+            <p class="text-justify">
+                BBP PARIWAR is a non-profit voluntary organization registered with District Administration Office and
+                affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously operating different
+                types of social development programs at Four districts, Sindhupalchok, Ramechhap, Sindhuli and Kavreplanchok.
+                With a belief that only integrated development of the society can be sustainable development, this
+                organization mobilizes local resources with the participation of backwarded, marginalized and communities
+                at risk in the society by mobilizing local resources for health, education, agriculture, animal husbandry,
+                herbs, forest conservation, drinking water and development of local infrastructure. <br> The family is also working
+                as a roof organization to increase the capacity of the other three organizations to give and get the maximum
+                productivity. Samaj Sewa Samuha-Kavre, Nauling Swastha Sewa Kendra-Sindhupalchok, SIDS (Sindhuli Integrated
+                Developnment services, Nepal)-Sindhuli and Bajra Samaj Nepal-Ramechhap are working as member organization of
+                BBP Pariwar. Therefore this organization has been carrying out social service activities independently as well
+                as with an organizational network. Since 1994 conducting various programs and activities for the upliftment of
+                the poor and marginalized women and men by empowering them with different capacity building activities in order
+                to help them become self-reliant. BBP Pariwar's focus is on reproductive health, women's issues, saving and
+                credit group program, non-formal/Formal education, community based natural resources management, community
+                development activities like drinking water, micro-irrigation etc.
             </p>
 
         </div>
@@ -163,9 +163,10 @@
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR MISSION</strong></h2>
                             </div>
-                            <p class="card-text mt-3 font_cg text-wrap">BBP Pariwar supports farmers and marginalized communities especially women
-                                through formation of groups with a motive that, "groups are the entry point for any development
-                                activities" to improve the livelihoods of marginalized communities. </p>
+                            <p class="card-text mt-3 font_cg text-wrap">“Strengthen the capacity of the backward section
+                                of people in the community particularly women, but also under-served, marginalized, poor,
+                                Dalit, and voiceless, with their full participation to achieve favorable results and
+                                positive change in their lives and future generations” </p>
                         </div>
                     </div>
                 </div>
@@ -175,9 +176,8 @@
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR VISION</strong></h2>
                             </div>
-                            <p class="card-text mt-3 font_cg">BBP Pariwar introduce the means of the agro ecological farming system, livestock
-                                husbandry(goats and buffalo), for the small holder farmers and facilitate and provides necessary support for
-                                them while they start ecological farming principles on their farm.</p>
+                            <p class="card-text mt-3 font_cg">“Create just a society valuing people's culture,
+                                self-dignity and beliefs”</p>
                         </div>
                     </div>
                 </div>
@@ -187,8 +187,8 @@
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR GOAL</strong></h2>
                             </div>
-                            <p class="card-text mt-3 font_cg">BBP Pariwar, works as a roof organization for the local NGO'S facilitating them
-                                and developing their capacity to improve and expand activities in sustainable manner with preventive curative health services, educational sector, community development.</p>
+                            <p class="card-text mt-3 font_cg">To change the active financial, social, educational, health and
+                                environmental aspect of the community positively with the complete involvement of community.</p>
                         </div>
                     </div>
                 </div>

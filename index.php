@@ -44,7 +44,7 @@
                             <a class="nav-link sm_nav mt-2 p-2" href="story.php">STORY OF SUCCESS</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-outline-color btn-md text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
+                            <button class="btn btn-outline-color btn-md text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">INVOLVEMENT</button>
                         </li>
                     </ul>
                     <hr>
@@ -82,7 +82,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title text-center" id="exampleModalLabel">DONATE</h5>
+                <h5 class="modal-title text-center" id="exampleModalLabel">INVOLVEMENT</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <p>Scan to pay</p>
@@ -382,11 +382,10 @@
                 <div class="col-md-6  d-flex align-self-center justify-content-center">
                     <div class="social-handles-footer mb-2 mt-3">
                         <div>
-                            <span><i class="fab fa-2x fa-facebook-square socio_site"><a href="#"></a></i></span>
-                            <span><i class="fab fa-2x fa-twitter-square socio_site"><a href="#"></a></i></span>
-                            <span><i class="fab fa-2x fa-linkedin socio_site"></i><a href="#"></a></span>
-                            <span><i class="fab fa-2x fa-instagram-square socio_site"><a href="#"></a></i></span>
-
+                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-facebook-square socio_site"></a></i></span>
+                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-twitter-square socio_site"></a></i></span>
+                            <span><a href="https://www.youtube.com/channel/UCbmybcrmJq0QGqYdeOw1Ikw"><i class="fab fa-2x fa-youtube socio_site"></a></i></span>
+                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-instagram-square socio_site"></a></i></span>
                         </div>
                     </div>
                 </div>
