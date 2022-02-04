@@ -325,3 +325,14 @@ body {
 .img_float {
   float: right !important;
 }
+button.navbar-toggler {
+  position: absolute;
+  right: 9vw;
+  top: 32px;
+}
+.navbar-collapse.nav_medium.collapse.show {
+  margin-bottom: 0;
+}
+.card_height {
+  overflow: scroll !important;
+}

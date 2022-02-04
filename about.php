@@ -159,11 +159,11 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <div class="card-body">
+                        <div class="card-body card_height" style="height: 280px;">
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR MISSION</strong></h2>
                             </div>
-                            <p class="card-text mt-3 font_cg text-wrap">“Strengthen the capacity of the backward section
+                            <p class="card-text mt-5 font_cg text-wrap">“Strengthen the capacity of the backward section
                                 of people in the community particularly women, but also under-served, marginalized, poor,
                                 Dalit, and voiceless, with their full participation to achieve favorable results and
                                 positive change in their lives and future generations” </p>
@@ -172,22 +172,22 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <div class="card-body">
+                        <div class="card-body card_height" style="height: 280px;">
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR VISION</strong></h2>
                             </div>
-                            <p class="card-text mt-3 font_cg">“Create just a society valuing people's culture,
+                            <p class="card-text mt-5 font_cg">“Create just a society valuing people's culture,
                                 self-dignity and beliefs”</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <div class="card-body">
+                        <div class="card-body card_height" style="height: 280px;">
                             <div class="vl">
                                 <h2 class="card-title p-2"><strong>OUR GOAL</strong></h2>
                             </div>
-                            <p class="card-text mt-3 font_cg">To change the active financial, social, educational, health and
+                            <p class="card-text mt-5 font_cg">To change the active financial, social, educational, health and
                                 environmental aspect of the community positively with the complete involvement of community.</p>
                         </div>
                     </div>

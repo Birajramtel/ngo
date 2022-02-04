@@ -18,12 +18,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+
 <header class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand col-md-4" href="index.php">
                 <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
-                <img src="./img/Logo_Bg.png" class="img-fluid" alt="Logo">
+                <img src="./img/Logo_Bg.png" class="img-fluid" id="brand-logo" alt="Logo">
             </a>
             <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,7 +45,7 @@
                             <a class="nav-link sm_nav mt-2 p-2" href="story.php">STORY OF SUCCESS</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-outline-color btn-md text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">INVOLVEMENT</button>
+                            <button class="btn btn-outline-color btn-md text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
                         </li>
                     </ul>
                     <hr>
@@ -128,7 +129,6 @@
     <section>
         <div class="container">
             <h1 class="who_we_are mb-4 d-flex justify-content-center "><strong>ABOUT US</strong></h1>
-            <img src="img/Logo_Bg.png" class="img_float img-fluid" alt="Logo">
             <p class=""> BBP PARIWAR is a non-profit voluntary organization registered with District Administration
                 Office and affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously
                 operating different types of social development programs at three districts, Sindhupalchok,
@@ -439,6 +439,7 @@
     </script>
     <script src="jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
     <script>
         function myFunction() {
             var x = document.getElementById("myDIV");
