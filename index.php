@@ -24,7 +24,7 @@
         <div class="container">
             <a class="navbar-brand col-md-4" href="index.php">
                 <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
-                <img src="./img/Logo_Bg.png" class="img-fluid" id="brand-logo" alt="Logo">
+                <img src="./img/Logo_Bg_1.png" class="img-fluid" id="brand-logo" alt="Logo">
             </a>
             <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -182,7 +182,7 @@
     <!-- Our project closed  -->
 
     <!-- Question and Answer opened  -->
-    <section class="accordion_color">
+    <section class="accordion_color mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mt-3 mb-3 p-3">
