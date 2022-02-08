@@ -35,7 +35,7 @@
     <!-- Who we are opened  -->
     <section>
         <div class="container">
-            <h1 class="d-flex justify-content-center who_we_are mb-5"><strong>Approach</strong></h1>
+            <h1 class="d-flex justify-content-center who_we_are mb-5"><strong>APPROACH</strong></h1>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4">
