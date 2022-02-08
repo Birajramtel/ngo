@@ -18,13 +18,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-
 <header class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand col-md-4" href="index.php">
                 <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
-                <img src="./img/Logo_Bg_1.png" class="img-fluid" id="brand-logo" alt="Logo">
+                <img src="./img/Logo_Bg.png" class="img-fluid" alt="Logo">
             </a>
             <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,7 +32,7 @@
                 <div id="myDIV">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link sm_nav mt-2 p-2" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
+                            <a class="nav-link sm_nav mt-2 p-2 color_nav" href="support.php">SUPPORT FOR ORGANIZATION</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link sm_nav mt-2 p-2" href="impact.php">OUR IMPACT</a>
@@ -51,7 +50,7 @@
                     <hr>
                     <ul class="navbar-nav d-flex justify-content-end">
                         <li class="nav-item active">
-                            <a class="nav-link lg-nav p-2 color_nav" href="../ngo/index.php">HOME</a>
+                            <a class="nav-link lg-nav p-2" href="../ngo/index.php">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link lg-nav p-2" href="../ngo/about.php">ABOUT US</a>
@@ -83,7 +82,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title text-center" id="exampleModalLabel">INVOLVEMENT</h5>
+                <h5 class="modal-title text-center" id="exampleModalLabel">DONATE</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <p>Scan to pay</p>
@@ -101,7 +100,7 @@
 
 <body>
     <div class="hero mb-5">
-        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="Banner Image">
+        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="">
         <img src="./img/square_with_buddha.png" class="banner_shape h-100 img-fluid d-none d-sm-block mb-5" alt="Square">
         <img src="./img/square_with_buddha_sm.png" class="banner_shape-sm w-100 img-fluid d-block d-sm-none" alt="Square">
         <!--  -->
@@ -125,55 +124,77 @@
     </div>
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
-    <!-- About Us page opened  -->
-    <section>
-        <div class="container">
-            <h1 class="who_we_are mb-4 d-flex justify-content-center "><strong>ABOUT US</strong></h1>
-            <p class=""> BBP PARIWAR is a non-profit voluntary organization registered with District Administration
-                Office and affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously
-                operating different types of social development programs at three districts, Sindhupalchok,
-                Ramechhap and Kavreplanchok. With a belief that only integrated development of the society
-                can be sustainable development, this organization mobilizes local resources with the participation
-                of backwarded, marginalized and communities at risk in the society by mobilizing local resources for
-                health, education, agriculture, animal husbandry, herbs, forest conservation, drinking water and
-                development of local infrastructure.
-            </p>
-
-        </div>
-    </section>
-    <!-- About Us page Closed  -->
-
+    <!-- Who we are opened  -->
 
     <!-- Our project opened  -->
     <section>
-        <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>SUPPORTING ORGANIZATIONS</strong></h1>
+        <div class="container mt-3">
+            <h1 class="d-flex justify-content-center mb-4"><strong>SUPPORTING ORGANIZATIONS</strong></h1>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_4.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive econo...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
-                        </div>
+                <div class="col-md-9">
+                    <h2 class="card-title"><strong><b>Groundswell's programs</b></strong></h2>
+                    <img src="../ngo/img/projects/project_1.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-3">Groundswell international is a partnership of local organizations and their network
+                        of grassroots community groups and is working in West Africa, America, and South Asia. Groundswell's programs
+                        catalyze the transition from unsustainable agriculture and extractive economies to regenerative, just farming
+                        and local food systems. Communities and family farmers improve their wellbeing, produce more abundant and
+                        nourishing food in ecologically sustainable ways, increase their incomes, build resilience to climate change,
+                        and strengthen local economies and cultures.</p>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/projects/project_1.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_5.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
-                        </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9 mt-5">
+                    <h2 class="card-title mb-3"><strong><b>Friends of Nepal Pariwar Foundation </b></strong></h2>
+                    <img src="../ngo/img/projects/project_2.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">Friends of Nepal Pariwar Foundation is a non-profit organization supporting the health
+                        services for women through the help of registered non-profit community organizations in Nepal to improve the
+                        health and well being of women and their families in rural Nepal and strengthening their capacity to sustain
+                        and expand health services and support development, particularly improved drinking water and educational
+                        opportunities, in remote and socially excluded and tribal communities.</p>
+                </div>
+                <div class="col-md-3 d-none d-md-block mt-5">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/projects/project_2.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_6.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>World Neighbors</u> </strong> is an international development organization that...</h4>
-                            <button class="btn btn-md btn-color card-text float-end"><a href="./project.php" class="text-white">Read more</a></button>
-                        </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-9">
+                    <h2 class="card-title mb-3"><strong><b>World Neighbors</b></strong></h2>
+                    <img src="../ngo/img/projects/project_3.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">World Neighbors is an international development organization that works to alleviate hunger,
+                        poverty, and disease in the most isolated rural villages in Asia, Africa and Latin America. World Neighbors does
+                        not give away food or material aid, but provides a big-picture, holistic approach focusing on the entire community
+                        rather than on one issue. With a conclusion that problems and issues within a community are all interrelated and
+                        cannot be solved in isolation World Neighbors invests in people and their communities by training and inspiring
+                        them to create their own life changing solutions through programs in agriculture, literacy, water, health,
+                        leadership, financial management and environmental protection.</p>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/projects/project_3.png" class="img-fluid" alt="Our Work">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-9">
+                    <h2 class="card-title mb-3"><strong><b>American Jewish</b></strong></h2>
+                    <img src="../ngo/img/projects/project_3.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">American Jewish World Service supports more than 500 social justice organizations in
+                        18 countries in Africa, Asia, Latin America and the Caribbean. American Jewish World Service focus is on civil
+                        and political rights, sexual health and rights, ending child marriage, humanitarian and disaster response,
+                        achieving gender equality, land, water, and climate justice etc. American Jewish World Service is leading
+                        campaigns for human rights and other supporter of human rights to promote the justice and equality in developing
+                        countries.</p>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/projects/project_4.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
             </div>
@@ -181,48 +202,84 @@
     </section>
     <!-- Our project closed  -->
 
-    <!-- Question and Answer opened  -->
-    <section class="accordion_color mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mt-3 mb-3 p-3">
-                    <h1 class="d-flex justify-content-center"><strong>FAQ</strong></h1>
-                    <br>
-                    <button class="accordion text-white">Works with the partner organizations to provide health services</button>
-                    <div class="panel">
-                        <h6 class="pt-3">Works with the partner organizations to provide health services for around 20000-24000
-                            peoples in a year especially for women of rural area and is organizing the medical camps for women health
-                            issues and also is providing scholarship for the formal agriculture, animal health, ANM (Auxiliary nurse midwife)
-                            education with an objective of providing service to the community and to uplift their economic status.</h6>
-                    </div>
-                    <button class="accordion text-white">Health camps for women diseases</button>
-                    <div class="panel">
-                        <h6 class="pt-3">By conducting the health camps for women diseases (like cervix cancer, eyes, teeth, throat, family
-                            planning, reproductive health) every year BBP Pariwar is providing the special health service for around 1100 women's in a year.</h6>
-                    </div>
-                    <button class="accordion text-white">Awareness on agricutural development</button>
-                    <div class="panel">
-                        <h6 class="pt-3">With the help of BBP Pariwar, farmers are able to produce and use liquid manure, organic pesticides, organic manure,
-                            compost manure, vermicompost etc in their field to maximize the production and to avoid the consequences from the
-                            use of the chemical fertilizers in the soil and human beings.</h6>
-                    </div>
-                    <button class="accordion text-white">Self dependent women with quality life</button>
-                    <div class="panel">
-                        <h6 class="pt-3">Women members of the groups are able to establish mutual proximity in the community and food security
-                            through the cultivation of various value added fruits and vegetables, herbs and are generating income through the
-                            help of the livestock husbandry like goat, swine, cow and buffalo, stall improvement program with the financial,
-                            technical and educational support and guidance of BBP Pariwar and also are participating in the various
-                            educational tour in order to be capable of managing them in well manner.</h6>
+    <section>
+        <div class="container mt-4 mb-4">
+            <h1 class="d-flex justify-content-center"><strong><b>SUPPORT OUR ORGANIZATION</b></strong></h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col card_support">
+                    <img src="./img/contact.png" class="card_img img-fluid d-block d-md-none d-lg-block" alt="Contact">
+                    <div class="card card_text h-100">
+                        <div class="card-body bg_color">
+                            <h5 class="card-title text-white">HELPING HANDS</h5>
+                            <p class="card-text text-white pt-5">
+                                This is a unique hands-on volunteer event founded on the Catholic call to social justice.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
-                <div class="col-md-6 mb-5 p-3">
-                    <!-- <img src="./img/accordion_image.jpg" class="img-fluid" alt=""> -->
-                    <img src="./img/accordion_image_1.png" class="img-fluid" alt="Business">
+                <div class="col card_support">
+                    <img src="./img/partner.png" class="card_img img-fluid d-block d-md-none d-lg-block" alt="Partner">
+                    <div class="card card_text h-100">
+                        <div class="card-body bg_color_1">
+                            <h5 class="card-title text-white">INVITE A SPEAKER</h5>
+                            <p class="card-text text-white pt-5">
+                                Enrich your parish event with stories of faith from a CRS Global Fellow.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col card_support">
+                    <img src="./img/hands.png" class="card_img img-fluid d-block d-md-none d-lg-block" alt="hands">
+                    <div class="card card_text h-100">
+                        <div class="card-body bg_color_2">
+                            <h5 class="card-title text-white">US PARTNERS</h5>
+                            <p class="card-text text-white pt-5">
+                                We provide updates from our regional offices plus training tools to promote social justice.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col card_support">
+                    <img src="./img/contact.png" class="card_img img-fluid d-block d-md-none d-lg-block" alt="Contact">
+                    <div class="card card_text h-100">
+                        <div class="card-body bg_color_3">
+                            <h5 class="card-title text-white">HELPING HANDS</h5>
+                            <p class="card-text text-white pt-5">
+                                This is a unique hands-on volunteer event founded on the Catholic call to social justice.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card_support">
+                    <img src="./img/partner.png" class="card_img img-fluid d-block d-md-none d-lg-block" alt="Partner">
+                    <div class="card card_text h-100">
+                        <div class="card-body bg_color_4">
+                            <h5 class="card-title text-white">INVITE A SPEAKER</h5>
+                            <p class="card-text text-white pt-5">
+                                Enrich your parish event with stories of faith from a CRS Global Fellow.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card_support">
+                    <img src="./img/hands.png" class="card_img img-fluid d-block d-md-none d-lg-block" alt="hands">
+                    <div class="card card_text h-100">
+                        <div class="card-body bg_color_5">
+                            <h5 class="card-title text-white">US PARTNERS</h5>
+                            <p class="card-text text-white pt-5">
+                                We provide updates from our regional offices plus training tools to promote social justice.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
     </section>
-    <!-- Question and Answer Closed -->
 
     <!-- Recent news opened  -->
     <section>
@@ -329,23 +386,37 @@
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>About us</strong></h5>
-                        <a href="./about.php" class="list-group text-white pt-2">Our Mission</a>
-                        <a href="./contact.php" class="list-group text-white pt-2">Contact</a>
+                        <a href="#" class="list-group text-white pt-2">Our Mission</a>
+                        <a href="#" class="list-group text-white pt-2">Careers</a>
+                        <a href="#" class="list-group text-white pt-2">Contact</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4 mb-2">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
-                        <a href="./project.php" class="list-group text-white pt-2">Partners</a>
-                        <a href="./impact.php" class="list-group text-white pt-2">Impact</a>
+                        <a href="#" class="list-group text-white pt-2">How We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Where We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Research & Publications</a>
+                        <a href="#" class="list-group text-white pt-2">Partners</a>
+                        <a href="#" class="list-group text-white pt-2">Stories</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
-                        <h5 class="text-white"><strong>Stories</strong></h5>
-                        <a href="./story.php" class="list-group text-white pt-2">Bina Gautam</a>
-                        <a href="./story_2.php" class="list-group text-white pt-2">Sabitri Giri</a>
-                        <a href="./story_3.php" class="list-group text-white pt-2">Laxmi Bishowkarma</a>
+                        <h5 class="text-white"><strong>Ways to help</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="list-group">
+                        <h5 class="text-white"><strong>Get involved</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
                     </div>
                 </div>
             </div>
@@ -368,10 +439,11 @@
                 <div class="col-md-6  d-flex align-self-center justify-content-center">
                     <div class="social-handles-footer mb-2 mt-3">
                         <div>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-facebook-square socio_site"></a></i></span>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-twitter-square socio_site"></a></i></span>
-                            <span><a href="https://www.youtube.com/channel/UCbmybcrmJq0QGqYdeOw1Ikw"><i class="fab fa-2x fa-youtube socio_site"></a></i></span>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-instagram-square socio_site"></a></i></span>
+                            <span><i class="fab fa-2x fa-facebook-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-twitter-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-linkedin socio_site"></i><a href="#"></a></span>
+                            <span><i class="fab fa-2x fa-instagram-square socio_site"><a href="#"></a></i></span>
+
                         </div>
                     </div>
                 </div>
@@ -439,7 +511,6 @@
     </script>
     <script src="jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script src="./js/main.js"></script>
     <script>
         function myFunction() {
             var x = document.getElementById("myDIV");

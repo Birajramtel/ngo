@@ -18,13 +18,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-
 <header class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand col-md-4" href="index.php">
                 <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
-                <img src="./img/Logo_Bg_1.png" class="img-fluid" id="brand-logo" alt="Logo">
+                <img src="./img/Logo_Bg.png" class="img-fluid" alt="Logo">
             </a>
             <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,7 +38,7 @@
                             <a class="nav-link sm_nav mt-2 p-2" href="impact.php">OUR IMPACT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link sm_nav mt-2 p-2" href="project.php">OUR PARTNERS</a>
+                            <a class="nav-link sm_nav mt-2 p-2 color_nav" href="project.php"> OUR PARTNERS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link sm_nav mt-2 p-2" href="story.php">STORY OF SUCCESS</a>
@@ -51,7 +50,7 @@
                     <hr>
                     <ul class="navbar-nav d-flex justify-content-end">
                         <li class="nav-item active">
-                            <a class="nav-link lg-nav p-2 color_nav" href="../ngo/index.php">HOME</a>
+                            <a class="nav-link lg-nav p-2" href="../ngo/index.php">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link lg-nav p-2" href="../ngo/about.php">ABOUT US</a>
@@ -76,32 +75,10 @@
         </div>
     </nav>
 </header>
-<!-- Button trigger modal -->
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title text-center" id="exampleModalLabel">INVOLVEMENT</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <p>Scan to pay</p>
-            <div class="modal-body">
-                <img src="./img/scan_to_pay.png" class="" alt="Scan to pay">
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Send</button>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 <body>
     <div class="hero mb-5">
-        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="Banner Image">
+        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="">
         <img src="./img/square_with_buddha.png" class="banner_shape h-100 img-fluid d-none d-sm-block mb-5" alt="Square">
         <img src="./img/square_with_buddha_sm.png" class="banner_shape-sm w-100 img-fluid d-block d-sm-none" alt="Square">
         <!--  -->
@@ -125,55 +102,60 @@
     </div>
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
-    <!-- About Us page opened  -->
-    <section>
-        <div class="container">
-            <h1 class="who_we_are mb-4 d-flex justify-content-center "><strong>ABOUT US</strong></h1>
-            <p class=""> BBP PARIWAR is a non-profit voluntary organization registered with District Administration
-                Office and affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously
-                operating different types of social development programs at three districts, Sindhupalchok,
-                Ramechhap and Kavreplanchok. With a belief that only integrated development of the society
-                can be sustainable development, this organization mobilizes local resources with the participation
-                of backwarded, marginalized and communities at risk in the society by mobilizing local resources for
-                health, education, agriculture, animal husbandry, herbs, forest conservation, drinking water and
-                development of local infrastructure.
-            </p>
-
-        </div>
-    </section>
-    <!-- About Us page Closed  -->
-
 
     <!-- Our project opened  -->
     <section>
-        <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>SUPPORTING ORGANIZATIONS</strong></h1>
+        <div class="container mt-3">
+            <h1 class="d-flex justify-content-center mb-4"><strong>OUR PARTNERS</strong></h1>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_4.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive econo...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
-                        </div>
+                <div class="col-md-9">
+                    <h2 class="card-title"><strong><b>Samaj Sewa Samuha</b></strong></h2>
+                    <img src="../ngo/img/partners/partner_1.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">A local NGO founded in 1991 AD (2048 BS) located at Mandandeupur Municipality
+                        ward no 7 Kuntabesi to improve the wellbeing of the marginalized populations especially women's form the
+                        Janajati, Tribal communities and the socially excluded (Dalit's) living in the remote areas facilitating
+                        in different sectors like education (scholarship program), drinking water, promotes the ecological agriculture,
+                        strengthens community groups/organizations and improves community access to general and reproductive health
+                        services.</p>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/partners/partner_1.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_5.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
-                        </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <h2 class="card-title"><strong><b>Nauling Health Service Centre</b></strong></h2>
+                    <img src="../ngo/img/partners/partner_2.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">Nauling Health Service Centre founded in 2012 AD (2069 BS) located at Melamchi Municipality
+                        Ward no-9 to facilitate the local peoples of the remote areas mainly in the sector of health and also is facilitating
+                        the economically backwarded students by providing scholarship programs and is continuously and effectively conducting
+                        the medical camps and also is promoting the agro ecological means of farming systems and conducting various
+                        sustainable community development through the formation of women saving and credit groups for the social, economical
+                        and intellectual growth of the farmers and women living in the community.
+                    </p>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/partners/partner_2.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_6.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>World Neighbors</u> </strong> is an international development organization that...</h4>
-                            <button class="btn btn-md btn-color card-text float-end"><a href="./project.php" class="text-white">Read more</a></button>
-                        </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <h2 class="card-title"><strong><b>Bajra Samaj Nepal</b></strong></h2>
+                    <img src="../ngo/img/partners/partner_3.png" class="img-fluid d-block d-md-none col-12" alt="Our Work">
+                    <p class="text-justify mb-0">Bajra Samaj Nepal (BSN) is a non-profit organization located at Ramechhap Municipality,
+                        Ward no-6, Ramechhap Nepal formed by local young people, teachers women, farmers and ordinary community people
+                        for carrying out sustainable development activities in Ramechhap district in 2012 AD (2068 BS). Bajra Samaj Nepal
+                        empowers deprived community of Ramechhap to enhance their knowledge in health & sanitation, livelihood and
+                        education.
+                    </p>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="card mb-4 p-2">
+                        <img src="../ngo/img/partners/partner_3.png" class="img-fluid" alt="Our Work">
                     </div>
                 </div>
             </div>
@@ -182,46 +164,7 @@
     <!-- Our project closed  -->
 
     <!-- Question and Answer opened  -->
-    <section class="accordion_color mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mt-3 mb-3 p-3">
-                    <h1 class="d-flex justify-content-center"><strong>FAQ</strong></h1>
-                    <br>
-                    <button class="accordion text-white">Works with the partner organizations to provide health services</button>
-                    <div class="panel">
-                        <h6 class="pt-3">Works with the partner organizations to provide health services for around 20000-24000
-                            peoples in a year especially for women of rural area and is organizing the medical camps for women health
-                            issues and also is providing scholarship for the formal agriculture, animal health, ANM (Auxiliary nurse midwife)
-                            education with an objective of providing service to the community and to uplift their economic status.</h6>
-                    </div>
-                    <button class="accordion text-white">Health camps for women diseases</button>
-                    <div class="panel">
-                        <h6 class="pt-3">By conducting the health camps for women diseases (like cervix cancer, eyes, teeth, throat, family
-                            planning, reproductive health) every year BBP Pariwar is providing the special health service for around 1100 women's in a year.</h6>
-                    </div>
-                    <button class="accordion text-white">Awareness on agricutural development</button>
-                    <div class="panel">
-                        <h6 class="pt-3">With the help of BBP Pariwar, farmers are able to produce and use liquid manure, organic pesticides, organic manure,
-                            compost manure, vermicompost etc in their field to maximize the production and to avoid the consequences from the
-                            use of the chemical fertilizers in the soil and human beings.</h6>
-                    </div>
-                    <button class="accordion text-white">Self dependent women with quality life</button>
-                    <div class="panel">
-                        <h6 class="pt-3">Women members of the groups are able to establish mutual proximity in the community and food security
-                            through the cultivation of various value added fruits and vegetables, herbs and are generating income through the
-                            help of the livestock husbandry like goat, swine, cow and buffalo, stall improvement program with the financial,
-                            technical and educational support and guidance of BBP Pariwar and also are participating in the various
-                            educational tour in order to be capable of managing them in well manner.</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5 p-3">
-                    <!-- <img src="./img/accordion_image.jpg" class="img-fluid" alt=""> -->
-                    <img src="./img/accordion_image_1.png" class="img-fluid" alt="Business">
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!-- Question and Answer Closed -->
 
     <!-- Recent news opened  -->
@@ -329,23 +272,37 @@
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>About us</strong></h5>
-                        <a href="./about.php" class="list-group text-white pt-2">Our Mission</a>
-                        <a href="./contact.php" class="list-group text-white pt-2">Contact</a>
+                        <a href="#" class="list-group text-white pt-2">Our Mission</a>
+                        <a href="#" class="list-group text-white pt-2">Careers</a>
+                        <a href="#" class="list-group text-white pt-2">Contact</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4 mb-2">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
-                        <a href="./project.php" class="list-group text-white pt-2">Partners</a>
-                        <a href="./impact.php" class="list-group text-white pt-2">Impact</a>
+                        <a href="#" class="list-group text-white pt-2">How We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Where We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Research & Publications</a>
+                        <a href="#" class="list-group text-white pt-2">Partners</a>
+                        <a href="#" class="list-group text-white pt-2">Stories</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
-                        <h5 class="text-white"><strong>Stories</strong></h5>
-                        <a href="./story.php" class="list-group text-white pt-2">Bina Gautam</a>
-                        <a href="./story_2.php" class="list-group text-white pt-2">Sabitri Giri</a>
-                        <a href="./story_3.php" class="list-group text-white pt-2">Laxmi Bishowkarma</a>
+                        <h5 class="text-white"><strong>Ways to help</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="list-group">
+                        <h5 class="text-white"><strong>Get involved</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
                     </div>
                 </div>
             </div>
@@ -368,10 +325,11 @@
                 <div class="col-md-6  d-flex align-self-center justify-content-center">
                     <div class="social-handles-footer mb-2 mt-3">
                         <div>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-facebook-square socio_site"></a></i></span>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-twitter-square socio_site"></a></i></span>
-                            <span><a href="https://www.youtube.com/channel/UCbmybcrmJq0QGqYdeOw1Ikw"><i class="fab fa-2x fa-youtube socio_site"></a></i></span>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-instagram-square socio_site"></a></i></span>
+                            <span><i class="fab fa-2x fa-facebook-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-twitter-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-linkedin socio_site"></i><a href="#"></a></span>
+                            <span><i class="fab fa-2x fa-instagram-square socio_site"><a href="#"></a></i></span>
+
                         </div>
                     </div>
                 </div>
@@ -422,6 +380,9 @@
                 0: {
                     items: 1
                 },
+                350: {
+                    items: 2
+                },
                 600: {
                     items: 3
                 },
@@ -439,7 +400,6 @@
     </script>
     <script src="jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script src="./js/main.js"></script>
     <script>
         function myFunction() {
             var x = document.getElementById("myDIV");
@@ -464,14 +424,6 @@
                 }
             });
         }
-    </script>
-    <script>
-        var myModal = document.getElementById('myModal')
-        var myInput = document.getElementById('myInput')
-
-        myModal.addEventListener('shown.bs.modal', function() {
-            myInput.focus()
-        })
     </script>
 
 </body>

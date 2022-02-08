@@ -18,13 +18,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-
 <header class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand col-md-4" href="index.php">
                 <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
-                <img src="./img/Logo_Bg_1.png" class="img-fluid" id="brand-logo" alt="Logo">
+                <img src="./img/Logo_Bg.png" class="img-fluid" alt="Logo">
             </a>
             <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,7 +38,7 @@
                             <a class="nav-link sm_nav mt-2 p-2" href="impact.php">OUR IMPACT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link sm_nav mt-2 p-2" href="project.php">OUR PARTNERS</a>
+                            <a class="nav-link sm_nav mt-2 p-2" href="board.php">OUR PARTNERS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link sm_nav mt-2 p-2" href="story.php">STORY OF SUCCESS</a>
@@ -51,7 +50,7 @@
                     <hr>
                     <ul class="navbar-nav d-flex justify-content-end">
                         <li class="nav-item active">
-                            <a class="nav-link lg-nav p-2 color_nav" href="../ngo/index.php">HOME</a>
+                            <a class="nav-link lg-nav p-2" href="../ngo/index.php">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link lg-nav p-2" href="../ngo/about.php">ABOUT US</a>
@@ -60,10 +59,10 @@
                             <a class="nav-link lg-nav p-2" href="../ngo/approach.php">APPROACH</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link lg-nav p-2" href="../ngo/board.php">OUR BOARD ADVISOR</a>
+                            <a class="nav-link lg-nav p-2 color_nav" href="../ngo/board.php">OUR BOARD ADVISOR</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link lg-nav p-2" href="../ngo/contact.php">CONTACT US</span></a>
+                            <a class="nav-link lg-nav p-2 " href="../ngo/contact.php">CONTACT US</span></a>
                         </li>
                         <li class="ml-2 p-0 mb-2">
                             <button type="button" class="btn btn-secondary btn-color text-white" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Search">
@@ -76,32 +75,11 @@
         </div>
     </nav>
 </header>
-<!-- Button trigger modal -->
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title text-center" id="exampleModalLabel">INVOLVEMENT</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <p>Scan to pay</p>
-            <div class="modal-body">
-                <img src="./img/scan_to_pay.png" class="" alt="Scan to pay">
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Send</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <body>
     <div class="hero mb-5">
-        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="Banner Image">
+        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="">
         <img src="./img/square_with_buddha.png" class="banner_shape h-100 img-fluid d-none d-sm-block mb-5" alt="Square">
         <img src="./img/square_with_buddha_sm.png" class="banner_shape-sm w-100 img-fluid d-block d-sm-none" alt="Square">
         <!--  -->
@@ -125,64 +103,192 @@
     </div>
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
-    <!-- About Us page opened  -->
-    <section>
-        <div class="container">
-            <h1 class="who_we_are mb-4 d-flex justify-content-center "><strong>ABOUT US</strong></h1>
-            <p class=""> BBP PARIWAR is a non-profit voluntary organization registered with District Administration
-                Office and affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously
-                operating different types of social development programs at three districts, Sindhupalchok,
-                Ramechhap and Kavreplanchok. With a belief that only integrated development of the society
-                can be sustainable development, this organization mobilizes local resources with the participation
-                of backwarded, marginalized and communities at risk in the society by mobilizing local resources for
-                health, education, agriculture, animal husbandry, herbs, forest conservation, drinking water and
-                development of local infrastructure.
-            </p>
+    <!-- Who we are opened  -->
+    <div class="container mt-5 mb-5 ">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="text-center mb-4"><strong><b>OUR BOARD</b></strong></h1>
+                <table class="table table-success table-striped table-hover w-100">
+                    <thead>
+                        <tr>
+                            <th scope="col">S.N</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Position</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mr. Bharat Bista</td>
+                            <td>President</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Mrs. Shanti Basnet</td>
+                            <td>Vice-president</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Mr Chudamani Nepal</td>
+                            <td>Secretary</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Mr. Bishnu Pratap Khadka</td>
+                            <td>Treasurer</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Mr. RamKrishna Chapagain</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>Mrs.Devi Gurung</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>Mr. Ramji Dhakal</td>
+                            <td>Member</td>
+                        </tr>
 
-        </div>
-    </section>
-    <!-- About Us page Closed  -->
-
-
-    <!-- Our project opened  -->
-    <section>
-        <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>SUPPORTING ORGANIZATIONS</strong></h1>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_4.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive econo...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_5.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_6.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>World Neighbors</u> </strong> is an international development organization that...</h4>
-                            <button class="btn btn-md btn-color card-text float-end"><a href="./project.php" class="text-white">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h1 class="text-center mb-4"><strong><b>OUR ADVISORS</b></strong></h1>
+                <table class="table table-success table-striped table-hover w-100">
+                    <thead>
+                        <tr>
+                            <th scope="col">S.N</th>
+                            <th scope="col">Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mr. Thomas L. Arens</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Mr. John Carr</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Mr. Gopal Kumar Nakarmi</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Mr. Bhagat Bahadur Bista</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Mrs. Saraswoti Gautam Bista </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-    </section>
-    <!-- Our project closed  -->
+    </div>
+    <div class="container mt-4 mb-5">
+        <h1 class="text-center mb-4"><strong><b>OUR STAFF'S</b></strong></h1>
+        <table class="table table-success table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">S.N</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Position</th>
+                    <th scope="col">S.N</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Position</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Kalpana Bista</td>
+                    <td>Program coordinator</td>
+                    <th scope="row">10</th>
+                    <td>Til Kumari Thapa Magar</td>
+                    <td>Social Mobilizer</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Anju Gautam</td>
+                    <td>Program coordinator</td>
+                    <th scope="row">11</th>
+                    <td>Gita Basnet</td>
+                    <td>ANM</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Sharmila Ghorasaine</td>
+                    <td>Accountant</td>
+                    <th scope="row">12</th>
+                    <td>Asmita Shrestha </td>
+                    <td>Staff Nurse</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Binita Sapkota</td>
+                    <td>Social Mobilizer</td>
+                    <th scope="row">13</th>
+                    <td>RamMaya Tamang</td>
+                    <td>ANM</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Srijana Chaprakar</td>
+                    <td>Social Mobilizer</td>
+                    <th scope="row">14</th>
+                    <td>Binda Aryal</td>
+                    <td>Clinic In charge</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Mangali Tamang</td>
+                    <td>Social Mobilizer</td>
+                    <th scope="row">15</th>
+                    <td>Sita Maya Tamang</td>
+                    <td>Group Facilitator</td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td>Sumitra Khatri</td>
+                    <td>Social Mobilizer</td>
+                    <th scope="row">16</th>
+                    <td>Ramkrishna Karanjit (Parttime )</td>
+                    <td>Lab Technician</td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td>Binit Thapa</td>
+                    <td>Field Staff</td>
+                    <th scope="row">17</th>
+                    <td>Kumar Shrestha </td>
+                    <td>Driver </td>
+                </tr>
+                <tr>
+                    <th scope="row">9</th>
+                    <td>Urmila Rai</td>
+                    <td>Clinic In charge</td>
+                    <th scope="row">-</th>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <!-- Who we are closed  -->
+
+
 
     <!-- Question and Answer opened  -->
-    <section class="accordion_color mt-5">
+    <section class="accordion_color">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mt-3 mb-3 p-3">
@@ -261,7 +367,7 @@
                                 <h3><strong>New Life</strong></h3>
                                 <span class="d-none d-lg-block">There is a saying that “life is a struggle” where we have to face
                                     unexpected events...
-                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story_2.php" class="text-white">Read more</a></button>
+                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story.php" class="text-white">Read more</a></button>
                                 </span>
                             </div>
                         </div>
@@ -275,7 +381,7 @@
                                 <h3><strong>Dream Came True</strong></h3>
                                 <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of
                                     Mr. Tika Bahadur...
-                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story_3.php" class="text-white">Read more</a></button>
+                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story.php" class="text-white">Read more</a></button>
                                 </span>
                             </div>
                         </div>
@@ -329,23 +435,37 @@
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>About us</strong></h5>
-                        <a href="./about.php" class="list-group text-white pt-2">Our Mission</a>
-                        <a href="./contact.php" class="list-group text-white pt-2">Contact</a>
+                        <a href="#" class="list-group text-white pt-2">Our Mission</a>
+                        <a href="#" class="list-group text-white pt-2">Careers</a>
+                        <a href="#" class="list-group text-white pt-2">Contact</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4 mb-2">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
-                        <a href="./project.php" class="list-group text-white pt-2">Partners</a>
-                        <a href="./impact.php" class="list-group text-white pt-2">Impact</a>
+                        <a href="#" class="list-group text-white pt-2">How We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Where We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Research & Publications</a>
+                        <a href="#" class="list-group text-white pt-2">Partners</a>
+                        <a href="#" class="list-group text-white pt-2">Stories</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
-                        <h5 class="text-white"><strong>Stories</strong></h5>
-                        <a href="./story.php" class="list-group text-white pt-2">Bina Gautam</a>
-                        <a href="./story_2.php" class="list-group text-white pt-2">Sabitri Giri</a>
-                        <a href="./story_3.php" class="list-group text-white pt-2">Laxmi Bishowkarma</a>
+                        <h5 class="text-white"><strong>Ways to help</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="list-group">
+                        <h5 class="text-white"><strong>Get involved</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
                     </div>
                 </div>
             </div>
@@ -368,10 +488,11 @@
                 <div class="col-md-6  d-flex align-self-center justify-content-center">
                     <div class="social-handles-footer mb-2 mt-3">
                         <div>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-facebook-square socio_site"></a></i></span>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-twitter-square socio_site"></a></i></span>
-                            <span><a href="https://www.youtube.com/channel/UCbmybcrmJq0QGqYdeOw1Ikw"><i class="fab fa-2x fa-youtube socio_site"></a></i></span>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-instagram-square socio_site"></a></i></span>
+                            <span><i class="fab fa-2x fa-facebook-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-twitter-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-linkedin socio_site"></i><a href="#"></a></span>
+                            <span><i class="fab fa-2x fa-instagram-square socio_site"><a href="#"></a></i></span>
+
                         </div>
                     </div>
                 </div>
@@ -439,7 +560,6 @@
     </script>
     <script src="jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script src="./js/main.js"></script>
     <script>
         function myFunction() {
             var x = document.getElementById("myDIV");
@@ -464,14 +584,6 @@
                 }
             });
         }
-    </script>
-    <script>
-        var myModal = document.getElementById('myModal')
-        var myInput = document.getElementById('myInput')
-
-        myModal.addEventListener('shown.bs.modal', function() {
-            myInput.focus()
-        })
     </script>
 
 </body>

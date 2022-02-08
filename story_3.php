@@ -18,13 +18,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-
 <header class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand col-md-4" href="index.php">
                 <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
-                <img src="./img/Logo_Bg_1.png" class="img-fluid" id="brand-logo" alt="Logo">
+                <img src="./img/Logo_Bg.png" class="img-fluid" alt="Logo">
             </a>
             <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,7 +41,7 @@
                             <a class="nav-link sm_nav mt-2 p-2" href="project.php">OUR PARTNERS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link sm_nav mt-2 p-2" href="story.php">STORY OF SUCCESS</a>
+                            <a class="nav-link sm_nav mt-2 p-2 color_nav" href="story.php">STORY OF SUCCESS</a>
                         </li>
                         <li class="nav-item">
                             <button class="btn btn-outline-color btn-md text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
@@ -51,7 +50,7 @@
                     <hr>
                     <ul class="navbar-nav d-flex justify-content-end">
                         <li class="nav-item active">
-                            <a class="nav-link lg-nav p-2 color_nav" href="../ngo/index.php">HOME</a>
+                            <a class="nav-link lg-nav p-2" href="../ngo/index.php">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link lg-nav p-2" href="../ngo/about.php">ABOUT US</a>
@@ -76,32 +75,11 @@
         </div>
     </nav>
 </header>
-<!-- Button trigger modal -->
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title text-center" id="exampleModalLabel">INVOLVEMENT</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <p>Scan to pay</p>
-            <div class="modal-body">
-                <img src="./img/scan_to_pay.png" class="" alt="Scan to pay">
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Send</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <body>
     <div class="hero mb-5">
-        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="Banner Image">
+        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="">
         <img src="./img/square_with_buddha.png" class="banner_shape h-100 img-fluid d-none d-sm-block mb-5" alt="Square">
         <img src="./img/square_with_buddha_sm.png" class="banner_shape-sm w-100 img-fluid d-block d-sm-none" alt="Square">
         <!--  -->
@@ -125,169 +103,134 @@
     </div>
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
-    <!-- About Us page opened  -->
-    <section>
-        <div class="container">
-            <h1 class="who_we_are mb-4 d-flex justify-content-center "><strong>ABOUT US</strong></h1>
-            <p class=""> BBP PARIWAR is a non-profit voluntary organization registered with District Administration
-                Office and affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously
-                operating different types of social development programs at three districts, Sindhupalchok,
-                Ramechhap and Kavreplanchok. With a belief that only integrated development of the society
-                can be sustainable development, this organization mobilizes local resources with the participation
-                of backwarded, marginalized and communities at risk in the society by mobilizing local resources for
-                health, education, agriculture, animal husbandry, herbs, forest conservation, drinking water and
-                development of local infrastructure.
-            </p>
+    <div class="container d-flex justify-content-center mt-5 mb-4">
+        <h1><strong>Dream Came True </strong></h1>
+    </div>
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-3 mb-4 justify-content-end">
+                <div class="card">
+                    <img src="./img/recent_news/recent_news_3.png" class="card-img-top p-2" alt="Story">
+                    <div class="card-body">
+                        <h5 class="card-title text-center pt-1">Laxmi Bishowkarma</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong> Date of Birth </strong> :2035-4-18 BS | 1978-8-2 AD</li>
+                        <li class="list-group-item"><strong> Age </strong> : 43 years</li>
+                        <li class="list-group-item"><strong> Gender </strong> : Female</li>
+                        <li class="list-group-item"><strong> Birth place </strong> : Pipal Dada, Sindhupalchok </li>
+                        <li class="list-group-item"><strong> Father's name </strong> : Tika Bahadur Bishowkarma </li>
+                        <li class="list-group-item"><strong> Mother's name </strong> : Naradevi Bishowkarma</li>
+                        <li class="list-group-item"><strong> Husband's name </strong> : Makar Bahadur Bishowkarma </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <p>
+                    On the date 2035-4-18 BS Laxmi B.K was born as a second child of Mr. Tika Bahadur Bishowkarma
+                    and Mrs. Naradevi Bishowkarma at Pipal Dada, Sindhupalchok district. All the family members were
+                    very happy on her birth but the happiness didn't last long, as her mother died when she was small.
+                    Laxmi didn't got a chance of going to school, rather than going to school she used to be busy
+                    taking care of her small brothers and sisters, household works, cow and goats herdsman. At the
+                    small age of 11 she used to go for labor. She used to get 10 rupees per day. <br>
+                    Days were passing by, as per the rituals of the society she got married at the early age of 13 on
+                    date 2048 to 18 years old Mr. Makar Bahadur Bishowkarma living at Chautara-6, Kubinde. She was
+                    totally unknown about what marriage was and she didn't knew that she have to do a lot of work as
+                    well, even for bringing the water it used to take around 3- 4 hours, sometimes she used to fall
+                    down and all her time and her effort used to be wasted. She used to go to jungle for the grass for
+                    livestock but couldn't carry more and less was not enough. She used to get scolded and sometimes
+                    beaten by her husband and her mother in law. She couldn't eat full appetite even at time when she
+                    got hungry. All her past seemed like a dream to her now. Until the age of 24 she gave birth to 3
+                    children's but she never went to hospital or clinic for the checkup despite, she didn't even knew
+                    that she have to go for the checkup. She didn't get to eat full appetite after the delivery and
+                    even couldn't get proper rest as well. She used to do all the household works just after 2-4 days
+                    of delivery and even used to go to work in the fields after 10 -12 days of delivery. While talking
+                    about her past she had tears in her eyes but her confidence level never decreased and she always had
+                    a will of learning new works. <br>
+                    I didn't knew, what is a Group? What are the benefits of the being a part of group for us? I used to
+                    wonder while other woman's used to tell they have a group meeting today. Slowly women's of my society
+                    also started talking about the groups the social mobilizer's representing an organizations also
+                    started to explain about the importance of the group but I didn't used to have a confidence in me
+                    that even the lower class (dalit) women's like us could be a part of the group and work with other
+                    women's. Slowly we established a group named Srijansil Women Saving Group on the date 2071-4-1 BS
+                    until then we didn't know that we have to elect the chairperson, vice chairperson, secretary and
+                    treasurer, i was hearing this for the first time. After discussion the group members elected me as a
+                    chairperson but I couldn't sleep the whole night thinking that I may not be able to fulfill the
+                    responsibilities handed over to me by the members. I was afraid and nervous because I couldn't even
+                    say my name in front of the mass, I was afraid about how to speak, what to say about group in front
+                    of the social mobilizer's of an organization but slowly I started to fulfill my responsibilities. <br>
+                    We made a group and started to do savings also but I was afraid that the social mobilizer's may take
+                    our savings and run away. Time was passing by, and then 2 members of our group were given a chance to
+                    join the farmer's educational tour to Sindhuli. The group decided to send me and selected one other
+                    member and we went for the visit, there we met other new women members of other women groups and
+                    listening to their experience I started to have a trust on the organization and social mobilizer's.
+                    The objective of the visit was to observe and gain knowledge about the activities of the groups
+                    conducted by other women like us. Observing the activities like stall improvement, vermicompost
+                    production, vegetable farming, cultivation of fodder grasses, collection of the wasted water and
+                    its utilization I realized that if we have a will to do the things there is always a way and I
+                    thought implementing the things I have learned from the tour and also thought of encouraging the
+                    other group members also. On the next day we returned from the visit I made a plastic pond for the
+                    collection of the wasted water and went Chautara to buy vegetables seeds. I started the vegetable
+                    farming by taking the advice of the social mobilizer's of the BBP Pariwar and in that year I earned
+                    around 8000 rupees by selling the vegetables that year. The next year I was able to generate an
+                    income of 10000-12000 by selling vegetables like, chilly, tomatoes, string beans (Bodi), onion and
+                    green leaves, I am planning to extend the vegetable farming. Especially the people in my caste do
+                    not cultivate vegetables my relatives also started cultivating the vegetables watching me. <br>
+                    Nowadays I don't have to depend on my husband for saving in the group rather I am giving the money
+                    that I have earned from vegetables to my husband and even I have planted some fodder grasses and
+                    started the livestock husbandry also, now I can fulfill my desires, there was a time when I couldn't
+                    even eat the food I liked, buy the things I liked, my sisters used to buy the things for me but now
+                    they are happy that I able to fulfill some of my desires. I developed a confidence even to speak in
+                    front of the mass, I am able to convince the members of my group, BBP Pariwar is also supporting us
+                    well, and slowly I have a thought of registering the group in agriculture and livestock and I am also
+                    discussing with the group members as well. <br>
+                    I heartily thank BBP Pariwar and the social mobilizer's of BBP Pariwar for providing the opportunity
+                    for the women's of the lower casts like us and the women of the backwarded communities and the support
+                    provided for making us self dependent.
+                </p>
+            </div>
 
         </div>
-    </section>
-    <!-- About Us page Closed  -->
-
-
-    <!-- Our project opened  -->
-    <section>
-        <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>SUPPORTING ORGANIZATIONS</strong></h1>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_4.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive econo...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
+    </div>
+    <div class="container d-flex justify-content-center mt-3 mb-3">
+        <h1><strong>RELATED STORIES</strong></h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/recent_news/recent_news_1.png" class="img-fluid w-100 rounded-start p-2" alt="...">
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_5.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_6.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>World Neighbors</u> </strong> is an international development organization that...</h4>
-                            <button class="btn btn-md btn-color card-text float-end"><a href="./project.php" class="text-white">Read more</a></button>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Bina Gautam</h5>
+                                <p class="card-text">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari VDC as 3rd children</p>
+                                <button class="btn btn-sm btn-color"><a href="story.php" class="text-white">Read more</a> </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Our project closed  -->
-
-    <!-- Question and Answer opened  -->
-    <section class="accordion_color mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mt-3 mb-3 p-3">
-                    <h1 class="d-flex justify-content-center"><strong>FAQ</strong></h1>
-                    <br>
-                    <button class="accordion text-white">Works with the partner organizations to provide health services</button>
-                    <div class="panel">
-                        <h6 class="pt-3">Works with the partner organizations to provide health services for around 20000-24000
-                            peoples in a year especially for women of rural area and is organizing the medical camps for women health
-                            issues and also is providing scholarship for the formal agriculture, animal health, ANM (Auxiliary nurse midwife)
-                            education with an objective of providing service to the community and to uplift their economic status.</h6>
-                    </div>
-                    <button class="accordion text-white">Health camps for women diseases</button>
-                    <div class="panel">
-                        <h6 class="pt-3">By conducting the health camps for women diseases (like cervix cancer, eyes, teeth, throat, family
-                            planning, reproductive health) every year BBP Pariwar is providing the special health service for around 1100 women's in a year.</h6>
-                    </div>
-                    <button class="accordion text-white">Awareness on agricutural development</button>
-                    <div class="panel">
-                        <h6 class="pt-3">With the help of BBP Pariwar, farmers are able to produce and use liquid manure, organic pesticides, organic manure,
-                            compost manure, vermicompost etc in their field to maximize the production and to avoid the consequences from the
-                            use of the chemical fertilizers in the soil and human beings.</h6>
-                    </div>
-                    <button class="accordion text-white">Self dependent women with quality life</button>
-                    <div class="panel">
-                        <h6 class="pt-3">Women members of the groups are able to establish mutual proximity in the community and food security
-                            through the cultivation of various value added fruits and vegetables, herbs and are generating income through the
-                            help of the livestock husbandry like goat, swine, cow and buffalo, stall improvement program with the financial,
-                            technical and educational support and guidance of BBP Pariwar and also are participating in the various
-                            educational tour in order to be capable of managing them in well manner.</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5 p-3">
-                    <!-- <img src="./img/accordion_image.jpg" class="img-fluid" alt=""> -->
-                    <img src="./img/accordion_image_1.png" class="img-fluid" alt="Business">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Question and Answer Closed -->
-
-    <!-- Recent news opened  -->
-    <section>
-        <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>STORY OF SUCCESS</strong></h1>
-            <div class="row">
-                <div class="col-md-6 pl-2">
-                    <img src="./img/recent_news/recent_news_0.png" class="img-fluid mt-1" alt="Business">
-                    <h3 class="pt-4 mb-0"><strong>Trying to upgrade the living standard</strong></h3>
-                    <p class="pt-2">Saving and credit program is being conducted in the community especially with
-                        women's participation in order to fulfill the needs like enrollment of the children's in
-                        the school, health treatment, economic growth etc.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="d-flex pb-2">
-                            <div>
-                                <img src="./img/recent_news/recent_news_1.png" class="rounded p-2" alt="Bina Gautam">
-                            </div>
-                            <div class="mt-2">
-                                <h3><strong>A story of Self confidence</strong></h3>
-                                <span class="d-none d-lg-block">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari
-                                    VDC as 3rd children of Mr...
-                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story.php" class="text-white">Read more</a></button>
-                                </span>
-                            </div>
+            <div class="col-sm-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/recent_news/recent_news_2.png" class="img-fluid w-100 rounded-start p-2" alt="...">
                         </div>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="d-flex pb-2">
-                            <div>
-                                <img src="./img/recent_news/recent_news_2.png" class="rounded p-2" alt="Sabitri Giri">
-                            </div>
-                            <div class="mt-2">
-                                <h3><strong>New Life</strong></h3>
-                                <span class="d-none d-lg-block">There is a saying that “life is a struggle” where we have to face
-                                    unexpected events...
-                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story_2.php" class="text-white">Read more</a></button>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="d-flex pb-2">
-                            <div>
-                                <img src="./img/recent_news/recent_news_3.png" class="rounded p-2" alt="Laxmi Bishowkarma">
-                            </div>
-                            <div class="mt-2">
-                                <h3><strong>Dream Came True</strong></h3>
-                                <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of
-                                    Mr. Tika Bahadur...
-                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story_3.php" class="text-white">Read more</a></button>
-                                </span>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Sabitri Giri</h5>
+                                <p class="card-text">This is a story of Sabitri Giri of Kavre Mahadevsthan born on 2026</p>
+                                <button class="btn btn-sm btn-color"><a href="story_2.php" class="text-white">Read more</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Recent news closed  -->
-
-    <!-- The script itself, loaded AFTER your root element. -->
-
+    </div>
     <!-- Photos Slider opened  -->
     <div class="container d-flex justify-content-center mt-5">
         <h1><strong>OUR CLIENTS</strong></h1>
@@ -329,23 +272,37 @@
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>About us</strong></h5>
-                        <a href="./about.php" class="list-group text-white pt-2">Our Mission</a>
-                        <a href="./contact.php" class="list-group text-white pt-2">Contact</a>
+                        <a href="#" class="list-group text-white pt-2">Our Mission</a>
+                        <a href="#" class="list-group text-white pt-2">Careers</a>
+                        <a href="#" class="list-group text-white pt-2">Contact</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4 mb-2">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
-                        <a href="./project.php" class="list-group text-white pt-2">Partners</a>
-                        <a href="./impact.php" class="list-group text-white pt-2">Impact</a>
+                        <a href="#" class="list-group text-white pt-2">How We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Where We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Research & Publications</a>
+                        <a href="#" class="list-group text-white pt-2">Partners</a>
+                        <a href="#" class="list-group text-white pt-2">Stories</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
-                        <h5 class="text-white"><strong>Stories</strong></h5>
-                        <a href="./story.php" class="list-group text-white pt-2">Bina Gautam</a>
-                        <a href="./story_2.php" class="list-group text-white pt-2">Sabitri Giri</a>
-                        <a href="./story_3.php" class="list-group text-white pt-2">Laxmi Bishowkarma</a>
+                        <h5 class="text-white"><strong>Ways to help</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="list-group">
+                        <h5 class="text-white"><strong>Get involved</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
                     </div>
                 </div>
             </div>
@@ -368,10 +325,11 @@
                 <div class="col-md-6  d-flex align-self-center justify-content-center">
                     <div class="social-handles-footer mb-2 mt-3">
                         <div>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-facebook-square socio_site"></a></i></span>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-twitter-square socio_site"></a></i></span>
-                            <span><a href="https://www.youtube.com/channel/UCbmybcrmJq0QGqYdeOw1Ikw"><i class="fab fa-2x fa-youtube socio_site"></a></i></span>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-instagram-square socio_site"></a></i></span>
+                            <span><i class="fab fa-2x fa-facebook-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-twitter-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-linkedin socio_site"></i><a href="#"></a></span>
+                            <span><i class="fab fa-2x fa-instagram-square socio_site"><a href="#"></a></i></span>
+
                         </div>
                     </div>
                 </div>
@@ -422,6 +380,9 @@
                 0: {
                     items: 1
                 },
+                350: {
+                    items: 2
+                },
                 600: {
                     items: 3
                 },
@@ -439,7 +400,6 @@
     </script>
     <script src="jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script src="./js/main.js"></script>
     <script>
         function myFunction() {
             var x = document.getElementById("myDIV");
@@ -464,14 +424,6 @@
                 }
             });
         }
-    </script>
-    <script>
-        var myModal = document.getElementById('myModal')
-        var myInput = document.getElementById('myInput')
-
-        myModal.addEventListener('shown.bs.modal', function() {
-            myInput.focus()
-        })
     </script>
 
 </body>

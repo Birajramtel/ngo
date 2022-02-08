@@ -18,13 +18,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-
 <header class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand col-md-4" href="index.php">
                 <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
-                <img src="./img/Logo_Bg_1.png" class="img-fluid" id="brand-logo" alt="Logo">
+                <img src="./img/Logo_Bg.png" class="img-fluid" alt="Logo">
             </a>
             <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,7 +41,7 @@
                             <a class="nav-link sm_nav mt-2 p-2" href="project.php">OUR PARTNERS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link sm_nav mt-2 p-2" href="story.php">STORY OF SUCCESS</a>
+                            <a class="nav-link sm_nav mt-2 p-2 color_nav" href="story.php">STORY OF SUCCESS</a>
                         </li>
                         <li class="nav-item">
                             <button class="btn btn-outline-color btn-md text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
@@ -51,7 +50,7 @@
                     <hr>
                     <ul class="navbar-nav d-flex justify-content-end">
                         <li class="nav-item active">
-                            <a class="nav-link lg-nav p-2 color_nav" href="../ngo/index.php">HOME</a>
+                            <a class="nav-link lg-nav p-2" href="../ngo/index.php">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link lg-nav p-2" href="../ngo/about.php">ABOUT US</a>
@@ -76,32 +75,11 @@
         </div>
     </nav>
 </header>
-<!-- Button trigger modal -->
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title text-center" id="exampleModalLabel">INVOLVEMENT</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <p>Scan to pay</p>
-            <div class="modal-body">
-                <img src="./img/scan_to_pay.png" class="" alt="Scan to pay">
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Send</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <body>
     <div class="hero mb-5">
-        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="Banner Image">
+        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="">
         <img src="./img/square_with_buddha.png" class="banner_shape h-100 img-fluid d-none d-sm-block mb-5" alt="Square">
         <img src="./img/square_with_buddha_sm.png" class="banner_shape-sm w-100 img-fluid d-block d-sm-none" alt="Square">
         <!--  -->
@@ -125,169 +103,119 @@
     </div>
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
-    <!-- About Us page opened  -->
-    <section>
-        <div class="container">
-            <h1 class="who_we_are mb-4 d-flex justify-content-center "><strong>ABOUT US</strong></h1>
-            <p class=""> BBP PARIWAR is a non-profit voluntary organization registered with District Administration
-                Office and affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously
-                operating different types of social development programs at three districts, Sindhupalchok,
-                Ramechhap and Kavreplanchok. With a belief that only integrated development of the society
-                can be sustainable development, this organization mobilizes local resources with the participation
-                of backwarded, marginalized and communities at risk in the society by mobilizing local resources for
-                health, education, agriculture, animal husbandry, herbs, forest conservation, drinking water and
-                development of local infrastructure.
-            </p>
+    <div class="container d-flex justify-content-center mt-5 mb-4">
+        <h1><strong>A story of Self confidence</strong></h1>
+    </div>
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-3 mb-4 justify-content-end">
+                <div class="card">
+                    <img src="./img/recent_news/recent_news_1.png" class="card-img-top p-2" alt="Story">
+                    <div class="card-body">
+                        <h5 class="card-title text-center pt-1">Bina Gautam</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong> Date of Birth </strong> : 2040-8-27 B.S | 1983-12-13 AD </li>
+                        <li class="list-group-item"><strong> Age </strong> : 37 years </li>
+                        <li class="list-group-item"><strong> Gender </strong> : Female </li>
+                        <li class="list-group-item"><strong> Birth place </strong> : Sindhupalchok </li>
+                        <li class="list-group-item"><strong> Father's name </strong> : Kedarnath Aryal </li>
+                        <li class="list-group-item"><strong> Mother's name </strong> : Chitra kumari Aryal </li>
+                        <li class="list-group-item"><strong> Husband's name </strong> : Tika Prasad Gautam </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <p>Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari VDC as 3rd children of Mr. Kedarnath Aryal
+                    and Mrs.Chitra Kumari Aryal among 7 children's, without any formal education Bina's childhood was not
+                    good at all. At early age of 8 due to family issues she was child labored in a house in Chawuni-
+                    Kathmandu, at a very small age she was forced to word from morning 4-o-clock until 10-o clock at night.
+                    Cleaning the five stored house, washing dishes, sending the children's of the house owner who were almost
+                    same as her age to the school and bringing them back, watching the children's of her age going to school
+                    she also dreamed of going to the school but her dreams never turned into reality, she was not doing
+                    households works only but she was also working in the chicken husbandry collecting the eggs of the chicken,
+                    while sometimes she used to sleep while collecting the eggs and used to wake up when scolded by the owner.
+                    During Saturday she used to wash the clothes of her house owner and his family. Taking a flash back of her
+                    past she never thought of getting the life she is living now for her everything seems like a dream.
+                    While meetings her friends and family after seven years she felt like she got a new life and her struggling
+                    days were over but her happiness didn't last long when she found out that she was taken home to get married.
+                    She said she was shocked when she heard that she was getting married and wanted to run away from there but
+                    there was nothing she could do. <br> On the date 2056 at the early age of 15 she got married to Mr.Tika Prasad
+                    Gautam of Kubinde-6, Sindhupalchok and got separated form father in law and mother in law just after 3 months of
+                    marriage both of them were just children's when they have to face difficulties for fulfillment of their basic
+                    needs like food and shelter, they didn't used to have any knowledge and plans about the future. After some
+                    time Bina's husband left home in search of work for 3 years while Bina have to face many difficulties during
+                    this period sometimes she couldn't even eat full appetite also but she never told anyone about the difficult
+                    situation she was facing not even to her father and mother due to superstitions in the society, After some
+                    time her husband learned construction work and at 2064 BS they took loan and build their house which relieved
+                    Bina somehow. Bina's first child was born at age of 18 but when she reached age of 27 she gave birth to 4 more
+                    children's which added more responsibilities and more struggle for them. Slowly she started to get involved in
+                    the other activities in the village she wanted to join the women groups established in her village, wanted to
+                    do new works but she couldn't do it because she was not involved in any women groups due to her financial
+                    status since the groups were established long time ago and she didn't used to have that much money. Slowly
+                    she started to explain the importance of group and make the other women's in the village aware about the
+                    benefits working in the group rather than working isolated as a result she was successful to establish a
+                    women group named Shrijansil Women Saving Group on 2071-4-1 BS with 15 members with the help of BBP Pariwar.
+                    While the regular events were being carried out by the groups the group members decided to send me to the
+                    leader farmer training being conducted on Sindhuli with the support of the BBP Pariwar (support of world
+                    Neighbors) and SIDS Nepal Sindhuli on 2071-9-4 BS till 2071-9-11 which lifted up my self confidence and
+                    after the training I started to relay the things that she have learnt to the group members and started to
+                    practice in my behavior as well. Then I established a plastic pond to collect the wasted water and started
+                    the cultivation of vegetables and tomatoes in the wasted land. Although i was not able to take good care
+                    due to the big earthquake last year (2072BS) I sold the garlic and onion of 5000 rupees, tomatoes of 7000
+                    rupees, which increased my self confidence and motivated me to do the farming with business motive. This
+                    year my target is to generate 40000 rupees form vegetable farming. I have cultivated vegetables like tomatoes,
+                    garlic, onion, green leaves, cucumber, pumpkin, potatoes etc. I have received rupees 17000 from tomatoes
+                    until now other vegetable farming is also good. I am not using any pesticides or chemical feces in the
+                    vegetables rather I am using the vermicompost, organic pesticides produced at home. I am able to fulfill
+                    the needs of my children's as I am able to generate income from farming. I have a will to do more work and
+                    to be a leader farmer and I wanted to bring change in the life of other women members of my group. <br>
+                    I am very thankful to the organization for sending me in the leader farmer training which helped me to develop
+                    my self confidence.
+                </p>
+            </div>
 
         </div>
-    </section>
-    <!-- About Us page Closed  -->
-
-
-    <!-- Our project opened  -->
-    <section>
-        <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>SUPPORTING ORGANIZATIONS</strong></h1>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_4.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive econo...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
+    </div>
+    <div class="container d-flex justify-content-center mt-3 mb-3">
+        <h1><strong>RELATED STORIES</strong></h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/recent_news/recent_news_2.png" class="img-fluid w-100 rounded-start p-2" alt="...">
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_5.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_6.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>World Neighbors</u> </strong> is an international development organization that...</h4>
-                            <button class="btn btn-md btn-color card-text float-end"><a href="./project.php" class="text-white">Read more</a></button>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Sabitri Giri</h5>
+                                <p class="card-text">This is a story of Sabitri Giri of Kavre Mahadevsthan born on 2026</p>
+                                <button class="btn btn-sm btn-color"><a href="story_2.php" class="text-white">Read more</a></button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Our project closed  -->
-
-    <!-- Question and Answer opened  -->
-    <section class="accordion_color mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mt-3 mb-3 p-3">
-                    <h1 class="d-flex justify-content-center"><strong>FAQ</strong></h1>
-                    <br>
-                    <button class="accordion text-white">Works with the partner organizations to provide health services</button>
-                    <div class="panel">
-                        <h6 class="pt-3">Works with the partner organizations to provide health services for around 20000-24000
-                            peoples in a year especially for women of rural area and is organizing the medical camps for women health
-                            issues and also is providing scholarship for the formal agriculture, animal health, ANM (Auxiliary nurse midwife)
-                            education with an objective of providing service to the community and to uplift their economic status.</h6>
-                    </div>
-                    <button class="accordion text-white">Health camps for women diseases</button>
-                    <div class="panel">
-                        <h6 class="pt-3">By conducting the health camps for women diseases (like cervix cancer, eyes, teeth, throat, family
-                            planning, reproductive health) every year BBP Pariwar is providing the special health service for around 1100 women's in a year.</h6>
-                    </div>
-                    <button class="accordion text-white">Awareness on agricutural development</button>
-                    <div class="panel">
-                        <h6 class="pt-3">With the help of BBP Pariwar, farmers are able to produce and use liquid manure, organic pesticides, organic manure,
-                            compost manure, vermicompost etc in their field to maximize the production and to avoid the consequences from the
-                            use of the chemical fertilizers in the soil and human beings.</h6>
-                    </div>
-                    <button class="accordion text-white">Self dependent women with quality life</button>
-                    <div class="panel">
-                        <h6 class="pt-3">Women members of the groups are able to establish mutual proximity in the community and food security
-                            through the cultivation of various value added fruits and vegetables, herbs and are generating income through the
-                            help of the livestock husbandry like goat, swine, cow and buffalo, stall improvement program with the financial,
-                            technical and educational support and guidance of BBP Pariwar and also are participating in the various
-                            educational tour in order to be capable of managing them in well manner.</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5 p-3">
-                    <!-- <img src="./img/accordion_image.jpg" class="img-fluid" alt=""> -->
-                    <img src="./img/accordion_image_1.png" class="img-fluid" alt="Business">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Question and Answer Closed -->
-
-    <!-- Recent news opened  -->
-    <section>
-        <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>STORY OF SUCCESS</strong></h1>
-            <div class="row">
-                <div class="col-md-6 pl-2">
-                    <img src="./img/recent_news/recent_news_0.png" class="img-fluid mt-1" alt="Business">
-                    <h3 class="pt-4 mb-0"><strong>Trying to upgrade the living standard</strong></h3>
-                    <p class="pt-2">Saving and credit program is being conducted in the community especially with
-                        women's participation in order to fulfill the needs like enrollment of the children's in
-                        the school, health treatment, economic growth etc.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="d-flex pb-2">
-                            <div>
-                                <img src="./img/recent_news/recent_news_1.png" class="rounded p-2" alt="Bina Gautam">
-                            </div>
-                            <div class="mt-2">
-                                <h3><strong>A story of Self confidence</strong></h3>
-                                <span class="d-none d-lg-block">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari
-                                    VDC as 3rd children of Mr...
-                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story.php" class="text-white">Read more</a></button>
-                                </span>
-                            </div>
+            <div class="col-sm-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/recent_news/recent_news_3.png" class="img-fluid w-100 rounded-start p-2" alt="...">
                         </div>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="d-flex pb-2">
-                            <div>
-                                <img src="./img/recent_news/recent_news_2.png" class="rounded p-2" alt="Sabitri Giri">
-                            </div>
-                            <div class="mt-2">
-                                <h3><strong>New Life</strong></h3>
-                                <span class="d-none d-lg-block">There is a saying that “life is a struggle” where we have to face
-                                    unexpected events...
-                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story_2.php" class="text-white">Read more</a></button>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="d-flex pb-2">
-                            <div>
-                                <img src="./img/recent_news/recent_news_3.png" class="rounded p-2" alt="Laxmi Bishowkarma">
-                            </div>
-                            <div class="mt-2">
-                                <h3><strong>Dream Came True</strong></h3>
-                                <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of
-                                    Mr. Tika Bahadur...
-                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story_3.php" class="text-white">Read more</a></button>
-                                </span>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Laxmi Bishowkarma</h5>
+                                <p class="card-text">Mrs. Naradevi Bishowkarma at Pipal Dada, Sindhupalchok district</p>
+                                <button class="btn btn-sm btn-color"><a href="story_3.php" class="text-white">Read more</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Recent news closed  -->
-
-    <!-- The script itself, loaded AFTER your root element. -->
-
+    </div>
     <!-- Photos Slider opened  -->
     <div class="container d-flex justify-content-center mt-5">
         <h1><strong>OUR CLIENTS</strong></h1>
@@ -329,23 +257,37 @@
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>About us</strong></h5>
-                        <a href="./about.php" class="list-group text-white pt-2">Our Mission</a>
-                        <a href="./contact.php" class="list-group text-white pt-2">Contact</a>
+                        <a href="#" class="list-group text-white pt-2">Our Mission</a>
+                        <a href="#" class="list-group text-white pt-2">Careers</a>
+                        <a href="#" class="list-group text-white pt-2">Contact</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4 mb-2">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
-                        <a href="./project.php" class="list-group text-white pt-2">Partners</a>
-                        <a href="./impact.php" class="list-group text-white pt-2">Impact</a>
+                        <a href="#" class="list-group text-white pt-2">How We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Where We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Research & Publications</a>
+                        <a href="#" class="list-group text-white pt-2">Partners</a>
+                        <a href="#" class="list-group text-white pt-2">Stories</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
-                        <h5 class="text-white"><strong>Stories</strong></h5>
-                        <a href="./story.php" class="list-group text-white pt-2">Bina Gautam</a>
-                        <a href="./story_2.php" class="list-group text-white pt-2">Sabitri Giri</a>
-                        <a href="./story_3.php" class="list-group text-white pt-2">Laxmi Bishowkarma</a>
+                        <h5 class="text-white"><strong>Ways to help</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="list-group">
+                        <h5 class="text-white"><strong>Get involved</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
                     </div>
                 </div>
             </div>
@@ -368,10 +310,11 @@
                 <div class="col-md-6  d-flex align-self-center justify-content-center">
                     <div class="social-handles-footer mb-2 mt-3">
                         <div>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-facebook-square socio_site"></a></i></span>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-twitter-square socio_site"></a></i></span>
-                            <span><a href="https://www.youtube.com/channel/UCbmybcrmJq0QGqYdeOw1Ikw"><i class="fab fa-2x fa-youtube socio_site"></a></i></span>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-instagram-square socio_site"></a></i></span>
+                            <span><i class="fab fa-2x fa-facebook-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-twitter-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-linkedin socio_site"></i><a href="#"></a></span>
+                            <span><i class="fab fa-2x fa-instagram-square socio_site"><a href="#"></a></i></span>
+
                         </div>
                     </div>
                 </div>
@@ -422,6 +365,9 @@
                 0: {
                     items: 1
                 },
+                350: {
+                    items: 2
+                },
                 600: {
                     items: 3
                 },
@@ -439,7 +385,6 @@
     </script>
     <script src="jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script src="./js/main.js"></script>
     <script>
         function myFunction() {
             var x = document.getElementById("myDIV");
@@ -464,14 +409,6 @@
                 }
             });
         }
-    </script>
-    <script>
-        var myModal = document.getElementById('myModal')
-        var myInput = document.getElementById('myInput')
-
-        myModal.addEventListener('shown.bs.modal', function() {
-            myInput.focus()
-        })
     </script>
 
 </body>

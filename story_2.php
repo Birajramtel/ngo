@@ -18,13 +18,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-
 <header class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand col-md-4" href="index.php">
                 <!-- <img src="./img/logo.png" class="img-fluid" alt="Logo"> -->
-                <img src="./img/Logo_Bg_1.png" class="img-fluid" id="brand-logo" alt="Logo">
+                <img src="./img/Logo_Bg.png" class="img-fluid" alt="Logo">
             </a>
             <button class="navbar-toggler" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,7 +41,7 @@
                             <a class="nav-link sm_nav mt-2 p-2" href="project.php">OUR PARTNERS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link sm_nav mt-2 p-2" href="story.php">STORY OF SUCCESS</a>
+                            <a class="nav-link sm_nav mt-2 p-2 color_nav" href="story.php">STORY OF SUCCESS</a>
                         </li>
                         <li class="nav-item">
                             <button class="btn btn-outline-color btn-md text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Donate</button>
@@ -51,7 +50,7 @@
                     <hr>
                     <ul class="navbar-nav d-flex justify-content-end">
                         <li class="nav-item active">
-                            <a class="nav-link lg-nav p-2 color_nav" href="../ngo/index.php">HOME</a>
+                            <a class="nav-link lg-nav p-2" href="../ngo/index.php">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link lg-nav p-2" href="../ngo/about.php">ABOUT US</a>
@@ -76,32 +75,11 @@
         </div>
     </nav>
 </header>
-<!-- Button trigger modal -->
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title text-center" id="exampleModalLabel">INVOLVEMENT</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <p>Scan to pay</p>
-            <div class="modal-body">
-                <img src="./img/scan_to_pay.png" class="" alt="Scan to pay">
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Send</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <body>
     <div class="hero mb-5">
-        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="Banner Image">
+        <img class="banner_image img-fluid w-100" src="./img/banner/who_banner_2.png" alt="">
         <img src="./img/square_with_buddha.png" class="banner_shape h-100 img-fluid d-none d-sm-block mb-5" alt="Square">
         <img src="./img/square_with_buddha_sm.png" class="banner_shape-sm w-100 img-fluid d-block d-sm-none" alt="Square">
         <!--  -->
@@ -125,169 +103,123 @@
     </div>
     <!-- Who we are opened  -->
     <div class="mt-5 d-block d-sm-none"></div>
-    <!-- About Us page opened  -->
-    <section>
-        <div class="container">
-            <h1 class="who_we_are mb-4 d-flex justify-content-center "><strong>ABOUT US</strong></h1>
-            <p class=""> BBP PARIWAR is a non-profit voluntary organization registered with District Administration
-                Office and affiliated with Social Welfare Council since 1994 AD (2051 BS)and is continuously
-                operating different types of social development programs at three districts, Sindhupalchok,
-                Ramechhap and Kavreplanchok. With a belief that only integrated development of the society
-                can be sustainable development, this organization mobilizes local resources with the participation
-                of backwarded, marginalized and communities at risk in the society by mobilizing local resources for
-                health, education, agriculture, animal husbandry, herbs, forest conservation, drinking water and
-                development of local infrastructure.
-            </p>
+    <div class="container d-flex justify-content-center mt-5 mb-4">
+        <h1><strong>New Life</strong></h1>
+    </div>
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-3 mb-4 justify-content-end">
+                <div class="card">
+                    <img src="./img/recent_news/recent_news_2.png" class="card-img-top p-2" alt="Story">
+                    <div class="card-body">
+                        <h5 class="card-title text-center pt-1">Sabitri Giri</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong> Date of Birth </strong> : Jestha 2026 BS | 1969 May AD</li>
+                        <li class="list-group-item"><strong> Age </strong> : 52 years</li>
+                        <li class="list-group-item"><strong> Gender </strong> : Female</li>
+                        <li class="list-group-item"><strong> Birth place </strong> : Mahadevsthan, Kavre</li>
+                        <li class="list-group-item"><strong> Father's name </strong> : Sovit Bharati</li>
+                        <li class="list-group-item"><strong> Mother's name </strong> : Kali Bharati</li>
+                        <li class="list-group-item"><strong> Husband's name </strong> : Ram Bahadur Giri</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <p>There is a saying that “life is a struggle” where we have to face unexpected events
+                    and difficulties. This is a story of Sabitri Giri of Kavre Mahadevsthan born on 2026
+                    on the month of Jestha; she was the first child among 4 children's of Mr.Sovit Bharati
+                    and Mrs. Kali Bharati. At that time due to social tradition she was deprived from education,
+                    she was busy taking care of her small brothers and sisters and doing household works rather
+                    than going to school due to which she can't even write her name as well. <br> Time was passing
+                    by; at the small age of 13 years she got married to Mr. Ram Bahadur Giri of age 26 living in
+                    Mandandeupur-9, Kavre. She has to take responsibilities at the small age while other child's
+                    used to go to school, play and her husband also mostly used to stay outside due to Army's job,
+                    she was taking all the responsibilities of the house. At the age of 15 she gave birth to a child
+                    but she couldn't save him more than 10 days. She stated that if there was facility of clinic and
+                    the regular checking she wouldn't have lost her child. She gave birth to 2 children when she
+                    reached 20 but she stated that she never got a chance to go for the checkup, neither she knew
+                    about the reproductive health nor her family member made her understand regarding the checkup
+                    during pregnancy. <br>I was interested to be involved in a group watching her neighbors being
+                    involved in a group. Finally i got involved in Bacchaladevi Women Saving Group on Falgun 2073,
+                    on the same date i got involved in a group; BBP Pariwar organized a health awareness program
+                    especially focused on the cancer of the cervix. And the social mobilizer's of the BBP Pariwar
+                    had informed all of the members of the group to attend the camp for the checkup for cancer of
+                    the cervix which was going to be held on Samaj Sewa Samuha Kuntabesi on the date 2073 Chaitra
+                    19. But i didn't pay any attention because i felt like i was healthy, as i never felt any
+                    symptoms. And felt like why should I do the checkup? But considering the words of the social
+                    mobilizer's i thought of checking up once just to be clear regarding my health status. <br> On
+                    the date of the camp i.e. 2073-12-19 i went to Samaj Sewa Samuha for the checkup and was found
+                    positive in the VIA Test. At first I didn't understood what was the meaning of VIA Positive,
+                    Sisters conducting the camp informed me to do the checkup in Banepa city once. Following the
+                    instruction of the sisters I went to Banepa for the checkup and from Banepa the doctor recommended
+                    me to Bhaktapur cancer hospital and I went there. After i checked up at Bhaktapur cancer hospital
+                    I got the report on the 7th day and found out that i was on second stage of cervix cancer, everyone
+                    of my family members were shocked when they knew about my report because we used to hear the rumors
+                    that cancer patients will not survive and felt like I was going to die soon, at that time all I
+                    could think of was about my family members and started to cry. The doctors started to consult me
+                    and told me not to worry and informed me that I was in the initial stage and informed that I would
+                    be cured and they have to start the treatment. According to the advice of the doctors I had to
+                    undergo 5 chemotherapies. I got the first chemo on date 2073-2-4, after the chemotherapy i felt
+                    very weak I was not able to walk also during that time I felt like I was about to die watching my
+                    condition my husband was angry and started to blame sisters of BBP Pariwar thinking that her wife
+                    was fine but they made me sick and I will die but the reality was that I was about to get a new
+                    life because of them. But slowly with the help and support and care of BBP Pariwar I was able to
+                    develop self confidence. My hair started to fall when I was undergoing the second and third chemo,
+                    observing the other patients on the hospital I thought that I came for the checkup early, after my
+                    4th chemotherapy the doctor told that there was no need of the 5th chemotherapy. My health condition
+                    was getting better and after 3-4 months of the treatment at Kathmandu finally I got cured and came
+                    home I am fine now, I can do some households works, I can walk for the monthly meetings of the group.
+                    <br>I am very thankful to BBP Pariwar for providing me a new life; maybe I couldn't be alive even
+                    after getting the treatment if I was not suggested for the checkup on time by the staffs of the BBP
+                    Pariwar, if the treatment was started late may I couldn't be saved by money. Now I am even convincing
+                    the other women's in my society as well to do the checkup and I am very thankful once again to the
+                    Social Mobilizer's and the BBP Pariwar for providing me a new life.
+
+                </p>
+            </div>
 
         </div>
-    </section>
-    <!-- About Us page Closed  -->
-
-
-    <!-- Our project opened  -->
-    <section>
-        <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>SUPPORTING ORGANIZATIONS</strong></h1>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_4.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>Groundswell's programs</u></strong> catalyze the transition from unsustainable agriculture and extractive econo...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
+    </div>
+    <div class="container d-flex justify-content-center mt-3 mb-3">
+        <h1><strong>RELATED STORIES</strong></h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/recent_news/recent_news_1.png" class="img-fluid w-100 rounded-start p-2" alt="...">
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_5.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>Friends of Nepal Pariwar Foundation </u></strong>is a non-profit organization supporting...</h4>
-                            <button class="btn btn-md btn-color card-text text-white float-end"><a href="./project.php" class="text-white">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="./img/recent_project/recent_project_6.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><strong><u>World Neighbors</u> </strong> is an international development organization that...</h4>
-                            <button class="btn btn-md btn-color card-text float-end"><a href="./project.php" class="text-white">Read more</a></button>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Bina Gautam</h5>
+                                <p class="card-text">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari VDC as 3rd children</p>
+                                <button class="btn btn-sm btn-color"><a href="story.php" class="text-white">Read more</a></button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Our project closed  -->
-
-    <!-- Question and Answer opened  -->
-    <section class="accordion_color mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mt-3 mb-3 p-3">
-                    <h1 class="d-flex justify-content-center"><strong>FAQ</strong></h1>
-                    <br>
-                    <button class="accordion text-white">Works with the partner organizations to provide health services</button>
-                    <div class="panel">
-                        <h6 class="pt-3">Works with the partner organizations to provide health services for around 20000-24000
-                            peoples in a year especially for women of rural area and is organizing the medical camps for women health
-                            issues and also is providing scholarship for the formal agriculture, animal health, ANM (Auxiliary nurse midwife)
-                            education with an objective of providing service to the community and to uplift their economic status.</h6>
-                    </div>
-                    <button class="accordion text-white">Health camps for women diseases</button>
-                    <div class="panel">
-                        <h6 class="pt-3">By conducting the health camps for women diseases (like cervix cancer, eyes, teeth, throat, family
-                            planning, reproductive health) every year BBP Pariwar is providing the special health service for around 1100 women's in a year.</h6>
-                    </div>
-                    <button class="accordion text-white">Awareness on agricutural development</button>
-                    <div class="panel">
-                        <h6 class="pt-3">With the help of BBP Pariwar, farmers are able to produce and use liquid manure, organic pesticides, organic manure,
-                            compost manure, vermicompost etc in their field to maximize the production and to avoid the consequences from the
-                            use of the chemical fertilizers in the soil and human beings.</h6>
-                    </div>
-                    <button class="accordion text-white">Self dependent women with quality life</button>
-                    <div class="panel">
-                        <h6 class="pt-3">Women members of the groups are able to establish mutual proximity in the community and food security
-                            through the cultivation of various value added fruits and vegetables, herbs and are generating income through the
-                            help of the livestock husbandry like goat, swine, cow and buffalo, stall improvement program with the financial,
-                            technical and educational support and guidance of BBP Pariwar and also are participating in the various
-                            educational tour in order to be capable of managing them in well manner.</h6>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5 p-3">
-                    <!-- <img src="./img/accordion_image.jpg" class="img-fluid" alt=""> -->
-                    <img src="./img/accordion_image_1.png" class="img-fluid" alt="Business">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Question and Answer Closed -->
-
-    <!-- Recent news opened  -->
-    <section>
-        <div class="container mt-5">
-            <h1 class="d-flex justify-content-center mb-5"><strong>STORY OF SUCCESS</strong></h1>
-            <div class="row">
-                <div class="col-md-6 pl-2">
-                    <img src="./img/recent_news/recent_news_0.png" class="img-fluid mt-1" alt="Business">
-                    <h3 class="pt-4 mb-0"><strong>Trying to upgrade the living standard</strong></h3>
-                    <p class="pt-2">Saving and credit program is being conducted in the community especially with
-                        women's participation in order to fulfill the needs like enrollment of the children's in
-                        the school, health treatment, economic growth etc.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="d-flex pb-2">
-                            <div>
-                                <img src="./img/recent_news/recent_news_1.png" class="rounded p-2" alt="Bina Gautam">
-                            </div>
-                            <div class="mt-2">
-                                <h3><strong>A story of Self confidence</strong></h3>
-                                <span class="d-none d-lg-block">Born on Dec 13 1983 on Sindhupalchok district Sano Sirubari
-                                    VDC as 3rd children of Mr...
-                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story.php" class="text-white">Read more</a></button>
-                                </span>
-                            </div>
+            <div class="col-sm-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/recent_news/recent_news_3.png" class="img-fluid w-100 rounded-start p-2" alt="...">
                         </div>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="d-flex pb-2">
-                            <div>
-                                <img src="./img/recent_news/recent_news_2.png" class="rounded p-2" alt="Sabitri Giri">
-                            </div>
-                            <div class="mt-2">
-                                <h3><strong>New Life</strong></h3>
-                                <span class="d-none d-lg-block">There is a saying that “life is a struggle” where we have to face
-                                    unexpected events...
-                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story_2.php" class="text-white">Read more</a></button>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="d-flex pb-2">
-                            <div>
-                                <img src="./img/recent_news/recent_news_3.png" class="rounded p-2" alt="Laxmi Bishowkarma">
-                            </div>
-                            <div class="mt-2">
-                                <h3><strong>Dream Came True</strong></h3>
-                                <span class="d-none d-lg-block">On the date 2035-4-18 BS Laxmi B.K was born as a second child of
-                                    Mr. Tika Bahadur...
-                                    <button class="btn btn-sm btn-color img_float mt-2"><a href="story_3.php" class="text-white">Read more</a></button>
-                                </span>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Laxmi Bishowkarma</h5>
+                                <p class="card-text">Mrs. Naradevi Bishowkarma at Pipal Dada, Sindhupalchok district</p>
+                                <button class="btn btn-sm btn-color"><a href="story_3.php" class="text-white">Read more</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Recent news closed  -->
-
-    <!-- The script itself, loaded AFTER your root element. -->
-
+    </div>
     <!-- Photos Slider opened  -->
     <div class="container d-flex justify-content-center mt-5">
         <h1><strong>OUR CLIENTS</strong></h1>
@@ -329,23 +261,37 @@
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
                         <h5 class="text-white"><strong>About us</strong></h5>
-                        <a href="./about.php" class="list-group text-white pt-2">Our Mission</a>
-                        <a href="./contact.php" class="list-group text-white pt-2">Contact</a>
+                        <a href="#" class="list-group text-white pt-2">Our Mission</a>
+                        <a href="#" class="list-group text-white pt-2">Careers</a>
+                        <a href="#" class="list-group text-white pt-2">Contact</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4 mb-2">
                     <div class="list-group">
                         <h5 class="text-white"><strong>Our Work Overseas</strong></h5>
-                        <a href="./project.php" class="list-group text-white pt-2">Partners</a>
-                        <a href="./impact.php" class="list-group text-white pt-2">Impact</a>
+                        <a href="#" class="list-group text-white pt-2">How We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Where We Work</a>
+                        <a href="#" class="list-group text-white pt-2">Research & Publications</a>
+                        <a href="#" class="list-group text-white pt-2">Partners</a>
+                        <a href="#" class="list-group text-white pt-2">Stories</a>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4">
                     <div class="list-group">
-                        <h5 class="text-white"><strong>Stories</strong></h5>
-                        <a href="./story.php" class="list-group text-white pt-2">Bina Gautam</a>
-                        <a href="./story_2.php" class="list-group text-white pt-2">Sabitri Giri</a>
-                        <a href="./story_3.php" class="list-group text-white pt-2">Laxmi Bishowkarma</a>
+                        <h5 class="text-white"><strong>Ways to help</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="list-group">
+                        <h5 class="text-white"><strong>Get involved</strong></h5>
+                        <a href="#" class="list-group text-white pt-2">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group text-white pt-2">Morbi leo risus</a>
+                        <a href="#" class="list-group text-white pt-2">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group text-white pt-2">Vestibulum at eros</a>
                     </div>
                 </div>
             </div>
@@ -368,10 +314,11 @@
                 <div class="col-md-6  d-flex align-self-center justify-content-center">
                     <div class="social-handles-footer mb-2 mt-3">
                         <div>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-facebook-square socio_site"></a></i></span>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-twitter-square socio_site"></a></i></span>
-                            <span><a href="https://www.youtube.com/channel/UCbmybcrmJq0QGqYdeOw1Ikw"><i class="fab fa-2x fa-youtube socio_site"></a></i></span>
-                            <span><a href="https://www.facebook.com/bbp.pariwar"><i class="fab fa-2x fa-instagram-square socio_site"></a></i></span>
+                            <span><i class="fab fa-2x fa-facebook-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-twitter-square socio_site"><a href="#"></a></i></span>
+                            <span><i class="fab fa-2x fa-linkedin socio_site"></i><a href="#"></a></span>
+                            <span><i class="fab fa-2x fa-instagram-square socio_site"><a href="#"></a></i></span>
+
                         </div>
                     </div>
                 </div>
@@ -422,6 +369,9 @@
                 0: {
                     items: 1
                 },
+                350: {
+                    items: 2
+                },
                 600: {
                     items: 3
                 },
@@ -439,7 +389,6 @@
     </script>
     <script src="jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script src="./js/main.js"></script>
     <script>
         function myFunction() {
             var x = document.getElementById("myDIV");
@@ -464,14 +413,6 @@
                 }
             });
         }
-    </script>
-    <script>
-        var myModal = document.getElementById('myModal')
-        var myInput = document.getElementById('myInput')
-
-        myModal.addEventListener('shown.bs.modal', function() {
-            myInput.focus()
-        })
     </script>
 
 </body>

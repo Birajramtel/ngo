@@ -1,12 +1,13 @@
 @media only screen and (max-width: 991px) {
-  .nav_medium{
+  .nav_medium {
     display: flex;
     flex-basis: auto;
     justify-content: end !important;
+    margin-bottom: 20%;
   }
 }
 @media only screen and (max-width: 572px) {
-  .who_we_are{
+  .who_we_are {
     margin-top: 7rem;
   }
 }
@@ -32,13 +33,12 @@ div {
   position: relative;
   background: url(../img/banner/who_banner_1.png) center center no-repeat;
   background-size: cover;
-  overflow: hidden; 
-  min-height: 480px; 
+  overflow: hidden;
+  min-height: 480px;
 }
-.font_cg{
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+.font_cg {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 /* vertical line  */
 .vl {
@@ -77,23 +77,23 @@ div {
   justify-content: center;
   align-items: center;
 }
-.color_nav{
+.color_nav {
   color: #2f3985 !important;
 }
-.hero{
+.hero {
   position: relative;
 }
-.banner_image{
+.banner_image {
   position: relative;
   z-index: -1;
 }
-.banner_shape{
+.banner_shape {
   position: absolute;
   z-index: 0;
   top: 0;
   left: 0;
 }
-.banner_shape-sm{
+.banner_shape-sm {
   position: absolute;
   z-index: 0;
   top: 60%;
@@ -136,7 +136,7 @@ div {
 } */
 
 .accordion:after {
-  content: '\002B';
+  content: "\002B";
   color: rgb(255, 255, 255);
   font-weight: bold;
   float: right;
@@ -154,38 +154,185 @@ div {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-.accordion_color{
+.accordion_color {
   background-color: #95bce5 !important;
 }
 
-.owl-theme .owl-nav.disabled+.owl-dots  {
+.owl-theme .owl-nav.disabled + .owl-dots {
   /* margin-top: 0px; */
   margin: auto !important;
 }
-.sm_nav
-{
+.sm_nav {
   font-size: 11px;
   font-weight: bold;
   padding: 20px;
 }
-.lg-nav{
+.lg-nav {
   font-size: 14px;
   font-weight: bolder;
 }
-.btn-outline-color{
+.btn-outline-color {
   background-color: #2f3985 !important;
 }
-.btn-color{
+.btn-color {
   background-color: #2f3985 !important;
 }
 
-#type{
+#type {
   height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 3rem;
-    padding: 0 2rem;
-    font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  padding: 0 2rem;
+  font-weight: 600;
+}
+.text_aligining {
+  text-align: center !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.approach_card_image {
+  background: url(../img/approach/approach_1.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card_support {
+  position: relative;
+  top: 0%;
+  margin-bottom: 60px;
+}
+.card_img {
+  position: absolute;
+  top: -0%;
+  left: 65%;
+  z-index: 1;
+  margin-top: 20px;
+}
+.card_text {
+  position: absolute;
+  top: 20%;
+}
+.bg_color {
+  background-color: #a373b1 !important;
+}
+.bg_color_1 {
+  background-color: #d4a433 !important;
+}
+.bg_color_2 {
+  background-color: #d67a5b !important;
+}
+.bg_color_3 {
+  background-color: #87aa4d !important;
+}
+.bg_color_4 {
+  background-color: #34a1b9 !important;
+}
+.bg_color_5 {
+  background-color: #39aa7b !important;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+.navigation {
+  width: 100%;
+  background-color: white;
+  height: 75px;
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 0 0 0 30px;
+  padding: 0;
+}
+
+.navigation ul li.active a {
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: inherit;
+}
+
+.navigation ul li.blue {
+  border-bottom-color: #0071c5;
+}
+
+.navigation ul li.green {
+  border-bottom-color: #c4d600;
+}
+
+.navigation ul li.orange {
+  border-bottom-color: #fc4c02;
+}
+
+.navigation ul li.yellow {
+  border-bottom-color: #f3d54e;
+}
+
+.navigation ul li a:link,
+.navigation ul li a:visited,
+.navigation ul li a:active,
+.navigation ul li a:hover,
+.navigation ul li a:focus {
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.top-page {
+  margin-top: 75px;
+}
+
+.page {
+  min-height: 500px;
+}
+
+.page.blue {
+  background-color: #0071c5;
+}
+
+.page.green {
+  background-color: #c4d600;
+}
+
+.page.orange {
+  background-color: #fc4c02;
+}
+
+.page.yellow {
+  background-color: #f3d54e;
+}
+
+.img_float {
+  float: right !important;
+}
+button.navbar-toggler {
+  position: absolute;
+  right: 9vw;
+  top: 32px;
+}
+.navbar-collapse.nav_medium.collapse.show {
+  margin-bottom: 0;
+}
+.card_height {
+  overflow: scroll !important;
 }
